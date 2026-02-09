@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "description": "Discover your future self in 10 years. Based on your current habits and personality, predict your future and find your archetype among 8 unique future types.",
+    "keywords": "future prediction, self discovery, personality test, future types, psychology test, life test, future success",
+    "og_title": "10 Years From Now 🚀 - Discover Your Future Self",
+    "og_description": "Your present choices shape your future. Discover which of 8 future archetypes you are destined to become in 10 years!",
+    "twitter_title": "10 Years From Now 🚀 - Discover Your Future Self",
+    "twitter_description": "Your choices today create your future tomorrow. Discover your future archetype now!"
+  },
+  "app": {
+    "skipLink": "Skip to main content",
+    "loading": "Loading..."
+  },
+  "intro": {
+    "title": "10 Years From Now",
+    "subtitle": "Future Self Discovery Test",
+    "description": "Based on your current habits, personality, and goals,",
+    "description_2": "We predict who you will become in 10 years!",
+    "time_estimate": "Time required: About 3 minutes"
+  },
+  "button": {
+    "start": "Start Test",
+    "back": "Back",
+    "download": "Download Result",
+    "share": "Share to SNS",
+    "retry": "Try Again"
+  },
+  "questions": {
+    "q1": {
+      "text": "When a new project comes up, what's your first reaction?",
+      "a": "I plan and execute immediately",
+      "b": "I approach it creatively and generate new ideas",
+      "c": "I analyze and research systematically",
+      "d": "I start and adjust as needed"
+    },
+    "q2": {
+      "text": "What do you value most?",
+      "a": "Success and achievement",
+      "b": "Creativity and freedom of expression",
+      "c": "Stability and reliability",
+      "d": "New experiences and freedom"
+    },
+    "q3": {
+      "text": "How do you typically spend your weekends?",
+      "a": "Creating or sharing popular content on social media",
+      "b": "Immersed in artistic or creative activities",
+      "c": "Reading books or studying",
+      "d": "Exploring new places or seeking adventures"
+    },
+    "q4": {
+      "text": "When facing a problem, you?",
+      "a": "Research and understand it deeply",
+      "b": "Take leadership and guide others",
+      "c": "Venture out and find new solutions alone",
+      "d": "Intuitively see the answer"
+    },
+    "q5": {
+      "text": "What's your ideal future lifestyle?",
+      "a": "Working without time or location constraints",
+      "b": "Making an impact through creative work",
+      "c": "Playing a key role in an organization",
+      "d": "Leading innovation with cutting-edge technology"
+    },
+    "q6": {
+      "text": "How do you handle stress?",
+      "a": "Reset goals and work even harder",
+      "b": "Express myself through artistic activities",
+      "c": "Take personal time to compose myself",
+      "d": "Research and analyze to solve the problem"
+    },
+    "q7": {
+      "text": "Your most proud moment?",
+      "a": "When I created new technology or ideas",
+      "b": "When I comforted and helped someone",
+      "c": "When many people liked my content",
+      "d": "When I made a successful important decision"
+    },
+    "q8": {
+      "text": "How do people generally perceive you?",
+      "a": "Adventurous and free-spirited",
+      "b": "Smart and good at understanding theory",
+      "c": "Charismatic and influential",
+      "d": "Action-oriented and results-focused"
+    },
+    "q9": {
+      "text": "How do you help others?",
+      "a": "I empathize emotionally and provide comfort",
+      "b": "I offer creative solutions from new perspectives",
+      "c": "I analyze systematically and give advice",
+      "d": "I work directly to solve the problem together"
+    },
+    "q10": {
+      "text": "How do you overcome your weaknesses?",
+      "a": "By continuously understanding and growing",
+      "b": "By self-learning and building knowledge",
+      "c": "By taking on new challenges to overcome fear",
+      "d": "By connecting with many people and learning from them"
+    },
+    "q11": {
+      "text": "Your ideal work environment?",
+      "a": "A dynamic and fast-moving organization",
+      "b": "A place where creativity and freedom are respected",
+      "c": "A stable and trustworthy place",
+      "d": "An environment enabling growth and innovation"
+    },
+    "q12": {
+      "text": "What you most want to be in 10 years?",
+      "a": "An independent person with time freedom",
+      "b": "A successful leader with influence",
+      "c": "A warm-hearted healer and supporter",
+      "d": "A brave person pursuing your dreams"
+    }
+  },
+  "result": {
+    "title": "Your Future Self Is",
+    "characteristics": "Your Characteristics",
+    "advice": "Advice for Your Future",
+    "wisdom": "Inspiring Quote",
+    "recommended": "You might also enjoy these apps",
+    "types": {
+      "ceo": "CEO (Leader)",
+      "artist": "Artist (Creator)",
+      "adventurer": "Adventurer (Challenger)",
+      "scholar": "Scholar (Seeker)",
+      "healer": "Healer (Caregiver)",
+      "influencer": "Influencer (Connector)",
+      "inventor": "Inventor (Innovator)",
+      "freelancer": "Freelancer (Free Spirit)"
+    },
+    "descriptions": {
+      "ceo": "You will lead the future with strategic thinking and leadership. With your goal-oriented and decisive nature, you'll successfully guide organizations and projects.",
+      "artist": "You will make the world more beautiful with creativity and expression. Your art will touch many hearts as you express your feelings and ideas.",
+      "adventurer": "You will blaze new trails with courage and pioneering spirit. You'll create your own story through new experiences and challenges beyond everyday constraints.",
+      "scholar": "You will pursue truth with curiosity and analytical skills. Through deep academic pursuits and research, you'll contribute valuable knowledge to society.",
+      "healer": "You will heal others with your warm heart and empathy. You'll comfort and support those around you, touching hearts with your warmth.",
+      "influencer": "You will inspire many with your charisma and influence. By expressing your uniqueness, you'll grow alongside your followers.",
+      "inventor": "You will create the future with innovative thinking. You'll transform the world through new technologies and ideas.",
+      "freelancer": "You will chart your own path with a free spirit. You'll experience true freedom living your own way without time or space constraints."
+    },
+    "characteristics": {
+      "ceo": "Achievement-oriented, Decisive, Strategic thinker, Responsible, Results-focused",
+      "artist": "Creative, Emotionally expressive, Original, Meticulous, Inspired easily",
+      "adventurer": "Challenging spirit, Courageous, Pioneering, Active, Seeks new experiences",
+      "scholar": "Analytical, Thoughtful, Curious, Logical, Deep thinking",
+      "healer": "Empathetic, Warm, Caring, Calm, Others-centered",
+      "influencer": "Charismatic, Communicative, Strong personality, Positive, Influential",
+      "inventor": "Innovative, Problem-solving, Curious, Creative, Future-oriented",
+      "freelancer": "Flexible, Autonomous, Adaptable, Independent, Free-spirited"
+    },
+    "advice": {
+      "ceo": "Now: Develop your team-building and communication skills further. A leader who listens to others' opinions will become even greater.",
+      "artist": "Now: Build business acumen alongside technical skill. This will help share your art with more people.",
+      "adventurer": "Now: Challenges are good, but planning matters too. A thoughtful adventurer achieves greater success.",
+      "scholar": "Now: Experience practice, not just theory. It's important to develop practical skills to share your knowledge with the world.",
+      "healer": "Now: Take care of yourself first. Protecting your energy is the foundation for helping others better.",
+      "influencer": "Now: Add depth and authenticity. Genuine messages linger in hearts longer than flashiness alone.",
+      "inventor": "Now: Don't stay in your own ideas; collaborate. Diverse perspectives create greater innovation.",
+      "freelancer": "Now: Create structure within freedom. Self-management and goal-setting make freedom more meaningful."
+    },
+    "wisdom": {
+      "ceo": "Success is the result of endless execution and decisive action toward goals. - Steve Jobs",
+      "artist": "Every artist begins as an amateur. Your art is your most authentic voice. - Maya Angelou",
+      "adventurer": "Life's greatest adventure is living the life you choose. - Oprah Winfrey",
+      "scholar": "Knowledge is power. But wisdom is knowing how to use that power. - Francis Bacon",
+      "healer": "To heal others, you must first understand your own wounds. Your experience is your greatest asset. - Carl Jung",
+      "influencer": "True influence isn't leading people somewhere, it's helping them become themselves. - Simon Sinek",
+      "inventor": "The future is created by us. Do you have the courage to change the world? - Nikola Tesla",
+      "freelancer": "Freedom means responsibility. Your choices define your life. - Paulo Coelho"
+    }
+  },
+  "apps": {
+    "brainType": "Brain Type Test",
+    "colorPersonality": "Color Personality Test",
+    "animalPersonality": "Animal Personality Test",
+    "numerology": "Numerology Destiny"
+  }
+}
