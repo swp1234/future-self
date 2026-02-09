@@ -917,6 +917,37 @@ input:focus-visible {
 }
 
 /* Print Styles */
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-dark, var(--bg-primary, var(--background, #0f0f23)));
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8e44ad;
+    border-radius: 5px;
+    border: 2px solid var(--bg-dark, var(--bg-primary, var(--background, #0f0f23)));
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a469bd;
+    opacity: 0.8;
+}
+
+/* Selection Color */
+::selection {
+    background: #8e44ad;
+    color: white;
+}
+
+::-moz-selection {
+    background: #8e44ad;
+    color: white;
+}
+
 @media print {
     .theme-toggle,
     .lang-toggle,
