@@ -275,7 +275,7 @@ class FutureSelfApp {
         ctx.fillStyle = '#ffffff';
         ctx.font = 'bold 48px sans-serif';
         ctx.textAlign = 'center';
-        ctx.fillText('10년 후의 나', canvas.width / 2, 100);
+        ctx.fillText(i18n.t('result.canvasTitle'), canvas.width / 2, 100);
 
         // Result type
         ctx.font = 'bold 64px sans-serif';
@@ -300,13 +300,13 @@ class FutureSelfApp {
     }
 
     shareResult() {
-        const text = `10년 후의 나는 ${this.currentResult.emoji} ${this.currentResult.name}입니다! 당신은?`;
+        const text = `${i18n.t('result.shareMessage')} ${this.currentResult.emoji} ${this.currentResult.name}${i18n.t('result.shareThanks')}`;
         const url = 'https://dopabrain.com/future-self/';
 
         // Check if Web Share API is available
         if (navigator.share) {
             navigator.share({
-                title: '10년 후의 나',
+                title: i18n.t('result.shareWebTitle'),
                 text: text,
                 url: url
             }).catch(err => console.log('Share error:', err));
@@ -314,7 +314,7 @@ class FutureSelfApp {
             // Fallback: Copy to clipboard
             const shareText = `${text}\n\n${url}`;
             navigator.clipboard.writeText(shareText).then(() => {
-                alert('공유 링크가 복사되었습니다!');
+                alert(i18n.t('result.shareLinkCopied'));
             }).catch(err => console.log('Copy error:', err));
         }
     }
