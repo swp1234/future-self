@@ -20,6 +20,14 @@ class FutureSelfApp {
 
     async initializeApp() {
         try {
+            // Initialize theme
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            const themeBtn = document.getElementById('theme-toggle');
+            if (themeBtn) {
+                themeBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+            }
+
             // Initialize i18n
             await i18n.init();
 
@@ -112,9 +120,16 @@ class FutureSelfApp {
     }
 
     toggleTheme() {
-        document.body.classList.toggle('light-mode');
-        const isDark = !document.body.classList.contains('light-mode');
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        const html = document.documentElement;
+        const currentTheme = html.getAttribute('data-theme') || 'dark';
+        const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
+        html.setAttribute('data-theme', nextTheme);
+        localStorage.setItem('theme', nextTheme);
+        
+        const btn = document.getElementById('theme-toggle');
+        if (btn) {
+            btn.textContent = nextTheme === 'light' ? '🌙' : '☀️';
+        }
     }
 
     toggleLanguageMenu() {

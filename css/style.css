@@ -34,6 +34,33 @@ body.light-mode {
     --current-border: rgba(0, 0, 0, 0.1);
 }
 
+/* Light mode override via data-theme */
+[data-theme="light"] {
+    --bg-dark: #f5f5fa;
+    --bg-light: #ffffff;
+    --text-dark: #1a1a2e;
+    --text-light: #5a5a70;
+    --card-bg-dark: rgba(255, 255, 255, 0.9);
+    --card-bg-light: rgba(255, 255, 255, 0.95);
+    --border-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="light"] body {
+    --current-bg: var(--bg-light);
+    --current-text: var(--text-dark);
+    --current-card-bg: var(--card-bg-light);
+    --current-border: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+}
+
+[data-theme="light"] body::before {
+    display: none;
+}
+
+[data-theme="light"] .theme-toggle:hover {
+    background: rgba(52, 152, 219, 0.1);
+}
+
 * {
     margin: 0;
     padding: 0;
