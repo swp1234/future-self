@@ -153,6 +153,7 @@ class FutureSelfApp {
     }
 
     startQuiz() {
+        if(typeof gtag!=='undefined') gtag('event','quiz_start');
         this.currentQuestion = 0;
         this.selectedAnswers = [];
         Object.keys(FUTURE_TYPES).forEach(type => {
@@ -228,6 +229,7 @@ class FutureSelfApp {
     }
 
     showResult() {
+        if(typeof gtag!=='undefined') gtag('event','quiz_complete');
         // Calculate final type
         const resultType = this.calculateResult();
         const futureType = FUTURE_TYPES[resultType];

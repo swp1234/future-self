@@ -975,6 +975,17 @@ input:focus-visible {
     color: white;
 }
 
+/* CTA Pulse Animation */
+#start-btn {
+    animation: cta-pulse 2s infinite;
+}
+
+@keyframes cta-pulse {
+    0% { transform: scale(1); box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
+    50% { transform: scale(1.03); box-shadow: 0 6px 25px rgba(52, 152, 219, 0.5); }
+    100% { transform: scale(1); box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
+}
+
 @media print {
     .theme-toggle,
     .lang-toggle,
