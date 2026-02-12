@@ -986,6 +986,12 @@ input:focus-visible {
     100% { transform: scale(1); box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
 }
 
+@media (prefers-reduced-motion: reduce) {
+    #start-btn {
+        animation: none !important;
+    }
+}
+
 @media print {
     .theme-toggle,
     .lang-toggle,
