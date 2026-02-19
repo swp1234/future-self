@@ -175,6 +175,7 @@ class FutureSelfApp {
 
         // Update progress
         document.getElementById('current-question').textContent = this.currentQuestion + 1;
+        document.getElementById('progress-text').textContent = (this.currentQuestion + 1) + '/' + QUESTIONS.length;
         const progressPercent = ((this.currentQuestion + 1) / QUESTIONS.length) * 100;
         document.getElementById('progress-fill').style.width = `${progressPercent}%`;
 

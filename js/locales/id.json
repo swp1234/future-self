@@ -1,8 +1,191 @@
 {
-  "meta": {"description": "Bagaimana Anda akan terlihat dalam 10 tahun? Prediksi masa depan Anda berdasarkan kebiasaan dan kepribadian Anda saat ini. Temukan diri masa depan Anda di antara 8 tipe masa depan.", "keywords": "prediksi masa depan, penemuan diri, tes kepribadian, tipe masa depan, tes psikologi", "og_title": "10 Tahun di Masa Depan 🚀 - Tes Penemuan Diri Masa Depan", "og_description": "Pilihan Anda hari ini membentuk siapa Anda dalam 10 tahun. Temukan takdir Anda di antara 8 arketipe masa depan!", "twitter_title": "10 Tahun di Masa Depan 🚀", "twitter_description": "Pilihan hari ini menciptakan masa depan besok. Temukan diri masa depan Anda sekarang!"},
-  "app": {"skipLink": "Lompat ke konten utama", "loading": "Memuat..."},
-  "intro": {"title": "10 Tahun di Masa Depan", "subtitle": "Tes Penemuan Diri Masa Depan", "description": "Berdasarkan kebiasaan dan kepribadian Anda saat ini,", "description_2": "kami memprediksi siapa Anda akan menjadi dalam 10 tahun!", "time_estimate": "Waktu yang diperlukan: sekitar 3 menit"},
-  "button": {"start": "Mulai Tes", "back": "Kembali", "download": "Unduh Hasil", "share": "Bagikan ke Media Sosial", "retry": "Coba Lagi"},
-  "questions": {"q1": {"text": "Ketika proyek baru muncul, reaksi pertama Anda?", "a": "Merencanakan dan melaksanakan segera", "b": "Mendekati secara kreatif dan menghasilkan ide baru", "c": "Menyelidiki dan menganalisis secara sistematis", "d": "Memulai dan menyesuaikan sesuai kebutuhan"}, "q2": {"text": "Apa yang paling Anda hargai?", "a": "Kesuksesan dan pencapaian", "b": "Kreativitas dan kebebasan ekspresi", "c": "Stabilitas dan keandalan", "d": "Pengalaman baru dan kebebasan"}, "q3": {"text": "Bagaimana Anda biasanya menghabiskan akhir pekan?", "a": "Membuat atau berbagi konten populer di media sosial", "b": "Tenggelam dalam kegiatan artistik atau kreatif", "c": "Membaca buku atau belajar", "d": "Menjelajahi tempat baru atau mencari petualangan"}, "q4": {"text": "Ketika menghadapi masalah, Anda?", "a": "Menyelidiki dan memahami secara mendalam", "b": "Menunjukkan kepemimpinan dan membimbing orang lain", "c": "Mencari solusi baru sendiri", "d": "Secara intuitif melihat jawabannya"}, "q5": {"text": "Gaya hidup masa depan ideal Anda?", "a": "Bekerja tanpa batasan waktu atau tempat", "b": "Berdampak melalui pekerjaan kreatif", "c": "Memainkan peran kunci dalam organisasi", "d": "Memimpin dalam teknologi dan inovasi"}, "q6": {"text": "Ketika Anda stres, Anda?", "a": "Menetapkan kembali tujuan dan bekerja lebih keras", "b": "Mengekspresikan diri melalui seni", "c": "Meluangkan waktu pribadi untuk menenangkan diri", "d": "Menyelidiki dan menganalisis untuk menyelesaikan"}, "q7": {"text": "Momen paling bangga Anda?", "a": "Ketika saya menciptakan teknologi atau ide baru", "b": "Ketika saya menghibur dan membantu seseorang", "c": "Ketika banyak orang menyukai konten saya", "d": "Ketika saya membuat keputusan penting dengan sukses"}, "q8": {"text": "Bagaimana orang biasanya memandang Anda?", "a": "Sebagai orang petualang dan bebas", "b": "Sebagai orang cerdas yang memahami teori", "c": "Sebagai orang karismatik dan berpengaruh", "d": "Sebagai orang aksi dan hasil"}, "q9": {"text": "Bagaimana Anda membantu orang lain?", "a": "Dengan empati emosional dan kenyamanan", "b": "Dengan solusi kreatif dari perspektif baru", "c": "Dengan analisis sistematis dan saran", "d": "Menyelesaikan masalah langsung bersama"}, "q10": {"text": "Bagaimana Anda mengatasi kelemahan Anda?", "a": "Terus memahami dan tumbuh diri sendiri", "b": "Belajar sendiri dan mengumpulkan pengetahuan", "c": "Menghadapi tantangan baru untuk mengatasi ketakutan", "d": "Terhubung dan belajar dari banyak orang"}, "q11": {"text": "Lingkungan kerja ideal Anda?", "a": "Organisasi yang dinamis dan berkembang pesat", "b": "Tempat di mana kreativitas dan kebebasan dihargai", "c": "Tempat yang stabil dan dapat diandalkan", "d": "Lingkungan yang memungkinkan pertumbuhan dan inovasi"}, "q12": {"text": "Apa yang ingin Anda jadilkan dalam 10 tahun?", "a": "Orang independen dengan kebebasan waktu", "b": "Pemimpin sukses dan berpengaruh", "c": "Penyembuh hati yang hangat dan pendukung", "d": "Orang berani yang mengejar impian"}},
-  "result": {"title": "Diri Masa Depan Anda Adalah", "characteristics": "Karakteristik Anda", "advice": "Nasihat untuk Masa Depan Anda", "wisdom": "Kutipan Inspiratif", "recommended": "Anda mungkin juga menyukai aplikasi ini", "canvasTitle": "10 Tahun di Masa Depan", "shareMessage": "tahun di masa depan saya", "shareThanks": "! Bagaimana dengan Anda?", "shareWebTitle": "10 Tahun di Masa Depan", "shareLinkCopied": "Tautan disalin ke papan klip!", "types": {"ceo": "CEO (Pemimpin)", "artist": "Seniman (Kreator)", "adventurer": "Petualang (Penantang)", "scholar": "Sarjana (Pencari)", "healer": "Penyembuh (Penjaga)", "influencer": "Influencer (Penghubung)", "inventor": "Penemu (Inovator)", "freelancer": "Freelancer (Jiwa Bebas)"}, "descriptions": {"ceo": "Anda akan memimpin masa depan dengan pemikiran strategis. Sifat berorientasi pada tujuan Anda akan membawa kesuksesan.", "artist": "Anda akan membuat dunia lebih indah dengan kreativitas. Seni Anda akan menyentuh banyak hati.", "adventurer": "Anda akan membuka jalan baru dengan keberanian. Anda akan menciptakan cerita Anda sendiri melalui pengalaman baru.", "scholar": "Anda akan mencari kebenaran dengan rasa ingin tahu. Anda akan berkontribusi pengetahuan berharga kepada masyarakat.", "healer": "Anda akan menyembuhkan orang lain dengan hati yang hangat. Anda akan menjadi sumber kenyamanan bagi banyak orang.", "influencer": "Anda akan menginspirasi banyak orang dengan karisma Anda. Anda akan tumbuh bersama pengikut Anda.", "inventor": "Anda akan menciptakan masa depan dengan inovasi. Anda akan mengubah dunia dengan ide-ide baru.", "freelancer": "Anda akan menciptakan jalan Anda sendiri dengan kebebasan. Anda akan menikmati kemandirian sejati."}, "characteristics": {"ceo": "Berorientasi pada pencapaian, Tegas, Pemikir strategis, Bertanggung jawab, Berorientasi pada hasil", "artist": "Kreatif, Ekspresi emosional, Orisinal, Cermat, Mudah terinspirasi", "adventurer": "Semangat petualang, Berani, Pelopor, Aktif, Mencari pengalaman baru", "scholar": "Analitis, Reflektif, Ingin tahu, Logis, Pemikiran mendalam", "healer": "Berempati, Hangat, Welas asih, Tenang, Berpusat pada orang lain", "influencer": "Karismatik, Komunikatif, Kepribadian kuat, Positif, Berpengaruh", "inventor": "Inovatif, Pemecah masalah, Ingin tahu, Kreatif, Berorientasi masa depan", "freelancer": "Fleksibel, Otonom, Dapat beradaptasi, Independen, Bebas jiwa"}, "advice": {"ceo": "Sekarang: Kembangkan keterampilan pembangunan tim Anda. Pemimpin yang mendengarkan akan menjadi lebih besar.", "artist": "Sekarang: Kembangkan juga naluri bisnis. Ini akan membantu Anda berbagi seni Anda dengan lebih banyak orang.", "adventurer": "Sekarang: Tantangan bagus, tetapi perencanaan juga penting. Petualang yang cermat mencapai kesuksesan lebih besar.", "scholar": "Sekarang: Berlatih, jangan hanya teori. Penting untuk mengembangkan keterampilan praktis menerapkan pengetahuan Anda.", "healer": "Sekarang: Jaga diri sendiri terlebih dahulu. Melindungi energi Anda adalah dasar untuk membantu orang lain dengan lebih baik.", "influencer": "Sekarang: Tambahkan kedalaman dan keaslian. Pesan sejati tetap di hati lebih lama.", "inventor": "Sekarang: Jangan hanya tinggal di ide Anda sendiri; berkolaborasi. Kombinasi perspektif menciptakan inovasi lebih besar.", "freelancer": "Sekarang: Ciptakan struktur dalam kebebasan. Manajemen diri membuat kebebasan lebih bermakna."}, "wisdom": {"ceo": "Kesuksesan adalah hasil eksekusi tak terbatas menuju tujuan. - Steve Jobs", "artist": "Setiap seniman dimulai sebagai pemula. Seni Anda adalah suara paling autentik Anda. - Maya Angelou", "adventurer": "Petualangan terbesar adalah hidup dengan kehidupan yang Anda pilih. - Oprah Winfrey", "scholar": "Pengetahuan adalah kekuatan. Tetapi kebijaksanaan adalah mengetahui cara menggunakannya. - Francis Bacon", "healer": "Untuk menyembuhkan orang lain, Anda harus memahami luka Anda sendiri. Pengalaman Anda adalah aset terbesar Anda. - Carl Jung", "influencer": "Pengaruh sejati bukan membawa orang ke suatu tempat, tetapi membantu mereka menjadi diri mereka sendiri. - Simon Sinek", "inventor": "Masa depan diciptakan oleh kami. Apakah Anda memiliki keberanian untuk mengubah dunia? - Nikola Tesla", "freelancer": "Kebebasan berarti tanggung jawab. Pilihan Anda menentukan kehidupan Anda. - Paulo Coelho"}}, "apps": {"brainType": "Tes Tipe Otak", "colorPersonality": "Tes Kepribadian Warna", "animalPersonality": "Tes Kepribadian Hewan", "numerology": "Diagnosis Takdir Numerologi"}
+  "meta": {
+    "description": "Bagaimana Anda akan terlihat dalam 10 tahun? Prediksi masa depan Anda berdasarkan kebiasaan dan kepribadian Anda saat ini. Temukan diri masa depan Anda di antara 8 tipe masa depan.",
+    "keywords": "prediksi masa depan, penemuan diri, tes kepribadian, tipe masa depan, tes psikologi",
+    "og_title": "10 Tahun di Masa Depan 🚀 - Tes Penemuan Diri Masa Depan",
+    "og_description": "Pilihan Anda hari ini membentuk siapa Anda dalam 10 tahun. Temukan takdir Anda di antara 8 arketipe masa depan!",
+    "twitter_title": "10 Tahun di Masa Depan 🚀",
+    "twitter_description": "Pilihan hari ini menciptakan masa depan besok. Temukan diri masa depan Anda sekarang!"
+  },
+  "app": {
+    "skipLink": "Lompat ke konten utama",
+    "loading": "Memuat...",
+    "socialProof": "3.500+ orang menemukan diri masa depan mereka",
+    "seeTypes": "Tipe masa depan apa saja? ▼"
+  },
+  "intro": {
+    "title": "10 Tahun di Masa Depan",
+    "subtitle": "Tes Penemuan Diri Masa Depan",
+    "description": "Berdasarkan kebiasaan dan kepribadian Anda saat ini,",
+    "description_2": "kami memprediksi siapa Anda akan menjadi dalam 10 tahun!",
+    "time_estimate": "Waktu yang diperlukan: sekitar 3 menit"
+  },
+  "button": {
+    "start": "Mulai Tes",
+    "back": "Kembali",
+    "download": "Unduh Hasil",
+    "share": "Bagikan ke Media Sosial",
+    "retry": "Coba Lagi"
+  },
+  "questions": {
+    "q1": {
+      "text": "Ketika proyek baru muncul, reaksi pertama Anda?",
+      "a": "Merencanakan dan melaksanakan segera",
+      "b": "Mendekati secara kreatif dan menghasilkan ide baru",
+      "c": "Menyelidiki dan menganalisis secara sistematis",
+      "d": "Memulai dan menyesuaikan sesuai kebutuhan"
+    },
+    "q2": {
+      "text": "Apa yang paling Anda hargai?",
+      "a": "Kesuksesan dan pencapaian",
+      "b": "Kreativitas dan kebebasan ekspresi",
+      "c": "Stabilitas dan keandalan",
+      "d": "Pengalaman baru dan kebebasan"
+    },
+    "q3": {
+      "text": "Bagaimana Anda biasanya menghabiskan akhir pekan?",
+      "a": "Membuat atau berbagi konten populer di media sosial",
+      "b": "Tenggelam dalam kegiatan artistik atau kreatif",
+      "c": "Membaca buku atau belajar",
+      "d": "Menjelajahi tempat baru atau mencari petualangan"
+    },
+    "q4": {
+      "text": "Ketika menghadapi masalah, Anda?",
+      "a": "Menyelidiki dan memahami secara mendalam",
+      "b": "Menunjukkan kepemimpinan dan membimbing orang lain",
+      "c": "Mencari solusi baru sendiri",
+      "d": "Secara intuitif melihat jawabannya"
+    },
+    "q5": {
+      "text": "Gaya hidup masa depan ideal Anda?",
+      "a": "Bekerja tanpa batasan waktu atau tempat",
+      "b": "Berdampak melalui pekerjaan kreatif",
+      "c": "Memainkan peran kunci dalam organisasi",
+      "d": "Memimpin dalam teknologi dan inovasi"
+    },
+    "q6": {
+      "text": "Ketika Anda stres, Anda?",
+      "a": "Menetapkan kembali tujuan dan bekerja lebih keras",
+      "b": "Mengekspresikan diri melalui seni",
+      "c": "Meluangkan waktu pribadi untuk menenangkan diri",
+      "d": "Menyelidiki dan menganalisis untuk menyelesaikan"
+    },
+    "q7": {
+      "text": "Momen paling bangga Anda?",
+      "a": "Ketika saya menciptakan teknologi atau ide baru",
+      "b": "Ketika saya menghibur dan membantu seseorang",
+      "c": "Ketika banyak orang menyukai konten saya",
+      "d": "Ketika saya membuat keputusan penting dengan sukses"
+    },
+    "q8": {
+      "text": "Bagaimana orang biasanya memandang Anda?",
+      "a": "Sebagai orang petualang dan bebas",
+      "b": "Sebagai orang cerdas yang memahami teori",
+      "c": "Sebagai orang karismatik dan berpengaruh",
+      "d": "Sebagai orang aksi dan hasil"
+    },
+    "q9": {
+      "text": "Bagaimana Anda membantu orang lain?",
+      "a": "Dengan empati emosional dan kenyamanan",
+      "b": "Dengan solusi kreatif dari perspektif baru",
+      "c": "Dengan analisis sistematis dan saran",
+      "d": "Menyelesaikan masalah langsung bersama"
+    },
+    "q10": {
+      "text": "Bagaimana Anda mengatasi kelemahan Anda?",
+      "a": "Terus memahami dan tumbuh diri sendiri",
+      "b": "Belajar sendiri dan mengumpulkan pengetahuan",
+      "c": "Menghadapi tantangan baru untuk mengatasi ketakutan",
+      "d": "Terhubung dan belajar dari banyak orang"
+    },
+    "q11": {
+      "text": "Lingkungan kerja ideal Anda?",
+      "a": "Organisasi yang dinamis dan berkembang pesat",
+      "b": "Tempat di mana kreativitas dan kebebasan dihargai",
+      "c": "Tempat yang stabil dan dapat diandalkan",
+      "d": "Lingkungan yang memungkinkan pertumbuhan dan inovasi"
+    },
+    "q12": {
+      "text": "Apa yang ingin Anda jadilkan dalam 10 tahun?",
+      "a": "Orang independen dengan kebebasan waktu",
+      "b": "Pemimpin sukses dan berpengaruh",
+      "c": "Penyembuh hati yang hangat dan pendukung",
+      "d": "Orang berani yang mengejar impian"
+    }
+  },
+  "result": {
+    "title": "Diri Masa Depan Anda Adalah",
+    "characteristics": {
+      "ceo": "Berorientasi pada pencapaian, Tegas, Pemikir strategis, Bertanggung jawab, Berorientasi pada hasil",
+      "artist": "Kreatif, Ekspresi emosional, Orisinal, Cermat, Mudah terinspirasi",
+      "adventurer": "Semangat petualang, Berani, Pelopor, Aktif, Mencari pengalaman baru",
+      "scholar": "Analitis, Reflektif, Ingin tahu, Logis, Pemikiran mendalam",
+      "healer": "Berempati, Hangat, Welas asih, Tenang, Berpusat pada orang lain",
+      "influencer": "Karismatik, Komunikatif, Kepribadian kuat, Positif, Berpengaruh",
+      "inventor": "Inovatif, Pemecah masalah, Ingin tahu, Kreatif, Berorientasi masa depan",
+      "freelancer": "Fleksibel, Otonom, Dapat beradaptasi, Independen, Bebas jiwa"
+    },
+    "advice": {
+      "ceo": "Sekarang: Kembangkan keterampilan pembangunan tim Anda. Pemimpin yang mendengarkan akan menjadi lebih besar.",
+      "artist": "Sekarang: Kembangkan juga naluri bisnis. Ini akan membantu Anda berbagi seni Anda dengan lebih banyak orang.",
+      "adventurer": "Sekarang: Tantangan bagus, tetapi perencanaan juga penting. Petualang yang cermat mencapai kesuksesan lebih besar.",
+      "scholar": "Sekarang: Berlatih, jangan hanya teori. Penting untuk mengembangkan keterampilan praktis menerapkan pengetahuan Anda.",
+      "healer": "Sekarang: Jaga diri sendiri terlebih dahulu. Melindungi energi Anda adalah dasar untuk membantu orang lain dengan lebih baik.",
+      "influencer": "Sekarang: Tambahkan kedalaman dan keaslian. Pesan sejati tetap di hati lebih lama.",
+      "inventor": "Sekarang: Jangan hanya tinggal di ide Anda sendiri; berkolaborasi. Kombinasi perspektif menciptakan inovasi lebih besar.",
+      "freelancer": "Sekarang: Ciptakan struktur dalam kebebasan. Manajemen diri membuat kebebasan lebih bermakna."
+    },
+    "wisdom": {
+      "ceo": "Kesuksesan adalah hasil eksekusi tak terbatas menuju tujuan. - Steve Jobs",
+      "artist": "Setiap seniman dimulai sebagai pemula. Seni Anda adalah suara paling autentik Anda. - Maya Angelou",
+      "adventurer": "Petualangan terbesar adalah hidup dengan kehidupan yang Anda pilih. - Oprah Winfrey",
+      "scholar": "Pengetahuan adalah kekuatan. Tetapi kebijaksanaan adalah mengetahui cara menggunakannya. - Francis Bacon",
+      "healer": "Untuk menyembuhkan orang lain, Anda harus memahami luka Anda sendiri. Pengalaman Anda adalah aset terbesar Anda. - Carl Jung",
+      "influencer": "Pengaruh sejati bukan membawa orang ke suatu tempat, tetapi membantu mereka menjadi diri mereka sendiri. - Simon Sinek",
+      "inventor": "Masa depan diciptakan oleh kami. Apakah Anda memiliki keberanian untuk mengubah dunia? - Nikola Tesla",
+      "freelancer": "Kebebasan berarti tanggung jawab. Pilihan Anda menentukan kehidupan Anda. - Paulo Coelho"
+    },
+    "recommended": "Anda mungkin juga menyukai aplikasi ini",
+    "canvasTitle": "10 Tahun di Masa Depan",
+    "shareMessage": "tahun di masa depan saya",
+    "shareThanks": "! Bagaimana dengan Anda?",
+    "shareWebTitle": "10 Tahun di Masa Depan",
+    "shareLinkCopied": "Tautan disalin ke papan klip!",
+    "types": {
+      "ceo": "CEO (Pemimpin)",
+      "artist": "Seniman (Kreator)",
+      "adventurer": "Petualang (Penantang)",
+      "scholar": "Sarjana (Pencari)",
+      "healer": "Penyembuh (Penjaga)",
+      "influencer": "Influencer (Penghubung)",
+      "inventor": "Penemu (Inovator)",
+      "freelancer": "Freelancer (Jiwa Bebas)"
+    },
+    "descriptions": {
+      "ceo": "Anda akan memimpin masa depan dengan pemikiran strategis. Sifat berorientasi pada tujuan Anda akan membawa kesuksesan.",
+      "artist": "Anda akan membuat dunia lebih indah dengan kreativitas. Seni Anda akan menyentuh banyak hati.",
+      "adventurer": "Anda akan membuka jalan baru dengan keberanian. Anda akan menciptakan cerita Anda sendiri melalui pengalaman baru.",
+      "scholar": "Anda akan mencari kebenaran dengan rasa ingin tahu. Anda akan berkontribusi pengetahuan berharga kepada masyarakat.",
+      "healer": "Anda akan menyembuhkan orang lain dengan hati yang hangat. Anda akan menjadi sumber kenyamanan bagi banyak orang.",
+      "influencer": "Anda akan menginspirasi banyak orang dengan karisma Anda. Anda akan tumbuh bersama pengikut Anda.",
+      "inventor": "Anda akan menciptakan masa depan dengan inovasi. Anda akan mengubah dunia dengan ide-ide baru.",
+      "freelancer": "Anda akan menciptakan jalan Anda sendiri dengan kebebasan. Anda akan menikmati kemandirian sejati."
+    }
+  },
+  "apps": {
+    "brainType": "Tes Tipe Otak",
+    "colorPersonality": "Tes Kepribadian Warna",
+    "animalPersonality": "Tes Kepribadian Hewan",
+    "numerology": "Diagnosis Takdir Numerologi"
+  },
+  "future": {
+    "type_ceo": "CEO",
+    "type_artist": "Seniman",
+    "type_adventurer": "Petualang",
+    "type_scholar": "Cendekiawan",
+    "type_healer": "Penyembuh",
+    "type_influencer": "Influencer",
+    "type_inventor": "Penemu",
+    "type_freelancer": "Jiwa Bebas"
+  }
 }

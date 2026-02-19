@@ -9,7 +9,9 @@
   },
   "app": {
     "skipLink": "Skip to main content",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "socialProof": "3,500+ people have discovered their future self",
+    "seeTypes": "What future types are there?"
   },
   "intro": {
     "title": "10 Years From Now",
@@ -113,35 +115,6 @@
   },
   "result": {
     "title": "Your Future Self Is",
-    "characteristics": "Your Characteristics",
-    "advice": "Advice for Your Future",
-    "wisdom": "Inspiring Quote",
-    "recommended": "You might also enjoy these apps",
-    "canvasTitle": "10 Years From Now",
-    "shareMessage": "10 years from now, I will be",
-    "shareThanks": "! What will you be?",
-    "shareWebTitle": "10 Years From Now",
-    "shareLinkCopied": "Link copied to clipboard!",
-    "types": {
-      "ceo": "CEO (Leader)",
-      "artist": "Artist (Creator)",
-      "adventurer": "Adventurer (Challenger)",
-      "scholar": "Scholar (Seeker)",
-      "healer": "Healer (Caregiver)",
-      "influencer": "Influencer (Connector)",
-      "inventor": "Inventor (Innovator)",
-      "freelancer": "Freelancer (Free Spirit)"
-    },
-    "descriptions": {
-      "ceo": "You will lead the future with strategic thinking and leadership. With your goal-oriented and decisive nature, you'll successfully guide organizations and projects.",
-      "artist": "You will make the world more beautiful with creativity and expression. Your art will touch many hearts as you express your feelings and ideas.",
-      "adventurer": "You will blaze new trails with courage and pioneering spirit. You'll create your own story through new experiences and challenges beyond everyday constraints.",
-      "scholar": "You will pursue truth with curiosity and analytical skills. Through deep academic pursuits and research, you'll contribute valuable knowledge to society.",
-      "healer": "You will heal others with your warm heart and empathy. You'll comfort and support those around you, touching hearts with your warmth.",
-      "influencer": "You will inspire many with your charisma and influence. By expressing your uniqueness, you'll grow alongside your followers.",
-      "inventor": "You will create the future with innovative thinking. You'll transform the world through new technologies and ideas.",
-      "freelancer": "You will chart your own path with a free spirit. You'll experience true freedom living your own way without time or space constraints."
-    },
     "characteristics": {
       "ceo": "Achievement-oriented, Decisive, Strategic thinker, Responsible, Results-focused",
       "artist": "Creative, Emotionally expressive, Original, Meticulous, Inspired easily",
@@ -171,6 +144,32 @@
       "influencer": "True influence isn't leading people somewhere, it's helping them become themselves. - Simon Sinek",
       "inventor": "The future is created by us. Do you have the courage to change the world? - Nikola Tesla",
       "freelancer": "Freedom means responsibility. Your choices define your life. - Paulo Coelho"
+    },
+    "recommended": "You might also enjoy these apps",
+    "canvasTitle": "10 Years From Now",
+    "shareMessage": "10 years from now, I will be",
+    "shareThanks": "! What will you be?",
+    "shareWebTitle": "10 Years From Now",
+    "shareLinkCopied": "Link copied to clipboard!",
+    "types": {
+      "ceo": "CEO (Leader)",
+      "artist": "Artist (Creator)",
+      "adventurer": "Adventurer (Challenger)",
+      "scholar": "Scholar (Seeker)",
+      "healer": "Healer (Caregiver)",
+      "influencer": "Influencer (Connector)",
+      "inventor": "Inventor (Innovator)",
+      "freelancer": "Freelancer (Free Spirit)"
+    },
+    "descriptions": {
+      "ceo": "You will lead the future with strategic thinking and leadership. With your goal-oriented and decisive nature, you'll successfully guide organizations and projects.",
+      "artist": "You will make the world more beautiful with creativity and expression. Your art will touch many hearts as you express your feelings and ideas.",
+      "adventurer": "You will blaze new trails with courage and pioneering spirit. You'll create your own story through new experiences and challenges beyond everyday constraints.",
+      "scholar": "You will pursue truth with curiosity and analytical skills. Through deep academic pursuits and research, you'll contribute valuable knowledge to society.",
+      "healer": "You will heal others with your warm heart and empathy. You'll comfort and support those around you, touching hearts with your warmth.",
+      "influencer": "You will inspire many with your charisma and influence. By expressing your uniqueness, you'll grow alongside your followers.",
+      "inventor": "You will create the future with innovative thinking. You'll transform the world through new technologies and ideas.",
+      "freelancer": "You will chart your own path with a free spirit. You'll experience true freedom living your own way without time or space constraints."
     }
   },
   "apps": {
@@ -178,5 +177,15 @@
     "colorPersonality": "Color Personality Test",
     "animalPersonality": "Animal Personality Test",
     "numerology": "Numerology Destiny"
+  },
+  "future": {
+    "type_ceo": "CEO",
+    "type_artist": "Artist",
+    "type_adventurer": "Adventurer",
+    "type_scholar": "Scholar",
+    "type_healer": "Healer",
+    "type_influencer": "Influencer",
+    "type_inventor": "Inventor",
+    "type_freelancer": "Free Spirit"
   }
 }
