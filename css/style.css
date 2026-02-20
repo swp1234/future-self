@@ -61,6 +61,34 @@ body.light-mode {
     background: rgba(52, 152, 219, 0.1);
 }
 
+[data-theme="light"] .intro-subtitle {
+    color: #555;
+}
+
+[data-theme="light"] .time-estimate {
+    color: #555;
+}
+
+[data-theme="light"] .progress-text {
+    color: #555;
+}
+
+[data-theme="light"] .result-description {
+    color: #333;
+}
+
+[data-theme="light"] .result-letter-content p {
+    color: #333;
+}
+
+[data-theme="light"] .detail-section p {
+    color: #333;
+}
+
+[data-theme="light"] .loader-text {
+    color: #333;
+}
+
 * {
     margin: 0;
     padding: 0;
