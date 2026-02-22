@@ -1,191 +1,190 @@
 {
   "meta": {
-    "description": "¿Cómo serás en 10 años? Predice tu futuro basándote en tus hábitos y personalidad actuales. Descubre tu yo futuro entre 8 tipos de futuro.",
-    "keywords": "predicción del futuro, auto descubrimiento, prueba de personalidad, tipos de futuro, prueba psicológica",
-    "og_title": "10 Años en el Futuro 🚀 - Prueba de Descubrimiento del Yo Futuro",
-    "og_description": "Tus decisiones hoy forman quién serás en 10 años. ¡Descubre tu destino entre 8 arquetipos futuros!",
-    "twitter_title": "10 Años en el Futuro 🚀",
-    "twitter_description": "Las decisiones de hoy crean el mañana. ¡Descubre tu yo futuro ahora!"
+    "title": "Un Día en Tu Vida Futura | Cartas de Historia de Vida - DopaBrain",
+    "description": "¡Vive un día completo como tu yo del futuro! 8 momentos desde el amanecer hasta la medianoche revelan cuál de los 8 caminos de vida te espera."
+  },
+  "a11y": {
+    "skip": "Ir al contenido principal"
   },
   "app": {
-    "skipLink": "Ir al contenido principal",
-    "loading": "Cargando...",
-    "socialProof": "3,500+ personas descubrieron su futuro yo",
-    "seeTypes": "¿Qué tipos de futuro hay? ▼"
+    "title": "Un Día en Tu Futuro",
+    "subtitle": "Cartas de Historia de Vida",
+    "heroDesc": "Vive 8 momentos de un día en tu vida futura. Cada decisión que tomes \u2014 del amanecer a la medianoche \u2014 revela el camino que te espera.",
+    "badge": "Modo Historia",
+    "info1": "8 Momentos",
+    "info2": "~3 Min",
+    "info3": "Narrativo",
+    "disclaimer": "Solo para entretenimiento. No es una evaluación clínica.",
+    "start": "\ud83d\ude80 Comienza Tu Día Futuro",
+    "loading": "Cargando..."
   },
   "intro": {
-    "title": "10 Años en el Futuro",
-    "subtitle": "Prueba de Descubrimiento del Yo Futuro",
-    "description": "Basándome en tus hábitos y personalidad actuales,",
-    "description_2": "predecimos quién serás en 10 años!",
-    "time_estimate": "Tiempo requerido: unos 3 minutos"
+    "typesTitle": "8 Caminos de Vida",
+    "ceo": "CEO",
+    "artist": "Artista",
+    "adventurer": "Aventurero",
+    "scholar": "Erudito",
+    "healer": "Sanador",
+    "influencer": "Influencer",
+    "inventor": "Inventor",
+    "freelancer": "Espíritu Libre"
   },
-  "button": {
-    "start": "Comenzar la Prueba",
-    "back": "Atrás",
-    "download": "Descargar Resultado",
-    "share": "Compartir en Redes Sociales",
-    "retry": "Intentar de Nuevo"
+  "story": {
+    "moment": "Momento"
   },
-  "questions": {
-    "q1": {
-      "text": "Cuando surge un nuevo proyecto, ¿cuál es tu primera reacción?",
-      "a": "Planifico e implemento inmediatamente",
-      "b": "Abardo creativamente y genero nuevas ideas",
-      "c": "Investigo y analizo sistemáticamente",
-      "d": "Comienzo y ajusto según sea necesario"
+  "moments": {
+    "m1": {
+      "time": "6:00 AM",
+      "period": "Amanecer",
+      "scene": "La luz dorada de la mañana entra por los ventanales de piso a techo. Tu alarma se apaga. Es el comienzo de otro día en tu vida futura \u2014 10 años después.",
+      "prompt": "¿Tu primer movimiento?",
+      "c1": "Revisar la agenda del día y organizar prioridades",
+      "c2": "Estirarme despacio, preparar café y abrir mi cuaderno de bocetos",
+      "c3": "Ponerme las zapatillas y salir a correr al amanecer"
     },
-    "q2": {
-      "text": "¿Qué valoras más?",
-      "a": "Éxito y logro",
-      "b": "Creatividad y libertad de expresión",
-      "c": "Estabilidad y confiabilidad",
-      "d": "Nuevas experiencias y libertad"
+    "m2": {
+      "time": "8:00 AM",
+      "period": "Mañana",
+      "scene": "Desayuno listo. La ciudad afuera despierta \u2014 coches en marcha, gente camino al trabajo. Sales al aire fresco de la mañana.",
+      "prompt": "¿A dónde vas?",
+      "c1": "A la oficina temprano \u2014 me gusta ser el primero en llegar",
+      "c2": "A una cafetería acogedora con mi portátil y auriculares",
+      "c3": "A la biblioteca, para sumergirme en una investigación pendiente"
     },
-    "q3": {
-      "text": "¿Cómo pasas típicamente los fines de semana?",
-      "a": "Creando o compartiendo contenido popular en redes sociales",
-      "b": "Sumergido en actividades artísticas o creativas",
-      "c": "Leyendo libros o estudiando",
-      "d": "Explorando nuevos lugares o buscando aventuras"
+    "m3": {
+      "time": "10:00 AM",
+      "period": "Media Mañana",
+      "scene": "Estás en pleno estado de flow. La mañana es productiva y tu energía está al máximo. Un colega te escribe sobre una nueva oportunidad de proyecto.",
+      "prompt": "¿Cómo respondes?",
+      "c1": "Convocar una reunión rápida \u2014 tengo una visión audaz para esto",
+      "c2": "Bloquear mi agenda y sumergirme en el reto creativo a solas",
+      "c3": "Preguntar en qué necesitan ayuda \u2014 estoy aquí para el equipo"
     },
-    "q4": {
-      "text": "Cuando enfrentas un problema, ¿qué haces?",
-      "a": "Investigo y comprendo profundamente",
-      "b": "Muestro liderazgo y dirijo a otros",
-      "c": "Busco solo nuevas soluciones",
-      "d": "Intuitivamente veo la respuesta"
+    "m4": {
+      "time": "12:00 PM",
+      "period": "Mediodía",
+      "scene": "Hora de comer. Estabas tan concentrado que casi olvidas comer. El sol está en lo alto y la ciudad vibra con la energía del mediodía.",
+      "prompt": "¿Planes para comer?",
+      "c1": "Quedar con un contacto profesional \u2014 gran oportunidad de networking",
+      "c2": "Probar ese restaurante escondido que nadie ha descubierto aún",
+      "c3": "Comer algo rápido \u2014 quiero seguir trabajando en mi idea"
     },
-    "q5": {
-      "text": "¿Cuál es tu estilo de vida futuro ideal?",
-      "a": "Trabajar sin restricciones de tiempo o lugar",
-      "b": "Impactar a través del trabajo creativo",
-      "c": "Jugar un papel clave en una organización",
-      "d": "Liderar tecnología e innovación"
+    "m5": {
+      "time": "3:00 PM",
+      "period": "Tarde",
+      "scene": "Un problema inesperado cae en tu escritorio. Algo salió mal en un proyecto importante y todos te miran buscando respuestas.",
+      "prompt": "¿Tu enfoque?",
+      "c1": "Tomar el mando de inmediato \u2014 asignar roles y motivar a todos",
+      "c2": "Analizar los datos para encontrar la causa raíz",
+      "c3": "Salir a tomar aire, luego confiar en mi instinto"
     },
-    "q6": {
-      "text": "Cuando estás estresado, ¿qué haces?",
-      "a": "Reestablezco objetivos y trabajo más duro",
-      "b": "Me expreso a través del arte",
-      "c": "Tomo tiempo personal para calmarme",
-      "d": "Investigo y analizo para resolver"
+    "m6": {
+      "time": "6:00 PM",
+      "period": "Atardecer",
+      "scene": "El trabajo terminó. El cielo se pinta de naranja y rosa mientras el sol se pone. Tienes la noche libre para hacer lo que quieras.",
+      "prompt": "¿Planes para la noche?",
+      "c1": "Ir al gimnasio y luego ponerme al día con novedades de mi campo",
+      "c2": "Pasear por una galería de arte o ir a un concierto en vivo",
+      "c3": "Organizar una cena íntima para amigos cercanos"
     },
-    "q7": {
-      "text": "Tu momento más orgulloso es?",
-      "a": "Cuando creé nueva tecnología o ideas",
-      "b": "Cuando conforté y ayudé a alguien",
-      "c": "Cuando a muchas personas le gustó mi contenido",
-      "d": "Cuando tomé una decisión importante con éxito"
+    "m7": {
+      "time": "9:00 PM",
+      "period": "Noche",
+      "scene": "La ciudad brilla al otro lado de tu ventana. El suave murmullo de la noche se instala. Tienes un par de horas antes de dormir.",
+      "prompt": "¿Cómo pasas la noche?",
+      "c1": "Trabajar en un proyecto personal que tengo en mente",
+      "c2": "Tener una conversación larga y profunda con alguien que me importa",
+      "c3": "Crear contenido y compartir los mejores momentos de mi día en redes"
     },
-    "q8": {
-      "text": "¿Cómo te perciben generalmente las personas?",
-      "a": "Como persona aventurera y libre",
-      "b": "Como persona inteligente que entiende la teoría",
-      "c": "Como persona carismática e influyente",
-      "d": "Como persona de acción y resultados"
+    "m8": {
+      "time": "11:00 PM",
+      "period": "Noche Avanzada",
+      "scene": "El mundo se queda en silencio. Las estrellas se asoman entre las luces de la ciudad. Te relajas, reflexionando sobre un día completo vivido en tu vida futura.",
+      "prompt": "¿Antes de dormir?",
+      "c1": "Planificar los objetivos de mañana y visualizar lo que viene",
+      "c2": "Escribir un diario, meditar y agradecer los pequeños momentos",
+      "c3": "Leer unos capítulos \u2014 siempre aprendiendo algo nuevo"
+    }
+  },
+  "types": {
+    "ceo": {
+      "name": "\ud83d\udc54 CEO \u2014 El Líder",
+      "desc": "Tu día futuro revela a un líder nato. Tomas el mando de forma natural, planificas estratégicamente y prosperas bajo presión. En 10 años, estarás al frente \u2014 guiando equipos, tomando decisiones audaces y construyendo algo extraordinario.",
+      "traits": ["Planificador estratégico", "Decisivo bajo presión", "Autoridad natural", "Orientado a resultados"],
+      "advice": "Afina tu capacidad de escucha. Los grandes líderes amplifican la voz de los demás, no solo la propia.",
+      "quote": "\"La mejor manera de predecir el futuro es crearlo.\" \u2014 Peter Drucker",
+      "compatible": ["Inventor", "Influencer"]
     },
-    "q9": {
-      "text": "¿Cómo ayudas a otros?",
-      "a": "Con empatía emocional y consuelo",
-      "b": "Con soluciones creativas desde nuevas perspectivas",
-      "c": "Con análisis sistemático y consejo",
-      "d": "Resolviendo directamente el problema juntos"
+    "artist": {
+      "name": "\ud83c\udfa8 Artista \u2014 El Creador",
+      "desc": "Tus elecciones pintan el retrato de un alma creativa. Te atrae la belleza, la autoexpresión y la intensidad silenciosa de crear algo de la nada. En 10 años, tu arte conmoverá profundamente a la gente.",
+      "traits": ["Profundamente creativo", "Emocionalmente expresivo", "Detallista", "Inspirado por la belleza"],
+      "advice": "Combina tu fuego creativo con visión de negocio. El gran arte merece una gran audiencia.",
+      "quote": "\"Todo artista fue primero un aficionado.\" \u2014 Ralph Waldo Emerson",
+      "compatible": ["Espíritu Libre", "Sanador"]
     },
-    "q10": {
-      "text": "¿Cómo superas tus debilidades?",
-      "a": "Continuamente me entiendo y crezco",
-      "b": "Aprendo por mí mismo y acumulo conocimiento",
-      "c": "Enfrento nuevos desafíos para superar el miedo",
-      "d": "Me conecto y aprendo de muchas personas"
+    "adventurer": {
+      "name": "\ud83e\uddd7 Aventurero \u2014 El Explorador",
+      "desc": "Tu yo del futuro ansía lo desconocido. Elegiste movimiento, espontaneidad y experiencias nuevas. En 10 años, vivirás una vida que otros solo sueñan \u2014 llena de historias y sabiduría ganada a pulso.",
+      "traits": ["Valiente y audaz", "Prospera con el cambio", "Físicamente activo", "Abierto a lo desconocido"],
+      "advice": "Equilibra la audacia con la planificación. Los exploradores más legendarios siempre estudiaron sus mapas primero.",
+      "quote": "\"La vida comienza al final de tu zona de confort.\" \u2014 Neale Donald Walsch",
+      "compatible": ["CEO", "Espíritu Libre"]
     },
-    "q11": {
-      "text": "¿Cuál es tu ambiente laboral ideal?",
-      "a": "Una organización dinámica y en rápido crecimiento",
-      "b": "Un lugar donde se respetan la creatividad y la libertad",
-      "c": "Un lugar estable y confiable",
-      "d": "Un ambiente que permite crecimiento e innovación"
+    "scholar": {
+      "name": "\ud83d\udcda Erudito \u2014 El Pensador",
+      "desc": "Tu día revela una mente que nunca deja de buscar. Elegiste profundidad, análisis y comprensión en cada momento. En 10 años, tu conocimiento abrirá puertas que otros ni siquiera ven.",
+      "traits": ["Mente analítica", "Profundamente curioso", "Pensador lógico", "Valora la verdad"],
+      "advice": "No solo estudies el mundo \u2014 involúcrate en él. El conocimiento brilla más cuando se comparte.",
+      "quote": "\"La única sabiduría verdadera es saber que no sabes nada.\" \u2014 Sócrates",
+      "compatible": ["Inventor", "Sanador"]
     },
-    "q12": {
-      "text": "¿Qué quieres ser más en 10 años?",
-      "a": "Una persona independiente con libertad de tiempo",
-      "b": "Un líder exitoso e influyente",
-      "c": "Un sanador de corazón cálido y apoyo",
-      "d": "Una persona valiente persiguiendo sus sueños"
+    "healer": {
+      "name": "\ud83d\udc9a Sanador \u2014 El Cuidador",
+      "desc": "La empatía recorre cada decisión que tomaste. Cuidas de los demás por instinto y llevas calidez a donde vayas. En 10 años, serás la persona a quien todos acuden \u2014 una presencia firme y compasiva.",
+      "traits": ["Empatía profunda", "Cálido y atento", "Gran oyente", "Inteligencia emocional"],
+      "advice": "Protege tu propia energía primero. No puedes dar de un vaso vacío.",
+      "quote": "\"La herida es el lugar por donde entra la Luz.\" \u2014 Rumi",
+      "compatible": ["Artista", "Erudito"]
+    },
+    "influencer": {
+      "name": "\u2b50 Influencer \u2014 El Conector",
+      "desc": "Eres un imán natural. Tus elecciones muestran a alguien que lidera, conecta e inspira con su sola presencia. En 10 años, tu voz auténtica llegará a miles y provocará un cambio real.",
+      "traits": ["Carismático", "Gran comunicador", "Magnetismo social", "Atento a las tendencias"],
+      "advice": "Añade profundidad bajo la superficie. La autenticidad supera a la viralidad siempre.",
+      "quote": "\"Tu energía atrae a tu tribu.\"",
+      "compatible": ["CEO", "Artista"]
+    },
+    "inventor": {
+      "name": "\ud83d\udd2c Inventor \u2014 El Innovador",
+      "desc": "Tu día está lleno de experimentación, resolución de problemas y construcción. Ves soluciones donde otros ven obstáculos. En 10 años, tus innovaciones cambiarán la forma en que la gente vive, trabaja o piensa.",
+      "traits": ["Resuelve problemas", "Curiosidad infinita", "Pensador de sistemas", "Orientado al futuro"],
+      "advice": "Colabora más. Los grandes inventos surgen cuando mentes brillantes se encuentran.",
+      "quote": "\"La innovación distingue al líder del seguidor.\" \u2014 Steve Jobs",
+      "compatible": ["Erudito", "CEO"]
+    },
+    "freelancer": {
+      "name": "\ud83c\udf0a Espíritu Libre \u2014 El Independiente",
+      "desc": "La libertad es tu norte. Elegiste flexibilidad, autonomía y vivir bajo tus propias reglas. En 10 años, habrás diseñado una vida que parece vacaciones \u2014 no porque sea fácil, sino porque es verdaderamente tuya.",
+      "traits": ["Ferozmente independiente", "Adaptable", "Automotivado", "Valora la libertad por encima de todo"],
+      "advice": "Construye estructura dentro de la libertad. La disciplina es lo que hace la libertad sostenible.",
+      "quote": "\"La libertad no es la ausencia de compromisos, sino la capacidad de elegir.\" \u2014 Paulo Coelho",
+      "compatible": ["Aventurero", "Artista"]
     }
   },
   "result": {
-    "title": "Tu Yo Futuro Es",
-    "characteristics": {
-      "ceo": "Orientado al logro, Decisivo, Pensador estratégico, Responsable, Orientado a resultados",
-      "artist": "Creativo, Expresión emocional, Original, Meticuloso, Fácilmente inspirado",
-      "adventurer": "Espíritu aventurero, Valiente, Pionero, Activo, Busca nuevas experiencias",
-      "scholar": "Analítico, Reflexivo, Curioso, Lógico, Pensamiento profundo",
-      "healer": "Empático, Cálido, Compasivo, Tranquilo, Centrado en otros",
-      "influencer": "Carismático, Comunicativo, Personalidad fuerte, Positivo, Influyente",
-      "inventor": "Innovador, Solución de problemas, Curioso, Creativo, Orientado al futuro",
-      "freelancer": "Flexible, Autónomo, Adaptable, Independiente, Espíritu libre"
-    },
-    "advice": {
-      "ceo": "Ahora: Desarrolla más tus habilidades de construcción de equipos. Un líder que escucha será aún más grande.",
-      "artist": "Ahora: Desarrolla también sentido empresarial. Esto te ayudará a compartir tu arte con más personas.",
-      "adventurer": "Ahora: Los desafíos son buenos, pero la planificación también es importante. Un aventurero reflexivo logra mayor éxito.",
-      "scholar": "Ahora: Practica, no solo teoriza. Es importante desarrollar habilidades prácticas para aplicar tu conocimiento.",
-      "healer": "Ahora: Cuídate primero. Proteger tu energía es la base para ayudar mejor a otros.",
-      "influencer": "Ahora: Añade profundidad y autenticidad. Los mensajes verdaderos permanecen más en los corazones.",
-      "inventor": "Ahora: No te quedes en tus propias ideas; colabora. La combinación de perspectivas crea mayor innovación.",
-      "freelancer": "Ahora: Crea estructura dentro de la libertad. La auto-gestión hace la libertad más significativa."
-    },
-    "wisdom": {
-      "ceo": "El éxito es resultado de ejecución infinita hacia los objetivos. - Steve Jobs",
-      "artist": "Todo artista comienza como aficionado. Tu arte es tu voz más auténtica. - Maya Angelou",
-      "adventurer": "La mayor aventura es vivir la vida que eliges. - Oprah Winfrey",
-      "scholar": "El conocimiento es poder. Pero la sabiduría es saber cómo usarlo. - Francis Bacon",
-      "healer": "Para sanar a otros, debes entender tus propias heridas. Tu experiencia es tu mayor activo. - Carl Jung",
-      "influencer": "La verdadera influencia no es llevar a alguien a algún lugar, es ayudarlo a ser él mismo. - Simon Sinek",
-      "inventor": "El futuro lo creamos nosotros. ¿Tienes coraje de cambiar el mundo? - Nikola Tesla",
-      "freelancer": "Libertad significa responsabilidad. Tus elecciones definen tu vida. - Paulo Coelho"
-    },
-    "recommended": "También te podrían gustar estas aplicaciones",
-    "canvasTitle": "10 Años en el Futuro",
-    "shareMessage": "años en el futuro seré",
-    "shareThanks": "! ¿Y tú?",
-    "shareWebTitle": "10 Años en el Futuro",
-    "shareLinkCopied": "¡Enlace copiado al portapapeles!",
-    "types": {
-      "ceo": "CEO (Líder)",
-      "artist": "Artista (Creador)",
-      "adventurer": "Aventurero (Desafiante)",
-      "scholar": "Erudito (Buscador)",
-      "healer": "Sanador (Cuidador)",
-      "influencer": "Influencer (Conector)",
-      "inventor": "Inventor (Innovador)",
-      "freelancer": "Freelancer (Espíritu Libre)"
-    },
-    "descriptions": {
-      "ceo": "Liderarás el futuro con pensamiento estratégico. Tu naturaleza orientada a objetivos te llevará al éxito.",
-      "artist": "Harás el mundo más bello con creatividad. Tu arte tocará muchos corazones.",
-      "adventurer": "Abrirás nuevos caminos con coraje. Crearás tu propia historia a través de nuevas experiencias.",
-      "scholar": "Buscarás la verdad con curiosidad. Contribuirás conocimiento valioso a la sociedad.",
-      "healer": "Sanarás a otros con un corazón cálido. Serás fuente de consuelo para muchos.",
-      "influencer": "Inspirarás a muchos con tu carisma. Crecerás junto a tus seguidores.",
-      "inventor": "Crearás el futuro con innovación. Transformarás el mundo con nuevas ideas.",
-      "freelancer": "Crearás tu propio camino con libertad. Disfrutarás de verdadera independencia."
-    }
+    "profileTitle": "Tu Camino de Vida Futuro",
+    "overallType": "Tu Arquetipo",
+    "traits": "Rasgos Principales",
+    "advice": "Consejo para Tu Camino",
+    "quote": "Palabras para Vivir",
+    "compatible": "Caminos Compatibles",
+    "retake": "\ud83d\ude80 Vivir Otro Día"
   },
-  "apps": {
-    "brainType": "Prueba de Tipo de Cerebro",
-    "colorPersonality": "Prueba de Personalidad por Color",
-    "animalPersonality": "Prueba de Personalidad Animal",
-    "numerology": "Diagnóstico del Destino por Número"
-  },
-  "future": {
-    "type_ceo": "CEO",
-    "type_artist": "Artista",
-    "type_adventurer": "Aventurero",
-    "type_scholar": "Académico",
-    "type_healer": "Sanador",
-    "type_influencer": "Influencer",
-    "type_inventor": "Inventor",
-    "type_freelancer": "Espíritu Libre"
+  "share": {
+    "twitter": "\ud835\udd4f Compartir",
+    "copyUrl": "\ud83d\udccb Copiar Enlace",
+    "copied": "¡Copiado!",
+    "twitterText": "¡Viví un día en mi vida futura y mi destino es ser: {type}! \ud83d\ude80 ¿Cuál es tu camino?"
   }
 }

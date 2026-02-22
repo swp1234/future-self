@@ -1,367 +1,245 @@
-/**
- * Future Self Quiz Application
- * Main app logic
- */
+// Day in Your Future Life - Story Cards
 
-class FutureSelfApp {
-    constructor() {
-        this.currentQuestion = 0;
-        this.scores = {};
-        this.selectedAnswers = [];
-        this.isLoading = true;
-
-        // Initialize type scores
-        Object.keys(FUTURE_TYPES).forEach(type => {
-            this.scores[type] = 0;
-        });
-
-        this.initializeApp();
-    }
-
-    async initializeApp() {
-        try {
-            // Initialize theme
-            const savedTheme = localStorage.getItem('theme') || 'dark';
-            document.documentElement.setAttribute('data-theme', savedTheme);
-            const themeBtn = document.getElementById('theme-toggle');
-            if (themeBtn) {
-                themeBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
-            }
-
-            // Initialize i18n
-            await i18n.init();
-
-            // Setup event listeners
-            this.setupEventListeners();
-
-            // Hide loader
-            setTimeout(() => {
-                document.getElementById('app-loader').classList.add('hidden');
-                this.isLoading = false;
-            }, 500);
-
-            // Push initial state for back button
-            window.history.pushState({ page: 'intro' }, null);
-        } catch (error) {
-            console.error('App initialization error:', error);
-        }
-    }
-
-    setupEventListeners() {
-        // Theme toggle
-        document.getElementById('theme-toggle').addEventListener('click', () => {
-            this.toggleTheme();
-        });
-
-        // Language toggle
-        document.getElementById('lang-toggle').addEventListener('click', () => {
-            this.toggleLanguageMenu();
-        });
-
-        // Language options
-        document.querySelectorAll('.lang-option').forEach(btn => {
-            btn.addEventListener('click', async (e) => {
-                await i18n.setLanguage(e.target.getAttribute('data-lang'));
-                this.updateLanguageMenu();
-                this.hideLanguageMenu();
-            });
-        });
-
-        // Close language menu when clicking outside
+// i18n init
+(async function initI18n() {
+    try {
+        await i18n.init();
+        const langToggle = document.getElementById('lang-toggle');
+        const langMenu = document.getElementById('lang-menu');
+        const langOptions = document.querySelectorAll('.lang-option');
+        document.querySelector(`[data-lang="${i18n.getCurrentLanguage()}"]`)?.classList.add('active');
+        langToggle?.addEventListener('click', () => langMenu.classList.toggle('hidden'));
         document.addEventListener('click', (e) => {
-            const langSelector = document.querySelector('.language-selector');
-            if (!langSelector.contains(e.target)) {
-                this.hideLanguageMenu();
-            }
+            if (!e.target.closest('.language-selector')) langMenu?.classList.add('hidden');
         });
-
-        // Start button
-        document.getElementById('start-btn').addEventListener('click', () => {
-            this.startQuiz();
-        });
-
-        // Back button in quiz
-        document.getElementById('progress-back').addEventListener('click', () => {
-            if (this.currentQuestion > 0) {
-                this.currentQuestion--;
-                this.selectedAnswers.pop();
-                this.showQuestion();
-            } else {
-                this.goToIntro();
-            }
-        });
-
-        // Option buttons
-        document.querySelectorAll('.option-btn').forEach((btn, index) => {
-            btn.addEventListener('click', () => {
-                this.selectAnswer(index);
+        langOptions.forEach(opt => {
+            opt.addEventListener('click', async () => {
+                await i18n.setLanguage(opt.getAttribute('data-lang'));
+                langOptions.forEach(o => o.classList.remove('active'));
+                opt.classList.add('active');
+                langMenu.classList.add('hidden');
             });
         });
-
-        // Result action buttons
-        document.getElementById('download-btn').addEventListener('click', () => {
-            this.downloadResult();
-        });
-
-        document.getElementById('share-btn').addEventListener('click', () => {
-            this.shareResult();
-        });
-
-        document.getElementById('retry-btn').addEventListener('click', () => {
-            this.resetQuiz();
-        });
-
-        // Back button support
-        window.addEventListener('popstate', (e) => {
-            if (e.state && e.state.page === 'intro') {
-                this.goToIntro();
-            }
-        });
+    } catch (e) {
+        console.warn('i18n init failed:', e);
+    } finally {
+        const loader = document.getElementById('app-loader');
+        if (loader) { loader.classList.add('hidden'); setTimeout(() => loader.remove(), 300); }
     }
+})();
 
-    toggleTheme() {
-        const html = document.documentElement;
-        const currentTheme = html.getAttribute('data-theme') || 'dark';
-        const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
-        html.setAttribute('data-theme', nextTheme);
-        localStorage.setItem('theme', nextTheme);
-        
-        const btn = document.getElementById('theme-toggle');
-        if (btn) {
-            btn.textContent = nextTheme === 'light' ? '🌙' : '☀️';
-        }
+// Theme toggle
+const themeToggle = document.getElementById('theme-toggle');
+if (themeToggle) {
+    const savedTheme = localStorage.getItem('app-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    themeToggle.textContent = savedTheme === 'light' ? '\u{1F319}' : '\u{2600}\u{FE0F}';
+    themeToggle.addEventListener('click', () => {
+        const cur = document.documentElement.getAttribute('data-theme') || 'dark';
+        const next = cur === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('app-theme', next);
+        themeToggle.textContent = next === 'light' ? '\u{1F319}' : '\u{2600}\u{FE0F}';
+    });
+}
+
+// Moment definitions: key, sky class, choice→type mappings
+const MOMENTS = [
+    { key: 'm1', sky: 'dawn',       choices: [['ceo','inventor'],    ['artist','freelancer'],   ['adventurer','healer']] },
+    { key: 'm2', sky: 'morning',    choices: [['ceo','influencer'],  ['freelancer','scholar'],  ['inventor','adventurer']] },
+    { key: 'm3', sky: 'midmorning', choices: [['influencer','ceo'],  ['artist','inventor'],     ['healer','scholar']] },
+    { key: 'm4', sky: 'noon',       choices: [['influencer','adventurer'], ['freelancer','artist'], ['scholar','inventor']] },
+    { key: 'm5', sky: 'afternoon',  choices: [['ceo','influencer'],  ['scholar','healer'],      ['adventurer','freelancer']] },
+    { key: 'm6', sky: 'evening',    choices: [['adventurer','ceo'],  ['artist','healer'],       ['influencer','freelancer']] },
+    { key: 'm7', sky: 'night',      choices: [['inventor','freelancer'], ['healer','scholar'],  ['artist','influencer']] },
+    { key: 'm8', sky: 'latenight',  choices: [['ceo','adventurer'],  ['healer','artist'],       ['scholar','inventor']] }
+];
+
+const TYPE_KEYS = ['ceo', 'artist', 'adventurer', 'scholar', 'healer', 'influencer', 'inventor', 'freelancer'];
+const TYPE_COLORS = {
+    ceo: '#e74c3c', artist: '#9b59b6', adventurer: '#e67e22', scholar: '#3498db',
+    healer: '#2ecc71', influencer: '#f39c12', inventor: '#1abc9c', freelancer: '#34495e'
+};
+
+// State
+let currentMoment = 0;
+let typeScores = {};
+let isAnimating = false;
+
+// DOM
+const screens = {
+    intro: document.getElementById('screen-intro'),
+    story: document.getElementById('screen-story'),
+    result: document.getElementById('screen-result')
+};
+
+function showScreen(name) {
+    Object.values(screens).forEach(s => s.classList.remove('active'));
+    screens[name].classList.add('active');
+    window.scrollTo(0, 0);
+}
+
+// Reset scores
+function resetScores() {
+    typeScores = {};
+    TYPE_KEYS.forEach(k => typeScores[k] = 0);
+}
+
+// Start
+document.getElementById('btn-start').addEventListener('click', () => {
+    currentMoment = 0;
+    resetScores();
+    showScreen('story');
+    renderMoment();
+    if (typeof gtag === 'function') {
+        gtag('event', 'test_start', { app_name: 'future-self', content_type: 'story_cards' });
     }
+});
 
-    toggleLanguageMenu() {
-        const menu = document.getElementById('lang-menu');
-        menu.classList.toggle('hidden');
-    }
+function renderMoment() {
+    const m = MOMENTS[currentMoment];
+    const mk = m.key;
 
-    hideLanguageMenu() {
-        document.getElementById('lang-menu').classList.add('hidden');
-    }
+    // Sky background
+    const skyBg = document.getElementById('sky-bg');
+    skyBg.className = 'sky-bg sky-' + m.sky;
 
-    updateLanguageMenu() {
-        document.querySelectorAll('.lang-option').forEach(btn => {
-            const lang = btn.getAttribute('data-lang');
-            if (lang === i18n.getCurrentLanguage()) {
-                btn.classList.add('active');
-            } else {
-                btn.classList.remove('active');
-            }
-        });
-    }
+    // Time display
+    document.getElementById('time-clock').textContent = i18n.t(`moments.${mk}.time`) || '';
+    document.getElementById('time-period').textContent = i18n.t(`moments.${mk}.period`) || '';
+    document.getElementById('moment-counter').textContent = `${currentMoment + 1} / ${MOMENTS.length}`;
 
-    startQuiz() {
-        if(typeof gtag!=='undefined') gtag('event','quiz_start');
-        this.currentQuestion = 0;
-        this.selectedAnswers = [];
-        Object.keys(FUTURE_TYPES).forEach(type => {
-            this.scores[type] = 0;
-        });
+    // Timeline
+    const fillPct = ((currentMoment + 1) / MOMENTS.length) * 100;
+    document.getElementById('timeline-fill').style.width = fillPct + '%';
+    const dots = document.querySelectorAll('#timeline-dots .tdot');
+    dots.forEach((d, i) => {
+        d.classList.toggle('active', i <= currentMoment);
+        d.classList.toggle('current', i === currentMoment);
+    });
 
-        this.showScreen('quiz-screen');
-        this.showQuestion();
-        window.history.pushState({ page: 'quiz', question: 0 }, null);
-    }
+    // Story card
+    document.getElementById('scene-text').textContent = i18n.t(`moments.${mk}.scene`) || '';
+    document.getElementById('prompt-text').textContent = i18n.t(`moments.${mk}.prompt`) || '';
 
-    showQuestion() {
-        const question = QUESTIONS[this.currentQuestion];
-        const questionText = document.getElementById('question-text');
-        const optionsContainer = document.querySelector('.options-container');
+    // Card animation
+    const card = document.getElementById('story-card');
+    card.classList.remove('card-enter');
+    void card.offsetHeight;
+    card.classList.add('card-enter');
 
-        // Update question text
-        questionText.textContent = i18n.t(question.questionKey);
-
-        // Update progress
-        document.getElementById('current-question').textContent = this.currentQuestion + 1;
-        document.getElementById('progress-text').textContent = (this.currentQuestion + 1) + '/' + QUESTIONS.length;
-        const progressPercent = ((this.currentQuestion + 1) / QUESTIONS.length) * 100;
-        document.getElementById('progress-fill').style.width = `${progressPercent}%`;
-
-        // Clear and update options
-        optionsContainer.innerHTML = '';
-        question.options.forEach((option, index) => {
-            const btn = document.createElement('button');
-            btn.className = 'option-btn';
-            btn.textContent = i18n.t(option.text);
-            btn.setAttribute('data-index', index);
-
-            // Check if this answer was already selected
-            if (this.selectedAnswers[this.currentQuestion] === index) {
-                btn.classList.add('selected');
-            }
-
-            btn.addEventListener('click', () => {
-                this.selectAnswer(index);
-            });
-
-            optionsContainer.appendChild(btn);
-        });
-
-        // Animate question
-        document.querySelector('.question-container').style.animation = 'none';
-        setTimeout(() => {
-            document.querySelector('.question-container').style.animation = 'slideIn 0.5s ease';
-        }, 10);
-    }
-
-    selectAnswer(optionIndex) {
-        const question = QUESTIONS[this.currentQuestion];
-        const selectedOption = question.options[optionIndex];
-
-        // Store answer
-        this.selectedAnswers[this.currentQuestion] = optionIndex;
-
-        // Update scores
-        selectedOption.types.forEach(type => {
-            this.scores[type]++;
-        });
-
-        // Move to next question
-        this.currentQuestion++;
-
-        if (this.currentQuestion < QUESTIONS.length) {
-            this.showQuestion();
-            window.history.pushState({ page: 'quiz', question: this.currentQuestion }, null);
-        } else {
-            this.showResult();
-        }
-    }
-
-    showResult() {
-        if(typeof gtag!=='undefined') gtag('event','quiz_complete');
-        // Calculate final type
-        const resultType = this.calculateResult();
-        const futureType = FUTURE_TYPES[resultType];
-
-        // Update result UI
-        document.getElementById('result-type-name').textContent = i18n.t(futureType.nameKey);
-        document.getElementById('result-description').textContent = i18n.t(futureType.descriptionKey);
-        document.getElementById('result-characteristics').textContent = i18n.t(futureType.characteristicsKey);
-        document.getElementById('result-advice').textContent = i18n.t(futureType.adviceKey);
-        document.getElementById('result-wisdom').textContent = `"${i18n.t(futureType.wisdomKey)}"`;
-
-        // Draw avatar
-        const svg = document.getElementById('result-avatar');
-        futureType.avatar(svg);
-
-        // Store result for sharing
-        this.currentResult = {
-            type: resultType,
-            futureType: futureType,
-            emoji: futureType.emoji,
-            name: i18n.t(futureType.nameKey)
-        };
-
-        this.showScreen('result-screen');
-        window.history.pushState({ page: 'result' }, null);
-    }
-
-    calculateResult() {
-        let maxScore = 0;
-        let resultType = 'freelancer';
-
-        for (const [type, score] of Object.entries(this.scores)) {
-            if (score > maxScore) {
-                maxScore = score;
-                resultType = type;
-            }
-        }
-
-        return resultType;
-    }
-
-    downloadResult() {
-        const canvas = document.getElementById('result-canvas');
-        canvas.width = 800;
-        canvas.height = 1000;
-        const ctx = canvas.getContext('2d');
-
-        // Background
-        ctx.fillStyle = '#0f0f23';
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-        // Gradient
-        const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-        gradient.addColorStop(0, '#3498db');
-        gradient.addColorStop(1, '#2ecc71');
-        ctx.fillStyle = gradient;
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-        // Title
-        ctx.fillStyle = '#ffffff';
-        ctx.font = 'bold 48px sans-serif';
-        ctx.textAlign = 'center';
-        ctx.fillText(i18n.t('result.canvasTitle'), canvas.width / 2, 100);
-
-        // Result type
-        ctx.font = 'bold 64px sans-serif';
-        ctx.fillText(this.currentResult.emoji, canvas.width / 2, 250);
-
-        ctx.font = 'bold 56px sans-serif';
-        ctx.fillText(this.currentResult.name, canvas.width / 2, 350);
-
-        // Info
-        ctx.font = '24px sans-serif';
-        ctx.fillText('dopabrain.com/future-self', canvas.width / 2, 900);
-
-        // Download
-        canvas.toBlob((blob) => {
-            const url = URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = `future-self-${this.currentResult.type}.png`;
-            link.click();
-            URL.revokeObjectURL(url);
-        });
-    }
-
-    shareResult() {
-        const text = `${i18n.t('result.shareMessage')} ${this.currentResult.emoji} ${this.currentResult.name}${i18n.t('result.shareThanks')}`;
-        const url = 'https://dopabrain.com/future-self/';
-
-        // Check if Web Share API is available
-        if (navigator.share) {
-            navigator.share({
-                title: i18n.t('result.shareWebTitle'),
-                text: text,
-                url: url
-            }).catch(err => console.log('Share error:', err));
-        } else {
-            // Fallback: Copy to clipboard
-            const shareText = `${text}\n\n${url}`;
-            navigator.clipboard.writeText(shareText).then(() => {
-                alert(i18n.t('result.shareLinkCopied'));
-            }).catch(err => console.log('Copy error:', err));
-        }
-    }
-
-    goToIntro() {
-        this.showScreen('intro-screen');
-        window.history.pushState({ page: 'intro' }, null);
-    }
-
-    resetQuiz() {
-        this.goToIntro();
-    }
-
-    showScreen(screenId) {
-        document.querySelectorAll('.screen').forEach(screen => {
-            screen.classList.remove('active');
-        });
-        document.getElementById(screenId).classList.add('active');
+    // Choice buttons
+    const choicesEl = document.getElementById('choices');
+    choicesEl.innerHTML = '';
+    for (let ci = 0; ci < 3; ci++) {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.textContent = i18n.t(`moments.${mk}.c${ci + 1}`) || '';
+        btn.addEventListener('click', () => handleChoice(ci));
+        choicesEl.appendChild(btn);
     }
 }
 
-// Initialize app when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-    window.app = new FutureSelfApp();
+function handleChoice(choiceIndex) {
+    if (isAnimating) return;
+    isAnimating = true;
+
+    const m = MOMENTS[currentMoment];
+    const types = m.choices[choiceIndex];
+
+    // Visual feedback
+    const btns = document.querySelectorAll('.choice-btn');
+    btns[choiceIndex]?.classList.add('pressed');
+
+    // Score
+    types.forEach(t => typeScores[t]++);
+
+    setTimeout(() => {
+        isAnimating = false;
+        currentMoment++;
+        if (currentMoment < MOMENTS.length) {
+            renderMoment();
+        } else {
+            showResult();
+        }
+    }, 350);
+}
+
+function showResult() {
+    // Find winner type
+    let maxScore = 0;
+    let winner = 'freelancer';
+    for (const [type, score] of Object.entries(typeScores)) {
+        if (score > maxScore) {
+            maxScore = score;
+            winner = type;
+        }
+    }
+
+    const typeData = i18n.t(`types.${winner}`) || {};
+
+    // Reset sky
+    document.getElementById('sky-bg').className = 'sky-bg';
+
+    // Emoji
+    const emojiMap = { ceo: '\u{1F454}', artist: '\u{1F3A8}', adventurer: '\u{1F9D7}', scholar: '\u{1F4DA}', healer: '\u{1F49A}', influencer: '\u2B50', inventor: '\u{1F52C}', freelancer: '\u{1F30A}' };
+    document.getElementById('result-emoji').textContent = emojiMap[winner] || '\u{1F680}';
+
+    // Type info
+    document.getElementById('result-name').textContent = typeData.name || winner;
+    document.getElementById('result-desc').textContent = typeData.desc || '';
+
+    // Traits
+    const traitsList = document.getElementById('result-traits');
+    traitsList.innerHTML = (typeData.traits || []).map(t => `<li>${t}</li>`).join('');
+
+    // Advice
+    document.getElementById('result-advice').textContent = typeData.advice || '';
+
+    // Quote
+    document.getElementById('result-quote').textContent = typeData.quote || '';
+
+    // Compatible
+    document.getElementById('result-compatible').textContent = (typeData.compatible || []).join(' & ');
+
+    showScreen('result');
+
+    if (typeof gtag === 'function') {
+        gtag('event', 'test_complete', {
+            app_name: 'future-self',
+            event_category: 'future_self',
+            result_type: winner,
+            result_value: maxScore
+        });
+    }
+}
+
+// Share
+document.getElementById('btn-twitter')?.addEventListener('click', () => {
+    let maxScore = 0;
+    let winner = 'freelancer';
+    for (const [type, score] of Object.entries(typeScores)) {
+        if (score > maxScore) { maxScore = score; winner = type; }
+    }
+    const typeName = i18n.t(`types.${winner}.name`) || winner;
+    let text = i18n.t('share.twitterText') || 'My future path: {type}!';
+    text = text.replace('{type}', typeName);
+    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent('https://dopabrain.com/future-self/')}`;
+    window.open(url, '_blank');
+    if (typeof gtag === 'function') gtag('event', 'share', { method: 'twitter', app_name: 'future-self' });
 });
 
-// Push AdSense ads
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.adsbygoogle) {
-        window.adsbygoogle.push({});
-    }
+document.getElementById('btn-copy')?.addEventListener('click', () => {
+    navigator.clipboard.writeText('https://dopabrain.com/future-self/').then(() => {
+        const btn = document.getElementById('btn-copy');
+        const orig = btn.textContent;
+        btn.textContent = i18n.t('share.copied') || 'Copied!';
+        setTimeout(() => { btn.textContent = orig; }, 2000);
+    });
+    if (typeof gtag === 'function') gtag('event', 'share', { method: 'clipboard', app_name: 'future-self' });
+});
+
+// Retake
+document.getElementById('btn-retake')?.addEventListener('click', () => {
+    showScreen('intro');
 });
