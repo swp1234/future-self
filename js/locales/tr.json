@@ -186,5 +186,13 @@
     "copyUrl": "\ud83d\udccb Linki Kopyala",
     "copied": "Kopyaland\u0131!",
     "twitterText": "Gelecekteki hayat\u0131mdan bir g\u00fcn ya\u015fad\u0131m ve kaderim: {type}! \ud83d\ude80 Senin yolun ne?"
+  },
+  "error": {
+    "storage": "Gizli modda bazı özellikler sınırlı olabilir.",
+    "data": "Veri yükleme hatası. Lütfen sayfayı yenileyin.",
+    "canvas": "Grafik oluşturma sorunu. Lütfen tekrar deneyin.",
+    "audio": "Ses kullanılamıyor. Devam edebilirsiniz.",
+    "network": "Bağlantınızı kontrol edip tekrar deneyin.",
+    "general": "Bir şeyler ters gitti. Yenileyip tekrar deneyin."
   }
 }

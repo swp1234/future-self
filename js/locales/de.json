@@ -186,5 +186,13 @@
     "copyUrl": "\ud83d\udccb Link kopieren",
     "copied": "Kopiert!",
     "twitterText": "Ich habe einen Tag in meinem zukünftigen Leben erlebt und mein Schicksal ist: {type}! \ud83d\ude80 Was ist dein Pfad?"
+  },
+  "error": {
+    "storage": "Einige Funktionen sind im privaten Modus eingeschränkt.",
+    "data": "Fehler beim Laden. Bitte Seite aktualisieren.",
+    "canvas": "Grafikfehler. Bitte erneut versuchen.",
+    "audio": "Audio nicht verfügbar. Sie können fortfahren.",
+    "network": "Bitte Verbindung prüfen und erneut versuchen.",
+    "general": "Etwas ist schiefgelaufen. Bitte aktualisieren oder erneut versuchen."
   }
 }
