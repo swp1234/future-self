@@ -9,13 +9,13 @@
   "app": {
     "title": "Ein Tag in deiner Zukunft",
     "subtitle": "Lebenspfad-Geschichtskarten",
-    "heroDesc": "Erlebe 8 Momente eines Tages in deinem zukünftigen Leben. Jede Entscheidung \u2014 vom Sonnenaufgang bis Mitternacht \u2014 enthüllt den Pfad, der dir bestimmt ist.",
+    "heroDesc": "Erlebe 8 Momente eines Tages in deinem zukünftigen Leben. Jede Entscheidung — vom Sonnenaufgang bis Mitternacht — enthüllt den Pfad, der dir bestimmt ist.",
     "badge": "Story-Modus",
     "info1": "8 Momente",
     "info2": "~3 Min",
     "info3": "Erzählung",
     "disclaimer": "Nur zur Unterhaltung. Keine klinische Bewertung.",
-    "start": "\ud83d\ude80 Starte deinen zukünftigen Tag",
+    "start": "🚀 Starte deinen zukünftigen Tag",
     "loading": "Laden..."
   },
   "intro": {
@@ -36,7 +36,7 @@
     "m1": {
       "time": "6:00",
       "period": "Morgendämmerung",
-      "scene": "Goldenes Morgenlicht flutet durch die raumhohen Fenster. Dein Wecker verklingt. Ein neuer Tag in deinem zukünftigen Leben beginnt \u2014 10 Jahre von jetzt.",
+      "scene": "Goldenes Morgenlicht flutet durch die raumhohen Fenster. Dein Wecker verklingt. Ein neuer Tag in deinem zukünftigen Leben beginnt — 10 Jahre von jetzt.",
       "prompt": "Dein erster Schritt?",
       "c1": "Den vollen Terminkalender durchgehen und Prioritäten setzen",
       "c2": "Mich langsam dehnen, Kaffee kochen und mein Skizzenbuch öffnen",
@@ -45,9 +45,9 @@
     "m2": {
       "time": "8:00",
       "period": "Morgen",
-      "scene": "Frühstück erledigt. Die Stadt draußen erwacht \u2014 Autos brummen, Menschen eilen zur Arbeit. Du trittst in die frische Morgenluft hinaus.",
+      "scene": "Frühstück erledigt. Die Stadt draußen erwacht — Autos brummen, Menschen eilen zur Arbeit. Du trittst in die frische Morgenluft hinaus.",
       "prompt": "Wohin geht's?",
-      "c1": "Früh ins Büro \u2014 ich bin gerne der Erste",
+      "c1": "Früh ins Büro — ich bin gerne der Erste",
       "c2": "In ein gemütliches Café mit Laptop und Noise-Cancelling-Kopfhörern",
       "c3": "In die Bibliothek, um mich in die Recherche zu vertiefen"
     },
@@ -56,25 +56,25 @@
       "period": "Vormittag",
       "scene": "Du bist voll im Flow. Der Vormittag ist produktiv und deine Energie auf dem Höhepunkt. Ein Kollege schreibt dir wegen einer neuen Projektchance.",
       "prompt": "Wie reagierst du?",
-      "c1": "Schnelles Meeting einberufen \u2014 ich habe eine mutige Vision dafür",
+      "c1": "Schnelles Meeting einberufen — ich habe eine mutige Vision dafür",
       "c2": "Meinen Kalender blocken und mich allein in die kreative Herausforderung stürzen",
-      "c3": "Fragen, wobei sie Hilfe brauchen \u2014 ich bin für das Team da"
+      "c3": "Fragen, wobei sie Hilfe brauchen — ich bin für das Team da"
     },
     "m4": {
       "time": "12:00",
       "period": "Mittag",
       "scene": "Mittagszeit. Du warst so konzentriert, dass du fast vergessen hast zu essen. Die Sonne steht hoch, und die Stadt summt vor Mittagsenergie.",
       "prompt": "Was gibt's zum Mittag?",
-      "c1": "Einen Branchenkontakt treffen \u2014 super Networking-Gelegenheit",
+      "c1": "Einen Branchenkontakt treffen — super Networking-Gelegenheit",
       "c2": "Das neue Geheimtipp-Restaurant ausprobieren, das noch keiner kennt",
-      "c3": "Schnell was mitnehmen \u2014 ich will weiter an meiner Idee arbeiten"
+      "c3": "Schnell was mitnehmen — ich will weiter an meiner Idee arbeiten"
     },
     "m5": {
       "time": "15:00",
       "period": "Nachmittag",
       "scene": "Ein unerwartetes Problem landet auf deinem Tisch. Bei einem wichtigen Projekt ist etwas schiefgelaufen und alle schauen zu dir.",
       "prompt": "Dein Ansatz?",
-      "c1": "Sofort das Kommando übernehmen \u2014 Aufgaben verteilen und alle motivieren",
+      "c1": "Sofort das Kommando übernehmen — Aufgaben verteilen und alle motivieren",
       "c2": "Die Daten durchforsten, um die wahre Ursache zu finden",
       "c3": "Kurz an die frische Luft gehen, dann meiner Intuition vertrauen"
     },
@@ -103,73 +103,137 @@
       "prompt": "Bevor du einschläfst?",
       "c1": "Die Ziele für morgen planen und mir vorstellen, was als Nächstes kommt",
       "c2": "Tagebuch schreiben, meditieren und die kleinen Momente wertschätzen",
-      "c3": "Noch ein paar Kapitel lesen \u2014 man lernt nie aus"
+      "c3": "Noch ein paar Kapitel lesen — man lernt nie aus"
     }
   },
   "types": {
     "ceo": {
-      "name": "\ud83d\udc54 CEO \u2014 Die Führungspersönlichkeit",
-      "desc": "Dein zukünftiger Tag offenbart eine geborene Führungskraft. Du übernimmst natürlich die Leitung, planst strategisch und blühst unter Druck auf. In 10 Jahren stehst du an der Spitze \u2014 führst Teams, triffst mutige Entscheidungen und baust etwas Außergewöhnliches auf.",
-      "traits": ["Strategischer Planer", "Entschlossen unter Druck", "Natürliche Autorität", "Ergebnisorientiert"],
+      "name": "👔 CEO — Die Führungspersönlichkeit",
+      "desc": "Dein zukünftiger Tag offenbart eine geborene Führungskraft. Du übernimmst natürlich die Leitung, planst strategisch und blühst unter Druck auf. In 10 Jahren stehst du an der Spitze — führst Teams, triffst mutige Entscheidungen und baust etwas Außergewöhnliches auf.",
+      "traits": [
+        "Strategischer Planer",
+        "Entschlossen unter Druck",
+        "Natürliche Autorität",
+        "Ergebnisorientiert"
+      ],
       "advice": "Schärfe dein Zuhören. Die größten Führungspersönlichkeiten verstärken die Stimmen anderer, nicht nur ihre eigene.",
-      "quote": "\"Der beste Weg, die Zukunft vorherzusagen, ist, sie zu gestalten.\" \u2014 Peter Drucker",
-      "compatible": ["Erfinder/in", "Influencer/in"]
+      "quote": "\"Der beste Weg, die Zukunft vorherzusagen, ist, sie zu gestalten.\" — Peter Drucker",
+      "compatible": [
+        "Erfinder/in",
+        "Influencer/in"
+      ]
     },
     "artist": {
-      "name": "\ud83c\udfa8 Künstler/in \u2014 Die kreative Seele",
+      "name": "🎨 Künstler/in — Die kreative Seele",
       "desc": "Deine Entscheidungen zeichnen das Bild einer kreativen Seele. Dich zieht es zu Schönheit, Selbstausdruck und der stillen Intensität, etwas aus dem Nichts zu erschaffen. In 10 Jahren wird deine Kunst Menschen tief berühren.",
-      "traits": ["Zutiefst kreativ", "Emotional ausdrucksstark", "Detailverliebt", "Inspiriert von Schönheit"],
+      "traits": [
+        "Zutiefst kreativ",
+        "Emotional ausdrucksstark",
+        "Detailverliebt",
+        "Inspiriert von Schönheit"
+      ],
       "advice": "Kombiniere dein kreatives Feuer mit Geschäftssinn. Große Kunst verdient ein großes Publikum.",
-      "quote": "\"Jeder Künstler war zunächst ein Amateur.\" \u2014 Ralph Waldo Emerson",
-      "compatible": ["Freigeist", "Heiler/in"]
+      "quote": "\"Jeder Künstler war zunächst ein Amateur.\" — Ralph Waldo Emerson",
+      "compatible": [
+        "Freigeist",
+        "Heiler/in"
+      ]
     },
     "adventurer": {
-      "name": "\ud83e\uddd7 Abenteurer/in \u2014 Der Entdecker",
-      "desc": "Dein zukünftiges Ich sehnt sich nach dem Unbekannten. Du hast Bewegung, Spontanität und neue Erfahrungen gewählt. In 10 Jahren wirst du ein Leben führen, von dem andere nur träumen \u2014 voller Geschichten und hart erarbeiteter Weisheit.",
-      "traits": ["Mutig und kühn", "Gedeiht im Wandel", "Körperlich aktiv", "Offen für das Unbekannte"],
+      "name": "🧗 Abenteurer/in — Der Entdecker",
+      "desc": "Dein zukünftiges Ich sehnt sich nach dem Unbekannten. Du hast Bewegung, Spontanität und neue Erfahrungen gewählt. In 10 Jahren wirst du ein Leben führen, von dem andere nur träumen — voller Geschichten und hart erarbeiteter Weisheit.",
+      "traits": [
+        "Mutig und kühn",
+        "Gedeiht im Wandel",
+        "Körperlich aktiv",
+        "Offen für das Unbekannte"
+      ],
       "advice": "Finde die Balance zwischen Mut und Planung. Die legendärsten Entdecker haben immer zuerst ihre Karten studiert.",
-      "quote": "\"Das Leben beginnt am Ende deiner Komfortzone.\" \u2014 Neale Donald Walsch",
-      "compatible": ["CEO", "Freigeist"]
+      "quote": "\"Das Leben beginnt am Ende deiner Komfortzone.\" — Neale Donald Walsch",
+      "compatible": [
+        "CEO",
+        "Freigeist"
+      ]
     },
     "scholar": {
-      "name": "\ud83d\udcda Gelehrte/r \u2014 Der Denker",
+      "name": "📚 Gelehrte/r — Der Denker",
       "desc": "Dein Tag offenbart einen Geist, der nie aufhört zu suchen. Du hast dich immer für Tiefe, Analyse und Verständnis entschieden. In 10 Jahren wird dein Wissen Türen öffnen, die andere nicht einmal sehen können.",
-      "traits": ["Analytischer Verstand", "Zutiefst wissbegierig", "Logischer Denker", "Schätzt Wahrheit"],
-      "advice": "Studiere die Welt nicht nur \u2014 engagiere dich. Wissen strahlt am hellsten, wenn es geteilt wird.",
-      "quote": "\"Wahre Weisheit besteht darin, zu wissen, dass man nichts weiß.\" \u2014 Sokrates",
-      "compatible": ["Erfinder/in", "Heiler/in"]
+      "traits": [
+        "Analytischer Verstand",
+        "Zutiefst wissbegierig",
+        "Logischer Denker",
+        "Schätzt Wahrheit"
+      ],
+      "advice": "Studiere die Welt nicht nur — engagiere dich. Wissen strahlt am hellsten, wenn es geteilt wird.",
+      "quote": "\"Wahre Weisheit besteht darin, zu wissen, dass man nichts weiß.\" — Sokrates",
+      "compatible": [
+        "Erfinder/in",
+        "Heiler/in"
+      ]
     },
     "healer": {
-      "name": "\ud83d\udc9a Heiler/in \u2014 Der Fürsorgende",
-      "desc": "Empathie durchzieht jede deiner Entscheidungen. Du kümmerst dich instinktiv um andere und bringst Wärme, wohin du auch gehst. In 10 Jahren wirst du die Person sein, an die sich alle wenden \u2014 eine beständige, mitfühlende Präsenz.",
-      "traits": ["Tiefes Einfühlungsvermögen", "Warm und fürsorglich", "Großartiger Zuhörer", "Emotional intelligent"],
+      "name": "💚 Heiler/in — Der Fürsorgende",
+      "desc": "Empathie durchzieht jede deiner Entscheidungen. Du kümmerst dich instinktiv um andere und bringst Wärme, wohin du auch gehst. In 10 Jahren wirst du die Person sein, an die sich alle wenden — eine beständige, mitfühlende Präsenz.",
+      "traits": [
+        "Tiefes Einfühlungsvermögen",
+        "Warm und fürsorglich",
+        "Großartiger Zuhörer",
+        "Emotional intelligent"
+      ],
       "advice": "Schütze zuerst deine eigene Energie. Man kann nicht aus einem leeren Becher einschenken.",
-      "quote": "\"Die Wunde ist der Ort, wo das Licht in dich eindringt.\" \u2014 Rumi",
-      "compatible": ["Künstler/in", "Gelehrte/r"]
+      "quote": "\"Die Wunde ist der Ort, wo das Licht in dich eindringt.\" — Rumi",
+      "compatible": [
+        "Künstler/in",
+        "Gelehrte/r"
+      ]
     },
     "influencer": {
-      "name": "\u2b50 Influencer/in \u2014 Der Verbinder",
+      "name": "⭐ Influencer/in — Der Verbinder",
       "desc": "Du bist ein natürlicher Magnet. Deine Entscheidungen zeigen jemanden, der führt, verbindet und durch pure Ausstrahlung inspiriert. In 10 Jahren wird deine authentische Stimme Tausende erreichen und echten Wandel anstoßen.",
-      "traits": ["Charismatisch", "Starker Kommunikator", "Sozial magnetisch", "Trendbewusst"],
+      "traits": [
+        "Charismatisch",
+        "Starker Kommunikator",
+        "Sozial magnetisch",
+        "Trendbewusst"
+      ],
       "advice": "Füge Tiefe unter der Oberfläche hinzu. Authentizität überdauert Viralität jedes Mal.",
       "quote": "\"Deine Ausstrahlung zieht deinen Stamm an.\"",
-      "compatible": ["CEO", "Künstler/in"]
+      "compatible": [
+        "CEO",
+        "Künstler/in"
+      ]
     },
     "inventor": {
-      "name": "\ud83d\udd2c Erfinder/in \u2014 Der Innovator",
+      "name": "🔬 Erfinder/in — Der Innovator",
       "desc": "Dein Tag ist geprägt von Tüfteln, Problemlösen und Bauen. Du siehst Lösungen, wo andere Hindernisse sehen. In 10 Jahren werden deine Innovationen verändern, wie Menschen leben, arbeiten oder denken.",
-      "traits": ["Problemlöser", "Endlos neugierig", "Systemdenker", "Zukunftsorientiert"],
+      "traits": [
+        "Problemlöser",
+        "Endlos neugierig",
+        "Systemdenker",
+        "Zukunftsorientiert"
+      ],
       "advice": "Arbeite mehr zusammen. Die größten Erfindungen entstehen, wenn brillante Köpfe aufeinandertreffen.",
-      "quote": "\"Innovation unterscheidet zwischen einem Anführer und einem Mitläufer.\" \u2014 Steve Jobs",
-      "compatible": ["Gelehrte/r", "CEO"]
+      "quote": "\"Innovation unterscheidet zwischen einem Anführer und einem Mitläufer.\" — Steve Jobs",
+      "compatible": [
+        "Gelehrte/r",
+        "CEO"
+      ]
     },
     "freelancer": {
-      "name": "\ud83c\udf0a Freigeist \u2014 Der Unabhängige",
-      "desc": "Freiheit ist dein Leitstern. Du hast Flexibilität, Autonomie und ein Leben nach deinen eigenen Regeln gewählt. In 10 Jahren wirst du ein Leben gestaltet haben, das sich wie Urlaub anfühlt \u2014 nicht weil es einfach ist, sondern weil es wirklich deins ist.",
-      "traits": ["Durch und durch unabhängig", "Anpassungsfähig", "Selbstmotiviert", "Schätzt Freiheit über alles"],
+      "name": "🌊 Freigeist — Der Unabhängige",
+      "desc": "Freiheit ist dein Leitstern. Du hast Flexibilität, Autonomie und ein Leben nach deinen eigenen Regeln gewählt. In 10 Jahren wirst du ein Leben gestaltet haben, das sich wie Urlaub anfühlt — nicht weil es einfach ist, sondern weil es wirklich deins ist.",
+      "traits": [
+        "Durch und durch unabhängig",
+        "Anpassungsfähig",
+        "Selbstmotiviert",
+        "Schätzt Freiheit über alles"
+      ],
       "advice": "Schaffe Struktur innerhalb der Freiheit. Disziplin ist das, was Freiheit nachhaltig macht.",
-      "quote": "\"Freiheit ist nicht die Abwesenheit von Verpflichtungen, sondern die Fähigkeit zu wählen.\" \u2014 Paulo Coelho",
-      "compatible": ["Abenteurer/in", "Künstler/in"]
+      "quote": "\"Freiheit ist nicht die Abwesenheit von Verpflichtungen, sondern die Fähigkeit zu wählen.\" — Paulo Coelho",
+      "compatible": [
+        "Abenteurer/in",
+        "Künstler/in"
+      ]
     }
   },
   "result": {
@@ -179,13 +243,13 @@
     "advice": "Rat für deinen Weg",
     "quote": "Worte fürs Leben",
     "compatible": "Kompatible Pfade",
-    "retake": "\ud83d\ude80 Noch einen Tag erleben"
+    "retake": "🚀 Noch einen Tag erleben"
   },
   "share": {
-    "twitter": "\ud835\udd4f Teilen",
-    "copyUrl": "\ud83d\udccb Link kopieren",
+    "twitter": "𝕏 Teilen",
+    "copyUrl": "📋 Link kopieren",
     "copied": "Kopiert!",
-    "twitterText": "Ich habe einen Tag in meinem zukünftigen Leben erlebt und mein Schicksal ist: {type}! \ud83d\ude80 Was ist dein Pfad?"
+    "twitterText": "Ich habe einen Tag in meinem zukünftigen Leben erlebt und mein Schicksal ist: {type}! 🚀 Was ist dein Pfad?"
   },
   "error": {
     "storage": "Einige Funktionen sind im privaten Modus eingeschränkt.",
@@ -194,5 +258,12 @@
     "audio": "Audio nicht verfügbar. Sie können fortfahren.",
     "network": "Bitte Verbindung prüfen und erneut versuchen.",
     "general": "Etwas ist schiefgelaufen. Bitte aktualisieren oder erneut versuchen."
+  },
+  "related": {
+    "title": "Mehr entdecken",
+    "soulAge": "Seelenalter",
+    "pastLife": "Früheres Leben",
+    "mentalAge": "Mentales Alter",
+    "lifeInNumbers": "Leben in Zahlen"
   }
 }

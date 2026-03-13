@@ -9,13 +9,13 @@
   "app": {
     "title": "Un Día en Tu Futuro",
     "subtitle": "Cartas de Historia de Vida",
-    "heroDesc": "Vive 8 momentos de un día en tu vida futura. Cada decisión que tomes \u2014 del amanecer a la medianoche \u2014 revela el camino que te espera.",
+    "heroDesc": "Vive 8 momentos de un día en tu vida futura. Cada decisión que tomes — del amanecer a la medianoche — revela el camino que te espera.",
     "badge": "Modo Historia",
     "info1": "8 Momentos",
     "info2": "~3 Min",
     "info3": "Narrativo",
     "disclaimer": "Solo para entretenimiento. No es una evaluación clínica.",
-    "start": "\ud83d\ude80 Comienza Tu Día Futuro",
+    "start": "🚀 Comienza Tu Día Futuro",
     "loading": "Cargando..."
   },
   "intro": {
@@ -36,7 +36,7 @@
     "m1": {
       "time": "6:00 AM",
       "period": "Amanecer",
-      "scene": "La luz dorada de la mañana entra por los ventanales de piso a techo. Tu alarma se apaga. Es el comienzo de otro día en tu vida futura \u2014 10 años después.",
+      "scene": "La luz dorada de la mañana entra por los ventanales de piso a techo. Tu alarma se apaga. Es el comienzo de otro día en tu vida futura — 10 años después.",
       "prompt": "¿Tu primer movimiento?",
       "c1": "Revisar la agenda del día y organizar prioridades",
       "c2": "Estirarme despacio, preparar café y abrir mi cuaderno de bocetos",
@@ -45,9 +45,9 @@
     "m2": {
       "time": "8:00 AM",
       "period": "Mañana",
-      "scene": "Desayuno listo. La ciudad afuera despierta \u2014 coches en marcha, gente camino al trabajo. Sales al aire fresco de la mañana.",
+      "scene": "Desayuno listo. La ciudad afuera despierta — coches en marcha, gente camino al trabajo. Sales al aire fresco de la mañana.",
       "prompt": "¿A dónde vas?",
-      "c1": "A la oficina temprano \u2014 me gusta ser el primero en llegar",
+      "c1": "A la oficina temprano — me gusta ser el primero en llegar",
       "c2": "A una cafetería acogedora con mi portátil y auriculares",
       "c3": "A la biblioteca, para sumergirme en una investigación pendiente"
     },
@@ -56,25 +56,25 @@
       "period": "Media Mañana",
       "scene": "Estás en pleno estado de flow. La mañana es productiva y tu energía está al máximo. Un colega te escribe sobre una nueva oportunidad de proyecto.",
       "prompt": "¿Cómo respondes?",
-      "c1": "Convocar una reunión rápida \u2014 tengo una visión audaz para esto",
+      "c1": "Convocar una reunión rápida — tengo una visión audaz para esto",
       "c2": "Bloquear mi agenda y sumergirme en el reto creativo a solas",
-      "c3": "Preguntar en qué necesitan ayuda \u2014 estoy aquí para el equipo"
+      "c3": "Preguntar en qué necesitan ayuda — estoy aquí para el equipo"
     },
     "m4": {
       "time": "12:00 PM",
       "period": "Mediodía",
       "scene": "Hora de comer. Estabas tan concentrado que casi olvidas comer. El sol está en lo alto y la ciudad vibra con la energía del mediodía.",
       "prompt": "¿Planes para comer?",
-      "c1": "Quedar con un contacto profesional \u2014 gran oportunidad de networking",
+      "c1": "Quedar con un contacto profesional — gran oportunidad de networking",
       "c2": "Probar ese restaurante escondido que nadie ha descubierto aún",
-      "c3": "Comer algo rápido \u2014 quiero seguir trabajando en mi idea"
+      "c3": "Comer algo rápido — quiero seguir trabajando en mi idea"
     },
     "m5": {
       "time": "3:00 PM",
       "period": "Tarde",
       "scene": "Un problema inesperado cae en tu escritorio. Algo salió mal en un proyecto importante y todos te miran buscando respuestas.",
       "prompt": "¿Tu enfoque?",
-      "c1": "Tomar el mando de inmediato \u2014 asignar roles y motivar a todos",
+      "c1": "Tomar el mando de inmediato — asignar roles y motivar a todos",
       "c2": "Analizar los datos para encontrar la causa raíz",
       "c3": "Salir a tomar aire, luego confiar en mi instinto"
     },
@@ -103,73 +103,137 @@
       "prompt": "¿Antes de dormir?",
       "c1": "Planificar los objetivos de mañana y visualizar lo que viene",
       "c2": "Escribir un diario, meditar y agradecer los pequeños momentos",
-      "c3": "Leer unos capítulos \u2014 siempre aprendiendo algo nuevo"
+      "c3": "Leer unos capítulos — siempre aprendiendo algo nuevo"
     }
   },
   "types": {
     "ceo": {
-      "name": "\ud83d\udc54 CEO \u2014 El Líder",
-      "desc": "Tu día futuro revela a un líder nato. Tomas el mando de forma natural, planificas estratégicamente y prosperas bajo presión. En 10 años, estarás al frente \u2014 guiando equipos, tomando decisiones audaces y construyendo algo extraordinario.",
-      "traits": ["Planificador estratégico", "Decisivo bajo presión", "Autoridad natural", "Orientado a resultados"],
+      "name": "👔 CEO — El Líder",
+      "desc": "Tu día futuro revela a un líder nato. Tomas el mando de forma natural, planificas estratégicamente y prosperas bajo presión. En 10 años, estarás al frente — guiando equipos, tomando decisiones audaces y construyendo algo extraordinario.",
+      "traits": [
+        "Planificador estratégico",
+        "Decisivo bajo presión",
+        "Autoridad natural",
+        "Orientado a resultados"
+      ],
       "advice": "Afina tu capacidad de escucha. Los grandes líderes amplifican la voz de los demás, no solo la propia.",
-      "quote": "\"La mejor manera de predecir el futuro es crearlo.\" \u2014 Peter Drucker",
-      "compatible": ["Inventor", "Influencer"]
+      "quote": "\"La mejor manera de predecir el futuro es crearlo.\" — Peter Drucker",
+      "compatible": [
+        "Inventor",
+        "Influencer"
+      ]
     },
     "artist": {
-      "name": "\ud83c\udfa8 Artista \u2014 El Creador",
+      "name": "🎨 Artista — El Creador",
       "desc": "Tus elecciones pintan el retrato de un alma creativa. Te atrae la belleza, la autoexpresión y la intensidad silenciosa de crear algo de la nada. En 10 años, tu arte conmoverá profundamente a la gente.",
-      "traits": ["Profundamente creativo", "Emocionalmente expresivo", "Detallista", "Inspirado por la belleza"],
+      "traits": [
+        "Profundamente creativo",
+        "Emocionalmente expresivo",
+        "Detallista",
+        "Inspirado por la belleza"
+      ],
       "advice": "Combina tu fuego creativo con visión de negocio. El gran arte merece una gran audiencia.",
-      "quote": "\"Todo artista fue primero un aficionado.\" \u2014 Ralph Waldo Emerson",
-      "compatible": ["Espíritu Libre", "Sanador"]
+      "quote": "\"Todo artista fue primero un aficionado.\" — Ralph Waldo Emerson",
+      "compatible": [
+        "Espíritu Libre",
+        "Sanador"
+      ]
     },
     "adventurer": {
-      "name": "\ud83e\uddd7 Aventurero \u2014 El Explorador",
-      "desc": "Tu yo del futuro ansía lo desconocido. Elegiste movimiento, espontaneidad y experiencias nuevas. En 10 años, vivirás una vida que otros solo sueñan \u2014 llena de historias y sabiduría ganada a pulso.",
-      "traits": ["Valiente y audaz", "Prospera con el cambio", "Físicamente activo", "Abierto a lo desconocido"],
+      "name": "🧗 Aventurero — El Explorador",
+      "desc": "Tu yo del futuro ansía lo desconocido. Elegiste movimiento, espontaneidad y experiencias nuevas. En 10 años, vivirás una vida que otros solo sueñan — llena de historias y sabiduría ganada a pulso.",
+      "traits": [
+        "Valiente y audaz",
+        "Prospera con el cambio",
+        "Físicamente activo",
+        "Abierto a lo desconocido"
+      ],
       "advice": "Equilibra la audacia con la planificación. Los exploradores más legendarios siempre estudiaron sus mapas primero.",
-      "quote": "\"La vida comienza al final de tu zona de confort.\" \u2014 Neale Donald Walsch",
-      "compatible": ["CEO", "Espíritu Libre"]
+      "quote": "\"La vida comienza al final de tu zona de confort.\" — Neale Donald Walsch",
+      "compatible": [
+        "CEO",
+        "Espíritu Libre"
+      ]
     },
     "scholar": {
-      "name": "\ud83d\udcda Erudito \u2014 El Pensador",
+      "name": "📚 Erudito — El Pensador",
       "desc": "Tu día revela una mente que nunca deja de buscar. Elegiste profundidad, análisis y comprensión en cada momento. En 10 años, tu conocimiento abrirá puertas que otros ni siquiera ven.",
-      "traits": ["Mente analítica", "Profundamente curioso", "Pensador lógico", "Valora la verdad"],
-      "advice": "No solo estudies el mundo \u2014 involúcrate en él. El conocimiento brilla más cuando se comparte.",
-      "quote": "\"La única sabiduría verdadera es saber que no sabes nada.\" \u2014 Sócrates",
-      "compatible": ["Inventor", "Sanador"]
+      "traits": [
+        "Mente analítica",
+        "Profundamente curioso",
+        "Pensador lógico",
+        "Valora la verdad"
+      ],
+      "advice": "No solo estudies el mundo — involúcrate en él. El conocimiento brilla más cuando se comparte.",
+      "quote": "\"La única sabiduría verdadera es saber que no sabes nada.\" — Sócrates",
+      "compatible": [
+        "Inventor",
+        "Sanador"
+      ]
     },
     "healer": {
-      "name": "\ud83d\udc9a Sanador \u2014 El Cuidador",
-      "desc": "La empatía recorre cada decisión que tomaste. Cuidas de los demás por instinto y llevas calidez a donde vayas. En 10 años, serás la persona a quien todos acuden \u2014 una presencia firme y compasiva.",
-      "traits": ["Empatía profunda", "Cálido y atento", "Gran oyente", "Inteligencia emocional"],
+      "name": "💚 Sanador — El Cuidador",
+      "desc": "La empatía recorre cada decisión que tomaste. Cuidas de los demás por instinto y llevas calidez a donde vayas. En 10 años, serás la persona a quien todos acuden — una presencia firme y compasiva.",
+      "traits": [
+        "Empatía profunda",
+        "Cálido y atento",
+        "Gran oyente",
+        "Inteligencia emocional"
+      ],
       "advice": "Protege tu propia energía primero. No puedes dar de un vaso vacío.",
-      "quote": "\"La herida es el lugar por donde entra la Luz.\" \u2014 Rumi",
-      "compatible": ["Artista", "Erudito"]
+      "quote": "\"La herida es el lugar por donde entra la Luz.\" — Rumi",
+      "compatible": [
+        "Artista",
+        "Erudito"
+      ]
     },
     "influencer": {
-      "name": "\u2b50 Influencer \u2014 El Conector",
+      "name": "⭐ Influencer — El Conector",
       "desc": "Eres un imán natural. Tus elecciones muestran a alguien que lidera, conecta e inspira con su sola presencia. En 10 años, tu voz auténtica llegará a miles y provocará un cambio real.",
-      "traits": ["Carismático", "Gran comunicador", "Magnetismo social", "Atento a las tendencias"],
+      "traits": [
+        "Carismático",
+        "Gran comunicador",
+        "Magnetismo social",
+        "Atento a las tendencias"
+      ],
       "advice": "Añade profundidad bajo la superficie. La autenticidad supera a la viralidad siempre.",
       "quote": "\"Tu energía atrae a tu tribu.\"",
-      "compatible": ["CEO", "Artista"]
+      "compatible": [
+        "CEO",
+        "Artista"
+      ]
     },
     "inventor": {
-      "name": "\ud83d\udd2c Inventor \u2014 El Innovador",
+      "name": "🔬 Inventor — El Innovador",
       "desc": "Tu día está lleno de experimentación, resolución de problemas y construcción. Ves soluciones donde otros ven obstáculos. En 10 años, tus innovaciones cambiarán la forma en que la gente vive, trabaja o piensa.",
-      "traits": ["Resuelve problemas", "Curiosidad infinita", "Pensador de sistemas", "Orientado al futuro"],
+      "traits": [
+        "Resuelve problemas",
+        "Curiosidad infinita",
+        "Pensador de sistemas",
+        "Orientado al futuro"
+      ],
       "advice": "Colabora más. Los grandes inventos surgen cuando mentes brillantes se encuentran.",
-      "quote": "\"La innovación distingue al líder del seguidor.\" \u2014 Steve Jobs",
-      "compatible": ["Erudito", "CEO"]
+      "quote": "\"La innovación distingue al líder del seguidor.\" — Steve Jobs",
+      "compatible": [
+        "Erudito",
+        "CEO"
+      ]
     },
     "freelancer": {
-      "name": "\ud83c\udf0a Espíritu Libre \u2014 El Independiente",
-      "desc": "La libertad es tu norte. Elegiste flexibilidad, autonomía y vivir bajo tus propias reglas. En 10 años, habrás diseñado una vida que parece vacaciones \u2014 no porque sea fácil, sino porque es verdaderamente tuya.",
-      "traits": ["Ferozmente independiente", "Adaptable", "Automotivado", "Valora la libertad por encima de todo"],
+      "name": "🌊 Espíritu Libre — El Independiente",
+      "desc": "La libertad es tu norte. Elegiste flexibilidad, autonomía y vivir bajo tus propias reglas. En 10 años, habrás diseñado una vida que parece vacaciones — no porque sea fácil, sino porque es verdaderamente tuya.",
+      "traits": [
+        "Ferozmente independiente",
+        "Adaptable",
+        "Automotivado",
+        "Valora la libertad por encima de todo"
+      ],
       "advice": "Construye estructura dentro de la libertad. La disciplina es lo que hace la libertad sostenible.",
-      "quote": "\"La libertad no es la ausencia de compromisos, sino la capacidad de elegir.\" \u2014 Paulo Coelho",
-      "compatible": ["Aventurero", "Artista"]
+      "quote": "\"La libertad no es la ausencia de compromisos, sino la capacidad de elegir.\" — Paulo Coelho",
+      "compatible": [
+        "Aventurero",
+        "Artista"
+      ]
     }
   },
   "result": {
@@ -179,13 +243,13 @@
     "advice": "Consejo para Tu Camino",
     "quote": "Palabras para Vivir",
     "compatible": "Caminos Compatibles",
-    "retake": "\ud83d\ude80 Vivir Otro Día"
+    "retake": "🚀 Vivir Otro Día"
   },
   "share": {
-    "twitter": "\ud835\udd4f Compartir",
-    "copyUrl": "\ud83d\udccb Copiar Enlace",
+    "twitter": "𝕏 Compartir",
+    "copyUrl": "📋 Copiar Enlace",
     "copied": "¡Copiado!",
-    "twitterText": "¡Viví un día en mi vida futura y mi destino es ser: {type}! \ud83d\ude80 ¿Cuál es tu camino?"
+    "twitterText": "¡Viví un día en mi vida futura y mi destino es ser: {type}! 🚀 ¿Cuál es tu camino?"
   },
   "error": {
     "storage": "Algunas funciones pueden estar limitadas en modo privado.",
@@ -194,5 +258,12 @@
     "audio": "Audio no disponible. Puede continuar.",
     "network": "Verifique su conexión e inténtelo de nuevo.",
     "general": "Algo salió mal. Actualice o inténtelo de nuevo."
+  },
+  "related": {
+    "title": "Explora más",
+    "soulAge": "Edad del Alma",
+    "pastLife": "Vida Pasada",
+    "mentalAge": "Edad Mental",
+    "lifeInNumbers": "Tu Vida en Números"
   }
 }

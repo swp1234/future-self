@@ -9,13 +9,13 @@
   "app": {
     "title": "Une journée dans votre avenir",
     "subtitle": "Cartes d'histoire de parcours de vie",
-    "heroDesc": "Vivez 8 moments d'une journée dans votre vie future. Chaque choix que vous faites \u2014 du lever au coucher du soleil \u2014 révèle le chemin qui vous est destiné.",
+    "heroDesc": "Vivez 8 moments d'une journée dans votre vie future. Chaque choix que vous faites — du lever au coucher du soleil — révèle le chemin qui vous est destiné.",
     "badge": "Mode histoire",
     "info1": "8 Moments",
     "info2": "~3 Min",
     "info3": "Narratif",
     "disclaimer": "Divertissement uniquement. Ce n'est pas une évaluation clinique.",
-    "start": "\ud83d\ude80 Commencez votre journée future",
+    "start": "🚀 Commencez votre journée future",
     "loading": "Chargement..."
   },
   "intro": {
@@ -36,7 +36,7 @@
     "m1": {
       "time": "6h00",
       "period": "Aube",
-      "scene": "La lumière dorée du matin inonde les baies vitrées. Votre réveil s'éteint. C'est le début d'une nouvelle journée dans votre vie future \u2014 dans 10 ans.",
+      "scene": "La lumière dorée du matin inonde les baies vitrées. Votre réveil s'éteint. C'est le début d'une nouvelle journée dans votre vie future — dans 10 ans.",
       "prompt": "Votre premier geste ?",
       "c1": "Parcourir mon emploi du temps chargé et définir les priorités",
       "c2": "M'étirer doucement, préparer un café et ouvrir mon carnet de croquis",
@@ -45,9 +45,9 @@
     "m2": {
       "time": "8h00",
       "period": "Matin",
-      "scene": "Petit-déjeuner terminé. La ville s'éveille dehors \u2014 les voitures ronronnent, les gens se rendent au travail. Vous sortez dans l'air frais du matin.",
+      "scene": "Petit-déjeuner terminé. La ville s'éveille dehors — les voitures ronronnent, les gens se rendent au travail. Vous sortez dans l'air frais du matin.",
       "prompt": "Où allez-vous ?",
-      "c1": "Au bureau en avance \u2014 j'aime être le premier arrivé",
+      "c1": "Au bureau en avance — j'aime être le premier arrivé",
       "c2": "Dans un café cosy avec mon ordinateur et mes écouteurs antibruit",
       "c3": "À la bibliothèque, pour plonger dans les recherches qui me trottent dans la tête"
     },
@@ -56,25 +56,25 @@
       "period": "Milieu de matinée",
       "scene": "Vous êtes en plein flow. La matinée est productive et votre énergie est au sommet. Un collègue vous contacte à propos d'une nouvelle opportunité de projet.",
       "prompt": "Comment réagissez-vous ?",
-      "c1": "Organiser une réunion éclair \u2014 j'ai une vision audacieuse pour ça",
+      "c1": "Organiser une réunion éclair — j'ai une vision audacieuse pour ça",
       "c2": "Bloquer mon agenda et me lancer seul/e dans le défi créatif",
-      "c3": "Demander de quoi ils ont besoin \u2014 je suis là pour l'équipe"
+      "c3": "Demander de quoi ils ont besoin — je suis là pour l'équipe"
     },
     "m4": {
       "time": "12h00",
       "period": "Midi",
       "scene": "L'heure du déjeuner. Vous étiez tellement concentré/e que vous avez failli oublier de manger. Le soleil est haut et chaud, et la ville vibre d'énergie.",
       "prompt": "Programme du déjeuner ?",
-      "c1": "Retrouver un contact professionnel \u2014 une super opportunité de réseautage",
+      "c1": "Retrouver un contact professionnel — une super opportunité de réseautage",
       "c2": "Tester ce nouveau restaurant secret que personne ne connaît encore",
-      "c3": "Attraper un truc rapide \u2014 je veux continuer à travailler sur mon idée"
+      "c3": "Attraper un truc rapide — je veux continuer à travailler sur mon idée"
     },
     "m5": {
       "time": "15h00",
       "period": "Après-midi",
       "scene": "Un problème inattendu atterrit sur votre bureau. Quelque chose a mal tourné dans un projet important et tout le monde se tourne vers vous.",
       "prompt": "Votre approche ?",
-      "c1": "Prendre les choses en main immédiatement \u2014 répartir les rôles et motiver tout le monde",
+      "c1": "Prendre les choses en main immédiatement — répartir les rôles et motiver tout le monde",
       "c2": "Analyser les données en profondeur pour trouver la vraie cause",
       "c3": "Sortir prendre l'air, puis faire confiance à mon instinct"
     },
@@ -103,73 +103,137 @@
       "prompt": "Avant de dormir ?",
       "c1": "Planifier les objectifs de demain et visualiser la suite",
       "c2": "Écrire dans mon journal, méditer et savourer les petits moments",
-      "c3": "Lire quelques chapitres \u2014 on n'arrête jamais d'apprendre"
+      "c3": "Lire quelques chapitres — on n'arrête jamais d'apprendre"
     }
   },
   "types": {
     "ceo": {
-      "name": "\ud83d\udc54 PDG \u2014 Le Leader",
-      "desc": "Votre journée future révèle un leader né. Vous prenez naturellement les commandes, planifiez stratégiquement et vous épanouissez sous la pression. Dans 10 ans, vous serez aux commandes \u2014 guidant des équipes, prenant des décisions audacieuses et bâtissant quelque chose d'extraordinaire.",
-      "traits": ["Planificateur stratégique", "Décisif sous pression", "Autorité naturelle", "Orienté résultats"],
+      "name": "👔 PDG — Le Leader",
+      "desc": "Votre journée future révèle un leader né. Vous prenez naturellement les commandes, planifiez stratégiquement et vous épanouissez sous la pression. Dans 10 ans, vous serez aux commandes — guidant des équipes, prenant des décisions audacieuses et bâtissant quelque chose d'extraordinaire.",
+      "traits": [
+        "Planificateur stratégique",
+        "Décisif sous pression",
+        "Autorité naturelle",
+        "Orienté résultats"
+      ],
       "advice": "Affûtez votre écoute. Les plus grands leaders amplifient la voix des autres, pas seulement la leur.",
-      "quote": "\"La meilleure façon de prédire l'avenir, c'est de le créer.\" \u2014 Peter Drucker",
-      "compatible": ["Inventeur/rice", "Influenceur/se"]
+      "quote": "\"La meilleure façon de prédire l'avenir, c'est de le créer.\" — Peter Drucker",
+      "compatible": [
+        "Inventeur/rice",
+        "Influenceur/se"
+      ]
     },
     "artist": {
-      "name": "\ud83c\udfa8 Artiste \u2014 Le Créateur",
+      "name": "🎨 Artiste — Le Créateur",
       "desc": "Vos choix dépeignent une âme créative. Vous êtes attiré/e par la beauté, l'expression de soi et l'intensité silencieuse de créer quelque chose à partir de rien. Dans 10 ans, votre art touchera les gens en profondeur.",
-      "traits": ["Profondément créatif/ve", "Émotionnellement expressif/ve", "Soucieux/se du détail", "Inspiré/e par la beauté"],
+      "traits": [
+        "Profondément créatif/ve",
+        "Émotionnellement expressif/ve",
+        "Soucieux/se du détail",
+        "Inspiré/e par la beauté"
+      ],
       "advice": "Associez votre feu créatif au sens des affaires. Le grand art mérite un grand public.",
-      "quote": "\"Tout artiste a d'abord été un amateur.\" \u2014 Ralph Waldo Emerson",
-      "compatible": ["Esprit libre", "Guérisseur/se"]
+      "quote": "\"Tout artiste a d'abord été un amateur.\" — Ralph Waldo Emerson",
+      "compatible": [
+        "Esprit libre",
+        "Guérisseur/se"
+      ]
     },
     "adventurer": {
-      "name": "\ud83e\uddd7 Aventurier/ère \u2014 L'Explorateur",
-      "desc": "Votre futur vous a soif d'inconnu. Vous avez choisi le mouvement, la spontanéité et les expériences nouvelles. Dans 10 ans, vous vivrez une vie dont les autres ne font que rêver \u2014 riche d'histoires et de sagesse durement acquise.",
-      "traits": ["Audacieux/se et courageux/se", "S'épanouit dans le changement", "Physiquement actif/ve", "Ouvert/e à l'inconnu"],
+      "name": "🧗 Aventurier/ère — L'Explorateur",
+      "desc": "Votre futur vous a soif d'inconnu. Vous avez choisi le mouvement, la spontanéité et les expériences nouvelles. Dans 10 ans, vous vivrez une vie dont les autres ne font que rêver — riche d'histoires et de sagesse durement acquise.",
+      "traits": [
+        "Audacieux/se et courageux/se",
+        "S'épanouit dans le changement",
+        "Physiquement actif/ve",
+        "Ouvert/e à l'inconnu"
+      ],
       "advice": "Équilibrez l'audace et la planification. Les explorateurs les plus légendaires ont toujours étudié leurs cartes en premier.",
-      "quote": "\"La vie commence là où s'arrête votre zone de confort.\" \u2014 Neale Donald Walsch",
-      "compatible": ["PDG", "Esprit libre"]
+      "quote": "\"La vie commence là où s'arrête votre zone de confort.\" — Neale Donald Walsch",
+      "compatible": [
+        "PDG",
+        "Esprit libre"
+      ]
     },
     "scholar": {
-      "name": "\ud83d\udcda Érudit/e \u2014 Le Penseur",
+      "name": "📚 Érudit/e — Le Penseur",
       "desc": "Votre journée révèle un esprit qui ne cesse jamais de chercher. Vous avez choisi la profondeur, l'analyse et la compréhension à chaque instant. Dans 10 ans, votre savoir ouvrira des portes que les autres ne voient même pas.",
-      "traits": ["Esprit analytique", "Profondément curieux/se", "Penseur logique", "Attaché/e à la vérité"],
-      "advice": "N'étudiez pas seulement le monde \u2014 engagez-vous dedans. Le savoir brille le plus quand il est partagé.",
-      "quote": "\"La seule vraie sagesse est de savoir qu'on ne sait rien.\" \u2014 Socrate",
-      "compatible": ["Inventeur/rice", "Guérisseur/se"]
+      "traits": [
+        "Esprit analytique",
+        "Profondément curieux/se",
+        "Penseur logique",
+        "Attaché/e à la vérité"
+      ],
+      "advice": "N'étudiez pas seulement le monde — engagez-vous dedans. Le savoir brille le plus quand il est partagé.",
+      "quote": "\"La seule vraie sagesse est de savoir qu'on ne sait rien.\" — Socrate",
+      "compatible": [
+        "Inventeur/rice",
+        "Guérisseur/se"
+      ]
     },
     "healer": {
-      "name": "\ud83d\udc9a Guérisseur/se \u2014 Le Bienveillant",
-      "desc": "L'empathie traverse chacun de vos choix. Vous prenez instinctivement soin des autres et apportez de la chaleur partout où vous allez. Dans 10 ans, vous serez la personne vers qui tout le monde se tourne \u2014 une présence stable et compatissante.",
-      "traits": ["Empathie profonde", "Chaleureux/se et attentionné/e", "Excellent/e à l'écoute", "Intelligence émotionnelle"],
+      "name": "💚 Guérisseur/se — Le Bienveillant",
+      "desc": "L'empathie traverse chacun de vos choix. Vous prenez instinctivement soin des autres et apportez de la chaleur partout où vous allez. Dans 10 ans, vous serez la personne vers qui tout le monde se tourne — une présence stable et compatissante.",
+      "traits": [
+        "Empathie profonde",
+        "Chaleureux/se et attentionné/e",
+        "Excellent/e à l'écoute",
+        "Intelligence émotionnelle"
+      ],
       "advice": "Protégez d'abord votre propre énergie. On ne peut pas verser d'une tasse vide.",
-      "quote": "\"La blessure est l'endroit par où la Lumière entre en vous.\" \u2014 Rumi",
-      "compatible": ["Artiste", "Érudit/e"]
+      "quote": "\"La blessure est l'endroit par où la Lumière entre en vous.\" — Rumi",
+      "compatible": [
+        "Artiste",
+        "Érudit/e"
+      ]
     },
     "influencer": {
-      "name": "\u2b50 Influenceur/se \u2014 Le Connecteur",
+      "name": "⭐ Influenceur/se — Le Connecteur",
       "desc": "Vous êtes un aimant naturel. Vos choix révèlent quelqu'un qui guide, connecte et inspire par sa simple présence. Dans 10 ans, votre voix authentique touchera des milliers de personnes et provoquera un vrai changement.",
-      "traits": ["Charismatique", "Communicateur/rice hors pair", "Magnétisme social", "À l'affût des tendances"],
+      "traits": [
+        "Charismatique",
+        "Communicateur/rice hors pair",
+        "Magnétisme social",
+        "À l'affût des tendances"
+      ],
       "advice": "Ajoutez de la profondeur sous la surface. L'authenticité survit toujours à la viralité.",
       "quote": "\"Votre énergie attire votre tribu.\"",
-      "compatible": ["PDG", "Artiste"]
+      "compatible": [
+        "PDG",
+        "Artiste"
+      ]
     },
     "inventor": {
-      "name": "\ud83d\udd2c Inventeur/rice \u2014 L'Innovateur",
+      "name": "🔬 Inventeur/rice — L'Innovateur",
       "desc": "Votre journée est faite de bricolage, de résolution de problèmes et de construction. Vous voyez des solutions là où d'autres voient des obstacles. Dans 10 ans, vos innovations changeront la façon dont les gens vivent, travaillent ou pensent.",
-      "traits": ["Résolveur de problèmes", "Curiosité sans limites", "Pensée systémique", "Tourné/e vers l'avenir"],
+      "traits": [
+        "Résolveur de problèmes",
+        "Curiosité sans limites",
+        "Pensée systémique",
+        "Tourné/e vers l'avenir"
+      ],
       "advice": "Collaborez davantage. Les plus grandes inventions naissent quand des esprits brillants se rencontrent.",
-      "quote": "\"L'innovation fait la différence entre un leader et un suiveur.\" \u2014 Steve Jobs",
-      "compatible": ["Érudit/e", "PDG"]
+      "quote": "\"L'innovation fait la différence entre un leader et un suiveur.\" — Steve Jobs",
+      "compatible": [
+        "Érudit/e",
+        "PDG"
+      ]
     },
     "freelancer": {
-      "name": "\ud83c\udf0a Esprit libre \u2014 L'Indépendant",
-      "desc": "La liberté est votre étoile polaire. Vous avez choisi la flexibilité, l'autonomie et une vie selon vos propres règles. Dans 10 ans, vous aurez conçu une vie qui ressemble à des vacances \u2014 non pas parce qu'elle est facile, mais parce qu'elle est vraiment la vôtre.",
-      "traits": ["Farouchement indépendant/e", "Adaptable", "Auto-motivé/e", "La liberté avant tout"],
+      "name": "🌊 Esprit libre — L'Indépendant",
+      "desc": "La liberté est votre étoile polaire. Vous avez choisi la flexibilité, l'autonomie et une vie selon vos propres règles. Dans 10 ans, vous aurez conçu une vie qui ressemble à des vacances — non pas parce qu'elle est facile, mais parce qu'elle est vraiment la vôtre.",
+      "traits": [
+        "Farouchement indépendant/e",
+        "Adaptable",
+        "Auto-motivé/e",
+        "La liberté avant tout"
+      ],
       "advice": "Créez de la structure au sein de la liberté. La discipline est ce qui rend la liberté durable.",
-      "quote": "\"La liberté n'est pas l'absence d'engagements, mais la capacité de choisir.\" \u2014 Paulo Coelho",
-      "compatible": ["Aventurier/ère", "Artiste"]
+      "quote": "\"La liberté n'est pas l'absence d'engagements, mais la capacité de choisir.\" — Paulo Coelho",
+      "compatible": [
+        "Aventurier/ère",
+        "Artiste"
+      ]
     }
   },
   "result": {
@@ -179,13 +243,13 @@
     "advice": "Conseil pour votre chemin",
     "quote": "Mots pour vivre",
     "compatible": "Parcours compatibles",
-    "retake": "\ud83d\ude80 Vivre une autre journée"
+    "retake": "🚀 Vivre une autre journée"
   },
   "share": {
-    "twitter": "\ud835\udd4f Partager",
-    "copyUrl": "\ud83d\udccb Copier le lien",
+    "twitter": "𝕏 Partager",
+    "copyUrl": "📋 Copier le lien",
     "copied": "Copié !",
-    "twitterText": "J'ai vécu une journée dans ma vie future et ma destinée est : {type} ! \ud83d\ude80 Quel est ton parcours ?"
+    "twitterText": "J'ai vécu une journée dans ma vie future et ma destinée est : {type} ! 🚀 Quel est ton parcours ?"
   },
   "error": {
     "storage": "Certaines fonctions peuvent être limitées en mode privé.",
@@ -194,5 +258,12 @@
     "audio": "Audio indisponible. Vous pouvez continuer.",
     "network": "Vérifiez votre connexion et réessayez.",
     "general": "Un problème est survenu. Rafraîchissez ou réessayez."
+  },
+  "related": {
+    "title": "À découvrir",
+    "soulAge": "Âge de l'Âme",
+    "pastLife": "Vie Antérieure",
+    "mentalAge": "Âge Mental",
+    "lifeInNumbers": "Vie en Chiffres"
   }
 }

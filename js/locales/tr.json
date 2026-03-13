@@ -1,33 +1,33 @@
 {
   "meta": {
-    "title": "Gelecekteki Hayat\u0131ndan Bir G\u00fcn | Ya\u015fam Yolu Hikaye Kartlar\u0131 - DopaBrain",
-    "description": "Gelecekteki benin olarak tam bir g\u00fcn ya\u015fa! \u015eafaktan gece yar\u0131s\u0131na kadar 8 hikaye an\u0131, seni bekleyen 8 ya\u015fam yolundan hangisinin senin i\u00e7in oldu\u011funu ortaya \u00e7\u0131kar\u0131r."
+    "title": "Gelecekteki Hayatından Bir Gün | Yaşam Yolu Hikaye Kartları - DopaBrain",
+    "description": "Gelecekteki benin olarak tam bir gün yaşa! Şafaktan gece yarısına kadar 8 hikaye anı, seni bekleyen 8 yaşam yolundan hangisinin senin için olduğunu ortaya çıkarır."
   },
   "a11y": {
-    "skip": "Ana i\u00e7eri\u011fe atla"
+    "skip": "Ana içeriğe atla"
   },
   "app": {
-    "title": "Gelecekteki Hayat\u0131ndan Bir G\u00fcn",
-    "subtitle": "Ya\u015fam Yolu Hikaye Kartlar\u0131",
-    "heroDesc": "Gelecekteki hayat\u0131ndan bir g\u00fcn\u00fcn 8 an\u0131n\u0131 ya\u015fa. G\u00fcn do\u011fumundan gece yar\u0131s\u0131na kadar yapt\u0131\u011f\u0131n her se\u00e7im \u2014 seni bekleyen yolu ortaya \u00e7\u0131kar\u0131r.",
+    "title": "Gelecekteki Hayatından Bir Gün",
+    "subtitle": "Yaşam Yolu Hikaye Kartları",
+    "heroDesc": "Gelecekteki hayatından bir günün 8 anını yaşa. Gün doğumundan gece yarısına kadar yaptığın her seçim — seni bekleyen yolu ortaya çıkarır.",
     "badge": "Hikaye Modu",
     "info1": "8 An",
     "info2": "~3 Dk",
-    "info3": "Anlat\u0131",
-    "disclaimer": "Sadece e\u011flence ama\u00e7l\u0131d\u0131r. Klinik bir de\u011ferlendirme de\u011fildir.",
-    "start": "\ud83d\ude80 Gelecekteki G\u00fcn\u00fcne Ba\u015fla",
-    "loading": "Y\u00fckleniyor..."
+    "info3": "Anlatı",
+    "disclaimer": "Sadece eğlence amaçlıdır. Klinik bir değerlendirme değildir.",
+    "start": "🚀 Gelecekteki Gününe Başla",
+    "loading": "Yükleniyor..."
   },
   "intro": {
-    "typesTitle": "8 Ya\u015fam Yolu",
+    "typesTitle": "8 Yaşam Yolu",
     "ceo": "CEO",
-    "artist": "Sanat\u00e7\u0131",
-    "adventurer": "Macerac\u0131",
+    "artist": "Sanatçı",
+    "adventurer": "Maceracı",
     "scholar": "Bilgin",
-    "healer": "\u015eifac\u0131",
+    "healer": "Şifacı",
     "influencer": "Fenomen",
     "inventor": "Mucit",
-    "freelancer": "\u00d6zg\u00fcr Ruh"
+    "freelancer": "Özgür Ruh"
   },
   "story": {
     "moment": "An"
@@ -35,157 +35,221 @@
   "moments": {
     "m1": {
       "time": "06:00",
-      "period": "\u015eafak",
-      "scene": "Alt\u0131n renginde sabah \u0131\u015f\u0131\u011f\u0131 yerden tavana uzanan pencerelerden i\u00e7eri s\u00fcz\u00fcl\u00fcyor. Alarm\u0131n sesi s\u00f6n\u00fcyor. Gelecekteki hayat\u0131nda \u2014 bundan 10 y\u0131l sonra \u2014 yeni bir g\u00fcn ba\u015fl\u0131yor.",
-      "prompt": "\u0130lk hamlen ne?",
-      "c1": "Bug\u00fcnk\u00fc yo\u011fun program\u0131 g\u00f6zden ge\u00e7ir ve \u00f6ncelikleri belirle",
-      "c2": "Yava\u015f\u00e7a esne, kahve demle ve \u00e7izim defterimi a\u00e7",
-      "c3": "Spor ayakkab\u0131lar\u0131m\u0131 giy ve g\u00fcn do\u011fumunda ko\u015fuya \u00e7\u0131k"
+      "period": "Şafak",
+      "scene": "Altın renginde sabah ışığı yerden tavana uzanan pencerelerden içeri süzülüyor. Alarmın sesi sönüyor. Gelecekteki hayatında — bundan 10 yıl sonra — yeni bir gün başlıyor.",
+      "prompt": "İlk hamlen ne?",
+      "c1": "Bugünkü yoğun programı gözden geçir ve öncelikleri belirle",
+      "c2": "Yavaşça esne, kahve demle ve çizim defterimi aç",
+      "c3": "Spor ayakkabılarımı giy ve gün doğumunda koşuya çık"
     },
     "m2": {
       "time": "08:00",
       "period": "Sabah",
-      "scene": "Kahvalt\u0131 bitti. D\u0131\u015far\u0131da \u015fehir uyan\u0131yor \u2014 araba sesleri, i\u015fe giden insanlar. Serin sabah havas\u0131na ad\u0131m at\u0131yorsun.",
+      "scene": "Kahvaltı bitti. Dışarıda şehir uyanıyor — araba sesleri, işe giden insanlar. Serin sabah havasına adım atıyorsun.",
       "prompt": "Nereye gidiyorsun?",
-      "c1": "Ofise erken \u2014 ilk gelen ben olmay\u0131 seviyorum",
-      "c2": "Laptop\u0131m ve g\u00fcr\u00fclt\u00fc \u00f6nleyici kulakl\u0131\u011f\u0131mla rahat bir kafeye",
-      "c3": "K\u00fct\u00fcphaneye, kafamda d\u00f6nen ara\u015ft\u0131rmaya dalmak i\u00e7in"
+      "c1": "Ofise erken — ilk gelen ben olmayı seviyorum",
+      "c2": "Laptopım ve gürültü önleyici kulaklığımla rahat bir kafeye",
+      "c3": "Kütüphaneye, kafamda dönen araştırmaya dalmak için"
     },
     "m3": {
       "time": "10:00",
-      "period": "Ku\u015fluk",
-      "scene": "Ak\u0131\u015fa ge\u00e7mi\u015f durumdasın. Sabah verimli ge\u00e7ti ve enerjin y\u00fcksek. Bir \u00e7al\u0131\u015fma arkada\u015f\u0131n yeni bir proje f\u0131rsat\u0131 hakk\u0131nda mesaj at\u0131yor.",
-      "prompt": "Nas\u0131l yan\u0131t veriyorsun?",
-      "c1": "H\u0131zl\u0131 bir toplant\u0131 kur \u2014 bunun i\u00e7in cesur bir vizyonum var",
-      "c2": "Takvimimi kilitle ve yarat\u0131c\u0131 meydan okumaya tek ba\u015f\u0131ma dal",
-      "c3": "Neye yard\u0131m gerekti\u011fini sor \u2014 ekip i\u00e7in buraday\u0131m"
+      "period": "Kuşluk",
+      "scene": "Akışa geçmiş durumdasın. Sabah verimli geçti ve enerjin yüksek. Bir çalışma arkadaşın yeni bir proje fırsatı hakkında mesaj atıyor.",
+      "prompt": "Nasıl yanıt veriyorsun?",
+      "c1": "Hızlı bir toplantı kur — bunun için cesur bir vizyonum var",
+      "c2": "Takvimimi kilitle ve yaratıcı meydan okumaya tek başıma dal",
+      "c3": "Neye yardım gerektiğini sor — ekip için buradayım"
     },
     "m4": {
       "time": "12:00",
-      "period": "\u00d6\u011fle",
-      "scene": "\u00d6\u011fle yeme\u011fi vakti. O kadar odakland\u0131n ki yemek yemeyi neredeyse unuttun. G\u00fcne\u015f tepede, \u015fehir \u00f6\u011fle enerjisiyle c\u0131v\u0131l c\u0131v\u0131l.",
-      "prompt": "\u00d6\u011fle yeme\u011fi plan\u0131n?",
-      "c1": "Sekt\u00f6rden biriyle bulu\u015f \u2014 harika bir networking f\u0131rsat\u0131",
-      "c2": "Hen\u00fcz kimsenin ke\u015ffetmedi\u011fi yeni gizli bir restorana git",
-      "c3": "H\u0131zl\u0131ca bir \u015fey at\u0131\u015ft\u0131r \u2014 fikrim \u00fczerinde \u00e7al\u0131\u015fmaya devam etmek istiyorum"
+      "period": "Öğle",
+      "scene": "Öğle yemeği vakti. O kadar odaklandın ki yemek yemeyi neredeyse unuttun. Güneş tepede, şehir öğle enerjisiyle cıvıl cıvıl.",
+      "prompt": "Öğle yemeği planın?",
+      "c1": "Sektörden biriyle buluş — harika bir networking fırsatı",
+      "c2": "Henüz kimsenin keşfetmediği yeni gizli bir restorana git",
+      "c3": "Hızlıca bir şey atıştır — fikrim üzerinde çalışmaya devam etmek istiyorum"
     },
     "m5": {
       "time": "15:00",
-      "period": "\u00d6\u011fleden Sonra",
-      "scene": "Beklenmedik bir sorun masana d\u00fc\u015f\u00fcyor. B\u00fcy\u00fck bir projede bir \u015feyler ters gitti ve herkes senden cevap bekliyor.",
-      "prompt": "Yakla\u015f\u0131m\u0131n ne?",
-      "c1": "Hemen kontrol\u00fc ele al \u2014 g\u00f6rev da\u011f\u0131t ve herkesi topla",
-      "c2": "Verilere dal ve ger\u00e7ek k\u00f6k nedeni bul",
-      "c3": "Temiz hava almak i\u00e7in d\u0131\u015far\u0131 \u00e7\u0131k, sonra i\u00e7g\u00fcd\u00fcme g\u00fcven"
+      "period": "Öğleden Sonra",
+      "scene": "Beklenmedik bir sorun masana düşüyor. Büyük bir projede bir şeyler ters gitti ve herkes senden cevap bekliyor.",
+      "prompt": "Yaklaşımın ne?",
+      "c1": "Hemen kontrolü ele al — görev dağıt ve herkesi topla",
+      "c2": "Verilere dal ve gerçek kök nedeni bul",
+      "c3": "Temiz hava almak için dışarı çık, sonra içgüdüme güven"
     },
     "m6": {
       "time": "18:00",
-      "period": "Ak\u015fam",
-      "scene": "\u0130\u015f bitti. G\u00fcne\u015f batarken g\u00f6ky\u00fcz\u00fc turuncu ve pembeye boyand\u0131. Ak\u015fam boyunca istedi\u011fini yapabilirsin.",
-      "prompt": "Ak\u015fam planlar\u0131n?",
-      "c1": "Spor salonuna git, sonra alan\u0131mdaki yenilikleri takip et",
-      "c2": "Bir sanat galerisine u\u011fra veya canl\u0131 m\u00fczik dinle",
-      "c3": "Yak\u0131n arkada\u015flar i\u00e7in k\u00fc\u00e7\u00fck bir ak\u015fam yeme\u011fi ver"
+      "period": "Akşam",
+      "scene": "İş bitti. Güneş batarken gökyüzü turuncu ve pembeye boyandı. Akşam boyunca istediğini yapabilirsin.",
+      "prompt": "Akşam planların?",
+      "c1": "Spor salonuna git, sonra alanımdaki yenilikleri takip et",
+      "c2": "Bir sanat galerisine uğra veya canlı müzik dinle",
+      "c3": "Yakın arkadaşlar için küçük bir akşam yemeği ver"
     },
     "m7": {
       "time": "21:00",
       "period": "Gece",
-      "scene": "\u015eehir pencerenin d\u0131\u015f\u0131nda p\u0131r\u0131l p\u0131r\u0131l parl\u0131yor. Gecenin sessiz u\u011fultusu \u00e7\u00f6k\u00fcyor. Yatmadan \u00f6nce birka\u00e7 saatin var.",
-      "prompt": "Geceyi nas\u0131l ge\u00e7iriyorsun?",
-      "c1": "Kafamda d\u00f6nen yan projemle u\u011fra\u015f",
-      "c2": "De\u011fer verdi\u011fim biriyle uzun ve derin bir sohbet et",
-      "c3": "\u0130\u00e7erik \u00fcret ve g\u00fcn\u00fcm\u00fcn \u00f6ne \u00e7\u0131kan anlar\u0131n\u0131 sosyal medyada payla\u015f"
+      "scene": "Şehir pencerenin dışında pırıl pırıl parlıyor. Gecenin sessiz uğultusu çöküyor. Yatmadan önce birkaç saatin var.",
+      "prompt": "Geceyi nasıl geçiriyorsun?",
+      "c1": "Kafamda dönen yan projemle uğraş",
+      "c2": "Değer verdiğim biriyle uzun ve derin bir sohbet et",
+      "c3": "İçerik üret ve günümün öne çıkan anlarını sosyal medyada paylaş"
     },
     "m8": {
       "time": "23:00",
-      "period": "Gece Ge\u00e7",
-      "scene": "D\u00fcnya sessizle\u015fiyor. Y\u0131ld\u0131zlar \u015fehir \u0131\u015f\u0131klar\u0131n\u0131n aras\u0131ndan g\u00f6z k\u0131rp\u0131yor. Gelecekteki hayat\u0131nda ya\u015fad\u0131\u011f\u0131n dolu bir g\u00fcn\u00fc d\u00fc\u015f\u00fcnerek gev\u015fiyorsun.",
-      "prompt": "Uyumadan \u00f6nce?",
-      "c1": "Yar\u0131n\u0131n hedeflerini planla ve s\u0131radakini g\u00f6z\u00fcnde canland\u0131r",
-      "c2": "G\u00fcnl\u00fck yaz, meditasyon yap ve k\u00fc\u00e7\u00fck anlar\u0131n k\u0131ymetini bil",
-      "c3": "Birka\u00e7 b\u00f6l\u00fcm oku \u2014 her zaman yeni bir \u015fey \u00f6\u011freniyorum"
+      "period": "Gece Geç",
+      "scene": "Dünya sessizleşiyor. Yıldızlar şehir ışıklarının arasından göz kırpıyor. Gelecekteki hayatında yaşadığın dolu bir günü düşünerek gevşiyorsun.",
+      "prompt": "Uyumadan önce?",
+      "c1": "Yarının hedeflerini planla ve sıradakini gözünde canlandır",
+      "c2": "Günlük yaz, meditasyon yap ve küçük anların kıymetini bil",
+      "c3": "Birkaç bölüm oku — her zaman yeni bir şey öğreniyorum"
     }
   },
   "types": {
     "ceo": {
-      "name": "\ud83d\udc54 CEO \u2014 Lider",
-      "desc": "Gelecekteki g\u00fcn\u00fcn do\u011fu\u015ftan bir lider ortaya koyuyor. Do\u011fal olarak y\u00f6netimi ele al\u0131r, stratejik planlar yapar ve bask\u0131 alt\u0131nda parlars\u0131n. 10 y\u0131l i\u00e7inde d\u00fcmenin ba\u015f\u0131nda olacaks\u0131n \u2014 ekiplere y\u00f6n veren, cesur kararlar alan ve ola\u011fan\u00fcst\u00fc bir \u015fey in\u015fa eden biri.",
-      "traits": ["Stratejik planc\u0131", "Bask\u0131 alt\u0131nda kararl\u0131", "Do\u011fal otorite", "Sonu\u00e7 odakl\u0131"],
-      "advice": "Dinleme becerini geli\u015ftir. En b\u00fcy\u00fck liderler sadece kendi seslerini de\u011fil, ba\u015fkalar\u0131n\u0131n sesini de y\u00fckseltir.",
-      "quote": "\"Gelece\u011fi tahmin etmenin en iyi yolu onu yaratmakt\u0131r.\" \u2014 Peter Drucker",
-      "compatible": ["Mucit", "Fenomen"]
+      "name": "👔 CEO — Lider",
+      "desc": "Gelecekteki günün doğuştan bir lider ortaya koyuyor. Doğal olarak yönetimi ele alır, stratejik planlar yapar ve baskı altında parlarsın. 10 yıl içinde dümenin başında olacaksın — ekiplere yön veren, cesur kararlar alan ve olağanüstü bir şey inşa eden biri.",
+      "traits": [
+        "Stratejik plancı",
+        "Baskı altında kararlı",
+        "Doğal otorite",
+        "Sonuç odaklı"
+      ],
+      "advice": "Dinleme becerini geliştir. En büyük liderler sadece kendi seslerini değil, başkalarının sesini de yükseltir.",
+      "quote": "\"Geleceği tahmin etmenin en iyi yolu onu yaratmaktır.\" — Peter Drucker",
+      "compatible": [
+        "Mucit",
+        "Fenomen"
+      ]
     },
     "artist": {
-      "name": "\ud83c\udfa8 Sanat\u00e7\u0131 \u2014 Yarat\u0131c\u0131",
-      "desc": "Se\u00e7imlerin yarat\u0131c\u0131 bir ruhun tablosunu \u00e7iziyor. G\u00fczelli\u011fe, kendini ifade etmeye ve yoktan bir \u015fey yaratman\u0131n sessiz yo\u011funlu\u011funa \u00e7ekiliyorsun. 10 y\u0131l i\u00e7inde sanat\u0131n insanlar\u0131 derinden etkileyecek.",
-      "traits": ["Derin yarat\u0131c\u0131l\u0131k", "Duygusal ifade g\u00fcc\u00fc", "Detaylara \u00f6zen", "G\u00fczellikten ilham alan"],
-      "advice": "Yarat\u0131c\u0131 ate\u015fini i\u015f zekas\u0131yla birle\u015ftir. B\u00fcy\u00fck sanat b\u00fcy\u00fck bir izleyiciyi hak eder.",
-      "quote": "\"Her sanat\u00e7\u0131 \u00f6nce amat\u00f6rd\u00fc.\" \u2014 Ralph Waldo Emerson",
-      "compatible": ["\u00d6zg\u00fcr Ruh", "\u015eifac\u0131"]
+      "name": "🎨 Sanatçı — Yaratıcı",
+      "desc": "Seçimlerin yaratıcı bir ruhun tablosunu çiziyor. Güzelliğe, kendini ifade etmeye ve yoktan bir şey yaratmanın sessiz yoğunluğuna çekiliyorsun. 10 yıl içinde sanatın insanları derinden etkileyecek.",
+      "traits": [
+        "Derin yaratıcılık",
+        "Duygusal ifade gücü",
+        "Detaylara özen",
+        "Güzellikten ilham alan"
+      ],
+      "advice": "Yaratıcı ateşini iş zekasıyla birleştir. Büyük sanat büyük bir izleyiciyi hak eder.",
+      "quote": "\"Her sanatçı önce amatördü.\" — Ralph Waldo Emerson",
+      "compatible": [
+        "Özgür Ruh",
+        "Şifacı"
+      ]
     },
     "adventurer": {
-      "name": "\ud83e\uddd7 Macerac\u0131 \u2014 Ka\u015fif",
-      "desc": "Gelecekteki ben bilinmeyene susam\u0131\u015f. Hareketi, do\u011fa\u00e7l\u0131\u011f\u0131 ve taze deneyimleri se\u00e7tin. 10 y\u0131l i\u00e7inde ba\u015fkalar\u0131n\u0131n sadece hayal edebilece\u011fi bir hayat ya\u015fayacaks\u0131n \u2014 hikayelerle ve deneyimle kazan\u0131lm\u0131\u015f bilgelikle dolu.",
-      "traits": ["Cesur ve y\u00fcrekli", "De\u011fi\u015fimde geli\u015fen", "Fiziksel olarak aktif", "Bilinmeyene a\u00e7\u0131k"],
-      "advice": "Cesareti planlamayla dengele. En efsanevi ka\u015fifler her zaman \u00f6nce haritalar\u0131n\u0131 incelemi\u015ftir.",
-      "quote": "\"Hayat konfor alan\u0131n\u0131n bitti\u011fi yerde ba\u015flar.\" \u2014 Neale Donald Walsch",
-      "compatible": ["CEO", "\u00d6zg\u00fcr Ruh"]
+      "name": "🧗 Maceracı — Kaşif",
+      "desc": "Gelecekteki ben bilinmeyene susamış. Hareketi, doğaçlığı ve taze deneyimleri seçtin. 10 yıl içinde başkalarının sadece hayal edebileceği bir hayat yaşayacaksın — hikayelerle ve deneyimle kazanılmış bilgelikle dolu.",
+      "traits": [
+        "Cesur ve yürekli",
+        "Değişimde gelişen",
+        "Fiziksel olarak aktif",
+        "Bilinmeyene açık"
+      ],
+      "advice": "Cesareti planlamayla dengele. En efsanevi kaşifler her zaman önce haritalarını incelemiştir.",
+      "quote": "\"Hayat konfor alanının bittiği yerde başlar.\" — Neale Donald Walsch",
+      "compatible": [
+        "CEO",
+        "Özgür Ruh"
+      ]
     },
     "scholar": {
-      "name": "\ud83d\udcda Bilgin \u2014 D\u00fc\u015f\u00fcn\u00fcr",
-      "desc": "G\u00fcn\u00fcn hi\u00e7 durmadan arayan bir zihni ortaya koyuyor. Her f\u0131rsatta derinli\u011fi, analizi ve anlamay\u0131 se\u00e7tin. 10 y\u0131l i\u00e7inde bilgin, ba\u015fkalar\u0131n\u0131n g\u00f6remedi\u011fi kap\u0131lar\u0131 a\u00e7acak.",
-      "traits": ["Analitik zeka", "Derin merak", "Mant\u0131ksal d\u00fc\u015f\u00fcn\u00fcr", "Ger\u00e7e\u011fe de\u011fer veren"],
-      "advice": "D\u00fcnyay\u0131 sadece inceleme \u2014 onunla etkile\u015fim kur. Bilgi payla\u015f\u0131ld\u0131\u011f\u0131nda en parlak \u015fekilde \u0131\u015f\u0131ldar.",
-      "quote": "\"Tek ger\u00e7ek bilgelik, hi\u00e7bir \u015fey bilmedi\u011fini bilmektir.\" \u2014 Sokrates",
-      "compatible": ["Mucit", "\u015eifac\u0131"]
+      "name": "📚 Bilgin — Düşünür",
+      "desc": "Günün hiç durmadan arayan bir zihni ortaya koyuyor. Her fırsatta derinliği, analizi ve anlamayı seçtin. 10 yıl içinde bilgin, başkalarının göremediği kapıları açacak.",
+      "traits": [
+        "Analitik zeka",
+        "Derin merak",
+        "Mantıksal düşünür",
+        "Gerçeğe değer veren"
+      ],
+      "advice": "Dünyayı sadece inceleme — onunla etkileşim kur. Bilgi paylaşıldığında en parlak şekilde ışıldar.",
+      "quote": "\"Tek gerçek bilgelik, hiçbir şey bilmediğini bilmektir.\" — Sokrates",
+      "compatible": [
+        "Mucit",
+        "Şifacı"
+      ]
     },
     "healer": {
-      "name": "\ud83d\udc9a \u015eifac\u0131 \u2014 \u0130yile\u015ftirici",
-      "desc": "Empati yapt\u0131\u011f\u0131n her se\u00e7ime i\u015flemi\u015f. \u0130\u00e7g\u00fcd\u00fcsel olarak ba\u015fkalar\u0131n\u0131 \u00f6nemser ve gitti\u011fin her yere s\u0131cakl\u0131k g\u00f6t\u00fcr\u00fcrs\u00fcn. 10 y\u0131l i\u00e7inde herkesin y\u00f6neldi\u011fi ki\u015fi sen olacaks\u0131n \u2014 sa\u011flam ve \u015fefkatli bir varl\u0131k.",
-      "traits": ["Derin empati", "S\u0131cak ve \u015fefkatli", "Harika dinleyici", "Duygusal zeka"],
-      "advice": "\u00d6nce kendi enerjini koru. Bo\u015f bir bardaktan dolduramaz\u0131s\u0131n.",
-      "quote": "\"Yara, \u0131\u015f\u0131\u011f\u0131n sana girdi\u011fi yerdir.\" \u2014 Mevlana",
-      "compatible": ["Sanat\u00e7\u0131", "Bilgin"]
+      "name": "💚 Şifacı — İyileştirici",
+      "desc": "Empati yaptığın her seçime işlemiş. İçgüdüsel olarak başkalarını önemser ve gittiğin her yere sıcaklık götürürsün. 10 yıl içinde herkesin yöneldiği kişi sen olacaksın — sağlam ve şefkatli bir varlık.",
+      "traits": [
+        "Derin empati",
+        "Sıcak ve şefkatli",
+        "Harika dinleyici",
+        "Duygusal zeka"
+      ],
+      "advice": "Önce kendi enerjini koru. Boş bir bardaktan dolduramazısın.",
+      "quote": "\"Yara, ışığın sana girdiği yerdir.\" — Mevlana",
+      "compatible": [
+        "Sanatçı",
+        "Bilgin"
+      ]
     },
     "influencer": {
-      "name": "\u2b50 Fenomen \u2014 Ba\u011flant\u0131 Kurucu",
-      "desc": "Do\u011fal bir m\u0131knat\u0131ss\u0131n. Se\u00e7imlerin liderlik eden, ba\u011flant\u0131 kuran ve salt varl\u0131\u011f\u0131yla ilham veren birini g\u00f6steriyor. 10 y\u0131l i\u00e7inde otantik sesin binlerce ki\u015fiye ula\u015facak ve ger\u00e7ek bir de\u011fi\u015fim ba\u015flatacak.",
-      "traits": ["Karizmatik", "G\u00fc\u00e7l\u00fc ileti\u015fimci", "Sosyal olarak \u00e7ekici", "Trendlere duyarl\u0131"],
-      "advice": "Y\u00fczeyin alt\u0131na derinlik kat. Otantiklik her zaman viralli\u011fi yener.",
-      "quote": "\"Enerjin, kabileni \u00e7eker.\"",
-      "compatible": ["CEO", "Sanat\u00e7\u0131"]
+      "name": "⭐ Fenomen — Bağlantı Kurucu",
+      "desc": "Doğal bir mıknatıssın. Seçimlerin liderlik eden, bağlantı kuran ve salt varlığıyla ilham veren birini gösteriyor. 10 yıl içinde otantik sesin binlerce kişiye ulaşacak ve gerçek bir değişim başlatacak.",
+      "traits": [
+        "Karizmatik",
+        "Güçlü iletişimci",
+        "Sosyal olarak çekici",
+        "Trendlere duyarlı"
+      ],
+      "advice": "Yüzeyin altına derinlik kat. Otantiklik her zaman viralliği yener.",
+      "quote": "\"Enerjin, kabileni çeker.\"",
+      "compatible": [
+        "CEO",
+        "Sanatçı"
+      ]
     },
     "inventor": {
-      "name": "\ud83d\udd2c Mucit \u2014 Yenilik\u00e7i",
-      "desc": "G\u00fcn\u00fcn kurcalama, problem \u00e7\u00f6zme ve in\u015fa etmeyle dolu. Ba\u015fkalar\u0131n\u0131n engel g\u00f6rd\u00fc\u011f\u00fc yerde sen \u00e7\u00f6z\u00fcm g\u00f6r\u00fcyorsun. 10 y\u0131l i\u00e7inde yeniliklerin insanlar\u0131n ya\u015fama, \u00e7al\u0131\u015fma veya d\u00fc\u015f\u00fcnme bi\u00e7imini de\u011fi\u015ftirecek.",
-      "traits": ["Problem \u00e7\u00f6z\u00fcc\u00fc", "Sonsuz merak", "Sistem d\u00fc\u015f\u00fcn\u00fcr\u00fc", "Gelece\u011fe y\u00f6nelik"],
-      "advice": "Daha fazla i\u015f birli\u011fi yap. En b\u00fcy\u00fck icatlar parlak zihinler bir araya geldi\u011finde ortaya \u00e7\u0131kar.",
-      "quote": "\"Yenilik, lideri takip\u00e7iden ay\u0131ran \u015feydir.\" \u2014 Steve Jobs",
-      "compatible": ["Bilgin", "CEO"]
+      "name": "🔬 Mucit — Yenilikçi",
+      "desc": "Günün kurcalama, problem çözme ve inşa etmeyle dolu. Başkalarının engel gördüğü yerde sen çözüm görüyorsun. 10 yıl içinde yeniliklerin insanların yaşama, çalışma veya düşünme biçimini değiştirecek.",
+      "traits": [
+        "Problem çözücü",
+        "Sonsuz merak",
+        "Sistem düşünürü",
+        "Geleceğe yönelik"
+      ],
+      "advice": "Daha fazla iş birliği yap. En büyük icatlar parlak zihinler bir araya geldiğinde ortaya çıkar.",
+      "quote": "\"Yenilik, lideri takipçiden ayıran şeydir.\" — Steve Jobs",
+      "compatible": [
+        "Bilgin",
+        "CEO"
+      ]
     },
     "freelancer": {
-      "name": "\ud83c\udf0a \u00d6zg\u00fcr Ruh \u2014 Ba\u011f\u0131ms\u0131z",
-      "desc": "\u00d6zg\u00fcrl\u00fck senin kutup y\u0131ld\u0131z\u0131n. Esnekli\u011fi, \u00f6zerkli\u011fi ve kendi kurallar\u0131nla ya\u015famay\u0131 se\u00e7tin. 10 y\u0131l i\u00e7inde tatil gibi hissettiren bir hayat tasarlam\u0131\u015f olacaks\u0131n \u2014 kolay oldu\u011fu i\u00e7in de\u011fil, ger\u00e7ekten sana ait oldu\u011fu i\u00e7in.",
-      "traits": ["Son derece ba\u011f\u0131ms\u0131z", "Uyumlu", "Kendi kendini motive eden", "\u00d6zg\u00fcrl\u00fc\u011fe her \u015feyden \u00e7ok de\u011fer veren"],
-      "advice": "\u00d6zg\u00fcrl\u00fck i\u00e7inde yap\u0131 kur. Disiplin, \u00f6zg\u00fcrl\u00fc\u011f\u00fc s\u00fcrd\u00fcr\u00fclebilir k\u0131lan \u015feydir.",
-      "quote": "\"\u00d6zg\u00fcrl\u00fck, taahh\u00fctlerin yoklu\u011fu de\u011fil, se\u00e7ebilme yetene\u011fidir.\" \u2014 Paulo Coelho",
-      "compatible": ["Macerac\u0131", "Sanat\u00e7\u0131"]
+      "name": "🌊 Özgür Ruh — Bağımsız",
+      "desc": "Özgürlük senin kutup yıldızın. Esnekliği, özerkliği ve kendi kurallarınla yaşamayı seçtin. 10 yıl içinde tatil gibi hissettiren bir hayat tasarlamış olacaksın — kolay olduğu için değil, gerçekten sana ait olduğu için.",
+      "traits": [
+        "Son derece bağımsız",
+        "Uyumlu",
+        "Kendi kendini motive eden",
+        "Özgürlüğe her şeyden çok değer veren"
+      ],
+      "advice": "Özgürlük içinde yapı kur. Disiplin, özgürlüğü sürdürülebilir kılan şeydir.",
+      "quote": "\"Özgürlük, taahhütlerin yokluğu değil, seçebilme yeteneğidir.\" — Paulo Coelho",
+      "compatible": [
+        "Maceracı",
+        "Sanatçı"
+      ]
     }
   },
   "result": {
-    "profileTitle": "Gelecekteki Ya\u015fam Yolun",
+    "profileTitle": "Gelecekteki Yaşam Yolun",
     "overallType": "Arketipin",
-    "traits": "Temel \u00d6zellikler",
-    "advice": "Yolun \u0130\u00e7in Tavsiye",
-    "quote": "Ya\u015fam S\u00f6z\u00fc",
+    "traits": "Temel Özellikler",
+    "advice": "Yolun İçin Tavsiye",
+    "quote": "Yaşam Sözü",
     "compatible": "Uyumlu Yollar",
-    "retake": "\ud83d\ude80 Ba\u015fka Bir G\u00fcn Ya\u015fa"
+    "retake": "🚀 Başka Bir Gün Yaşa"
   },
   "share": {
-    "twitter": "\ud835\udd4f Payla\u015f",
-    "copyUrl": "\ud83d\udccb Linki Kopyala",
-    "copied": "Kopyaland\u0131!",
-    "twitterText": "Gelecekteki hayat\u0131mdan bir g\u00fcn ya\u015fad\u0131m ve kaderim: {type}! \ud83d\ude80 Senin yolun ne?"
+    "twitter": "𝕏 Paylaş",
+    "copyUrl": "📋 Linki Kopyala",
+    "copied": "Kopyalandı!",
+    "twitterText": "Gelecekteki hayatımdan bir gün yaşadım ve kaderim: {type}! 🚀 Senin yolun ne?"
   },
   "error": {
     "storage": "Gizli modda bazı özellikler sınırlı olabilir.",
@@ -194,5 +258,12 @@
     "audio": "Ses kullanılamıyor. Devam edebilirsiniz.",
     "network": "Bağlantınızı kontrol edip tekrar deneyin.",
     "general": "Bir şeyler ters gitti. Yenileyip tekrar deneyin."
+  },
+  "related": {
+    "title": "Daha fazla keşfet",
+    "soulAge": "Ruh Yaşı",
+    "pastLife": "Geçmiş Yaşam",
+    "mentalAge": "Zihinsel Yaş",
+    "lifeInNumbers": "Sayılarla Hayat"
   }
 }

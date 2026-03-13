@@ -9,13 +9,13 @@
   "app": {
     "title": "Sehari di Masa Depanmu",
     "subtitle": "Kartu Cerita Jalur Hidup",
-    "heroDesc": "Jalani 8 momen dalam sehari di kehidupan masa depanmu. Setiap pilihan yang kamu buat \u2014 dari terbit matahari hingga tengah malam \u2014 mengungkap jalan yang ditakdirkan untukmu.",
+    "heroDesc": "Jalani 8 momen dalam sehari di kehidupan masa depanmu. Setiap pilihan yang kamu buat — dari terbit matahari hingga tengah malam — mengungkap jalan yang ditakdirkan untukmu.",
     "badge": "Mode Cerita",
     "info1": "8 Momen",
     "info2": "~3 Menit",
     "info3": "Naratif",
     "disclaimer": "Hanya untuk hiburan. Bukan penilaian klinis.",
-    "start": "\ud83d\ude80 Mulai Hari Masa Depanmu",
+    "start": "🚀 Mulai Hari Masa Depanmu",
     "loading": "Memuat..."
   },
   "intro": {
@@ -36,7 +36,7 @@
     "m1": {
       "time": "6:00 AM",
       "period": "Fajar",
-      "scene": "Cahaya pagi keemasan menerobos jendela dari lantai ke langit-langit. Alarm berhenti berbunyi. Ini awal hari baru di kehidupan masa depanmu \u2014 10 tahun dari sekarang.",
+      "scene": "Cahaya pagi keemasan menerobos jendela dari lantai ke langit-langit. Alarm berhenti berbunyi. Ini awal hari baru di kehidupan masa depanmu — 10 tahun dari sekarang.",
       "prompt": "Langkah pertamamu?",
       "c1": "Tinjau jadwal padat hari ini dan susun prioritas",
       "c2": "Peregangan pelan, seduh kopi, dan buka buku sketsa",
@@ -45,9 +45,9 @@
     "m2": {
       "time": "8:00 AM",
       "period": "Pagi",
-      "scene": "Sarapan selesai. Kota di luar mulai terbangun \u2014 deru mobil, orang-orang berangkat kerja. Kamu melangkah keluar ke udara pagi yang segar.",
+      "scene": "Sarapan selesai. Kota di luar mulai terbangun — deru mobil, orang-orang berangkat kerja. Kamu melangkah keluar ke udara pagi yang segar.",
       "prompt": "Mau ke mana?",
-      "c1": "Ke kantor lebih awal \u2014 aku suka jadi yang pertama datang",
+      "c1": "Ke kantor lebih awal — aku suka jadi yang pertama datang",
       "c2": "Kafe nyaman dengan laptop dan headphone peredam bising",
       "c3": "Perpustakaan, untuk mendalami riset yang sudah lama kupikirkan"
     },
@@ -56,25 +56,25 @@
       "period": "Menjelang Siang",
       "scene": "Kamu sedang dalam zona fokus. Pagi ini sangat produktif dan energimu tinggi. Seorang kolega mengirim pesan tentang peluang proyek baru.",
       "prompt": "Bagaimana kamu merespons?",
-      "c1": "Kumpulkan tim cepat \u2014 aku punya visi besar untuk ini",
+      "c1": "Kumpulkan tim cepat — aku punya visi besar untuk ini",
       "c2": "Blokir kalenderku dan terjun ke tantangan kreatif sendirian",
-      "c3": "Tanya apa yang perlu dibantu \u2014 aku siap untuk tim"
+      "c3": "Tanya apa yang perlu dibantu — aku siap untuk tim"
     },
     "m4": {
       "time": "12:00 PM",
       "period": "Siang",
       "scene": "Waktunya makan siang. Kamu begitu fokus sampai hampir lupa makan. Matahari terik di luar, dan kota ramai dengan energi tengah hari.",
       "prompt": "Rencana makan siang?",
-      "c1": "Ketemu kontak industri \u2014 peluang networking yang bagus",
+      "c1": "Ketemu kontak industri — peluang networking yang bagus",
       "c2": "Coba restoran tersembunyi baru yang belum banyak orang tahu",
-      "c3": "Ambil makanan cepat \u2014 aku mau lanjut mengerjakan ideku"
+      "c3": "Ambil makanan cepat — aku mau lanjut mengerjakan ideku"
     },
     "m5": {
       "time": "3:00 PM",
       "period": "Sore",
       "scene": "Masalah tak terduga mendarat di mejamu. Sesuatu salah dengan proyek besar dan semua orang menunggu jawabanmu.",
       "prompt": "Pendekatanmu?",
-      "c1": "Ambil alih segera \u2014 bagi tugas dan kumpulkan semua orang",
+      "c1": "Ambil alih segera — bagi tugas dan kumpulkan semua orang",
       "c2": "Gali data untuk menemukan akar masalah sebenarnya",
       "c3": "Keluar sebentar hirup udara segar, lalu percaya instingku"
     },
@@ -103,73 +103,137 @@
       "prompt": "Sebelum tidur?",
       "c1": "Rencanakan target besok dan bayangkan langkah selanjutnya",
       "c2": "Menulis jurnal, meditasi, dan syukuri momen-momen kecil",
-      "c3": "Baca beberapa bab buku \u2014 selalu ada hal baru untuk dipelajari"
+      "c3": "Baca beberapa bab buku — selalu ada hal baru untuk dipelajari"
     }
   },
   "types": {
     "ceo": {
-      "name": "\ud83d\udc54 CEO \u2014 Sang Pemimpin",
-      "desc": "Hari masa depanmu mengungkap jiwa pemimpin sejati. Kamu secara alami mengambil kendali, merencanakan strategi, dan bersinar di bawah tekanan. Dalam 10 tahun, kamu akan berada di puncak \u2014 memimpin tim, mengambil keputusan berani, dan membangun sesuatu yang luar biasa.",
-      "traits": ["Perencana strategis", "Tegas di bawah tekanan", "Otoritas alami", "Berorientasi hasil"],
+      "name": "👔 CEO — Sang Pemimpin",
+      "desc": "Hari masa depanmu mengungkap jiwa pemimpin sejati. Kamu secara alami mengambil kendali, merencanakan strategi, dan bersinar di bawah tekanan. Dalam 10 tahun, kamu akan berada di puncak — memimpin tim, mengambil keputusan berani, dan membangun sesuatu yang luar biasa.",
+      "traits": [
+        "Perencana strategis",
+        "Tegas di bawah tekanan",
+        "Otoritas alami",
+        "Berorientasi hasil"
+      ],
       "advice": "Asah kemampuan mendengarmu. Pemimpin terhebat memperkuat suara orang lain, bukan hanya suaranya sendiri.",
-      "quote": "\"Cara terbaik memprediksi masa depan adalah menciptakannya.\" \u2014 Peter Drucker",
-      "compatible": ["Penemu", "Influencer"]
+      "quote": "\"Cara terbaik memprediksi masa depan adalah menciptakannya.\" — Peter Drucker",
+      "compatible": [
+        "Penemu",
+        "Influencer"
+      ]
     },
     "artist": {
-      "name": "\ud83c\udfa8 Seniman \u2014 Sang Pencipta",
+      "name": "🎨 Seniman — Sang Pencipta",
       "desc": "Pilihanmu melukis gambaran jiwa kreatif sejati. Kamu tertarik pada keindahan, ekspresi diri, dan intensitas sunyi dalam menciptakan sesuatu dari ketiadaan. Dalam 10 tahun, karyamu akan menyentuh hati banyak orang.",
-      "traits": ["Sangat kreatif", "Ekspresif secara emosional", "Berorientasi detail", "Terinspirasi oleh keindahan"],
+      "traits": [
+        "Sangat kreatif",
+        "Ekspresif secara emosional",
+        "Berorientasi detail",
+        "Terinspirasi oleh keindahan"
+      ],
       "advice": "Padukan api kreatifmu dengan ketajaman bisnis. Karya hebat layak mendapat audiens yang besar.",
-      "quote": "\"Setiap seniman dulunya adalah seorang amatir.\" \u2014 Ralph Waldo Emerson",
-      "compatible": ["Jiwa Bebas", "Penyembuh"]
+      "quote": "\"Setiap seniman dulunya adalah seorang amatir.\" — Ralph Waldo Emerson",
+      "compatible": [
+        "Jiwa Bebas",
+        "Penyembuh"
+      ]
     },
     "adventurer": {
-      "name": "\ud83e\uddd7 Petualang \u2014 Sang Penjelajah",
-      "desc": "Dirimu di masa depan mendambakan hal-hal yang belum diketahui. Kamu memilih pergerakan, spontanitas, dan pengalaman baru. Dalam 10 tahun, kamu akan menjalani hidup yang hanya bisa diimpikan orang lain \u2014 penuh cerita dan kebijaksanaan yang ditempa pengalaman.",
-      "traits": ["Berani dan gagah", "Berkembang dalam perubahan", "Aktif secara fisik", "Terbuka pada hal baru"],
+      "name": "🧗 Petualang — Sang Penjelajah",
+      "desc": "Dirimu di masa depan mendambakan hal-hal yang belum diketahui. Kamu memilih pergerakan, spontanitas, dan pengalaman baru. Dalam 10 tahun, kamu akan menjalani hidup yang hanya bisa diimpikan orang lain — penuh cerita dan kebijaksanaan yang ditempa pengalaman.",
+      "traits": [
+        "Berani dan gagah",
+        "Berkembang dalam perubahan",
+        "Aktif secara fisik",
+        "Terbuka pada hal baru"
+      ],
       "advice": "Seimbangkan keberanian dengan perencanaan. Penjelajah paling legendaris selalu mempelajari peta mereka terlebih dahulu.",
-      "quote": "\"Hidup dimulai di ujung zona nyamanmu.\" \u2014 Neale Donald Walsch",
-      "compatible": ["CEO", "Jiwa Bebas"]
+      "quote": "\"Hidup dimulai di ujung zona nyamanmu.\" — Neale Donald Walsch",
+      "compatible": [
+        "CEO",
+        "Jiwa Bebas"
+      ]
     },
     "scholar": {
-      "name": "\ud83d\udcda Cendekiawan \u2014 Sang Pemikir",
+      "name": "📚 Cendekiawan — Sang Pemikir",
       "desc": "Harimu mengungkap pikiran yang tak pernah berhenti mencari. Kamu memilih kedalaman, analisis, dan pemahaman di setiap kesempatan. Dalam 10 tahun, pengetahuanmu akan membuka pintu yang tak bisa dilihat orang lain.",
-      "traits": ["Berpikiran analitis", "Sangat penasaran", "Pemikir logis", "Menghargai kebenaran"],
-      "advice": "Jangan hanya mempelajari dunia \u2014 terlibatlah di dalamnya. Ilmu paling bersinar saat dibagikan.",
-      "quote": "\"Satu-satunya kebijaksanaan sejati adalah mengetahui bahwa kamu tidak tahu apa-apa.\" \u2014 Socrates",
-      "compatible": ["Penemu", "Penyembuh"]
+      "traits": [
+        "Berpikiran analitis",
+        "Sangat penasaran",
+        "Pemikir logis",
+        "Menghargai kebenaran"
+      ],
+      "advice": "Jangan hanya mempelajari dunia — terlibatlah di dalamnya. Ilmu paling bersinar saat dibagikan.",
+      "quote": "\"Satu-satunya kebijaksanaan sejati adalah mengetahui bahwa kamu tidak tahu apa-apa.\" — Socrates",
+      "compatible": [
+        "Penemu",
+        "Penyembuh"
+      ]
     },
     "healer": {
-      "name": "\ud83d\udc9a Penyembuh \u2014 Sang Pengasih",
-      "desc": "Empati mengalir di setiap pilihan yang kamu buat. Kamu secara naluriah peduli pada orang lain dan membawa kehangatan ke mana pun. Dalam 10 tahun, kamu akan menjadi orang yang dituju semua orang \u2014 kehadiran yang teguh dan penuh kasih.",
-      "traits": ["Empati mendalam", "Hangat dan penuh perhatian", "Pendengar yang baik", "Cerdas secara emosional"],
+      "name": "💚 Penyembuh — Sang Pengasih",
+      "desc": "Empati mengalir di setiap pilihan yang kamu buat. Kamu secara naluriah peduli pada orang lain dan membawa kehangatan ke mana pun. Dalam 10 tahun, kamu akan menjadi orang yang dituju semua orang — kehadiran yang teguh dan penuh kasih.",
+      "traits": [
+        "Empati mendalam",
+        "Hangat dan penuh perhatian",
+        "Pendengar yang baik",
+        "Cerdas secara emosional"
+      ],
       "advice": "Lindungi energimu sendiri terlebih dahulu. Kamu tidak bisa menuang dari cangkir yang kosong.",
-      "quote": "\"Luka adalah tempat di mana Cahaya masuk ke dalam dirimu.\" \u2014 Rumi",
-      "compatible": ["Seniman", "Cendekiawan"]
+      "quote": "\"Luka adalah tempat di mana Cahaya masuk ke dalam dirimu.\" — Rumi",
+      "compatible": [
+        "Seniman",
+        "Cendekiawan"
+      ]
     },
     "influencer": {
-      "name": "\u2b50 Influencer \u2014 Sang Penghubung",
+      "name": "⭐ Influencer — Sang Penghubung",
       "desc": "Kamu magnet alami. Pilihanmu menunjukkan seseorang yang memimpin, menghubungkan, dan menginspirasi melalui kehadiran semata. Dalam 10 tahun, suara autentikmu akan menjangkau ribuan orang dan memicu perubahan nyata.",
-      "traits": ["Karismatik", "Komunikator handal", "Magnetis secara sosial", "Peka terhadap tren"],
+      "traits": [
+        "Karismatik",
+        "Komunikator handal",
+        "Magnetis secara sosial",
+        "Peka terhadap tren"
+      ],
       "advice": "Tambahkan kedalaman di balik permukaan. Keaslian selalu lebih bertahan lama dari viralitas.",
       "quote": "\"Auramu menarik komunitasmu.\"",
-      "compatible": ["CEO", "Seniman"]
+      "compatible": [
+        "CEO",
+        "Seniman"
+      ]
     },
     "inventor": {
-      "name": "\ud83d\udd2c Penemu \u2014 Sang Inovator",
+      "name": "🔬 Penemu — Sang Inovator",
       "desc": "Harimu dipenuhi dengan utak-atik, pemecahan masalah, dan membangun. Kamu melihat solusi di mana orang lain melihat hambatan. Dalam 10 tahun, inovasimu akan mengubah cara orang hidup, bekerja, atau berpikir.",
-      "traits": ["Pemecah masalah", "Selalu penasaran", "Pemikir sistematis", "Berorientasi masa depan"],
+      "traits": [
+        "Pemecah masalah",
+        "Selalu penasaran",
+        "Pemikir sistematis",
+        "Berorientasi masa depan"
+      ],
       "advice": "Berkolaborasilah lebih banyak. Penemuan terhebat terjadi ketika pikiran-pikiran brilian bertemu.",
-      "quote": "\"Inovasi membedakan pemimpin dari pengikut.\" \u2014 Steve Jobs",
-      "compatible": ["Cendekiawan", "CEO"]
+      "quote": "\"Inovasi membedakan pemimpin dari pengikut.\" — Steve Jobs",
+      "compatible": [
+        "Cendekiawan",
+        "CEO"
+      ]
     },
     "freelancer": {
-      "name": "\ud83c\udf0a Jiwa Bebas \u2014 Sang Independen",
-      "desc": "Kebebasan adalah bintang utaramu. Kamu memilih fleksibilitas, otonomi, dan hidup dengan aturanmu sendiri. Dalam 10 tahun, kamu akan merancang hidup yang terasa seperti liburan \u2014 bukan karena mudah, tapi karena itu benar-benar milikmu.",
-      "traits": ["Sangat mandiri", "Adaptif", "Termotivasi sendiri", "Menghargai kebebasan di atas segalanya"],
+      "name": "🌊 Jiwa Bebas — Sang Independen",
+      "desc": "Kebebasan adalah bintang utaramu. Kamu memilih fleksibilitas, otonomi, dan hidup dengan aturanmu sendiri. Dalam 10 tahun, kamu akan merancang hidup yang terasa seperti liburan — bukan karena mudah, tapi karena itu benar-benar milikmu.",
+      "traits": [
+        "Sangat mandiri",
+        "Adaptif",
+        "Termotivasi sendiri",
+        "Menghargai kebebasan di atas segalanya"
+      ],
       "advice": "Bangun struktur dalam kebebasan. Disiplin adalah yang membuat kemerdekaan berkelanjutan.",
-      "quote": "\"Kebebasan bukanlah ketiadaan komitmen, melainkan kemampuan untuk memilih.\" \u2014 Paulo Coelho",
-      "compatible": ["Petualang", "Seniman"]
+      "quote": "\"Kebebasan bukanlah ketiadaan komitmen, melainkan kemampuan untuk memilih.\" — Paulo Coelho",
+      "compatible": [
+        "Petualang",
+        "Seniman"
+      ]
     }
   },
   "result": {
@@ -179,13 +243,13 @@
     "advice": "Nasihat untuk Perjalananmu",
     "quote": "Kata-Kata untuk Dihayati",
     "compatible": "Jalur yang Cocok",
-    "retake": "\ud83d\ude80 Jalani Hari Lain"
+    "retake": "🚀 Jalani Hari Lain"
   },
   "share": {
-    "twitter": "\ud835\udd4f Bagikan",
-    "copyUrl": "\ud83d\udccb Salin Tautan",
+    "twitter": "𝕏 Bagikan",
+    "copyUrl": "📋 Salin Tautan",
     "copied": "Tersalin!",
-    "twitterText": "Aku menjalani sehari di kehidupan masa depanku dan ternyata aku ditakdirkan menjadi: {type}! \ud83d\ude80 Apa jalur hidupmu?"
+    "twitterText": "Aku menjalani sehari di kehidupan masa depanku dan ternyata aku ditakdirkan menjadi: {type}! 🚀 Apa jalur hidupmu?"
   },
   "error": {
     "storage": "Beberapa fitur mungkin terbatas dalam mode privat.",
@@ -194,5 +258,12 @@
     "audio": "Audio tidak tersedia. Anda dapat melanjutkan.",
     "network": "Periksa koneksi Anda dan coba lagi.",
     "general": "Terjadi kesalahan. Muat ulang atau coba lagi."
+  },
+  "related": {
+    "title": "Jelajahi lainnya",
+    "soulAge": "Usia Jiwa",
+    "pastLife": "Kehidupan Sebelumnya",
+    "mentalAge": "Usia Mental",
+    "lifeInNumbers": "Hidup dalam Angka"
   }
 }
