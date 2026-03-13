@@ -7,15 +7,15 @@
     "skip": "Langsung ke konten utama"
   },
   "app": {
-    "title": "Sehari di Masa Depanmu",
-    "subtitle": "Kartu Cerita Jalur Hidup",
+    "title": "Tes Diri Masa Depan",
+    "subtitle": "Siapa Anda 10 Tahun Lagi?",
     "heroDesc": "Jalani 8 momen dalam sehari di kehidupan masa depanmu. Setiap pilihan yang kamu buat — dari terbit matahari hingga tengah malam — mengungkap jalan yang ditakdirkan untukmu.",
     "badge": "Mode Cerita",
     "info1": "8 Momen",
     "info2": "~3 Menit",
     "info3": "Naratif",
     "disclaimer": "Hanya untuk hiburan. Bukan penilaian klinis.",
-    "start": "🚀 Mulai Hari Masa Depanmu",
+    "start": "Temui Diri Masa Depan - Gratis",
     "loading": "Memuat..."
   },
   "intro": {
@@ -265,5 +265,19 @@
     "pastLife": "Kehidupan Sebelumnya",
     "mentalAge": "Usia Mental",
     "lifeInNumbers": "Hidup dalam Angka"
+  },
+  "engage": {
+    "result1": "CEO Masa Depan -- Pemimpin Ambisius",
+    "result2": "Seniman Masa Depan -- Visioner Kreatif",
+    "result3": "Petualang Masa Depan -- Pencari Sensasi",
+    "result4": "Penyembuh Masa Depan -- Pemandu Empatik",
+    "socialProof": "2,340+ masa depan ditemukan hari ini"
+  },
+  "about": {
+    "toggle": "Tentang Tes Ini",
+    "heading1": "Cara Kerja",
+    "text1": "Perjalanan imersif melalui satu hari di masa depan Anda, 10 tahun dari sekarang.",
+    "heading2": "Menemukan Jalur Hidup Anda",
+    "text2": "Setiap arketipe mewakili kombinasi unik nilai dan aspirasi."
   }
 }

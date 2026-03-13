@@ -7,15 +7,15 @@
     "skip": "Zum Hauptinhalt springen"
   },
   "app": {
-    "title": "Ein Tag in deiner Zukunft",
-    "subtitle": "Lebenspfad-Geschichtskarten",
+    "title": "Zukunfts-Ich Test",
+    "subtitle": "Wer werden Sie in 10 Jahren?",
     "heroDesc": "Erlebe 8 Momente eines Tages in deinem zukünftigen Leben. Jede Entscheidung — vom Sonnenaufgang bis Mitternacht — enthüllt den Pfad, der dir bestimmt ist.",
     "badge": "Story-Modus",
     "info1": "8 Momente",
     "info2": "~3 Min",
     "info3": "Erzählung",
     "disclaimer": "Nur zur Unterhaltung. Keine klinische Bewertung.",
-    "start": "🚀 Starte deinen zukünftigen Tag",
+    "start": "Mein Zukunfts-Ich treffen - Kostenlos",
     "loading": "Laden..."
   },
   "intro": {
@@ -265,5 +265,19 @@
     "pastLife": "Früheres Leben",
     "mentalAge": "Mentales Alter",
     "lifeInNumbers": "Leben in Zahlen"
+  },
+  "engage": {
+    "result1": "CEO-Zukunft -- Ehrgeiziger Anführer",
+    "result2": "Künstler-Zukunft -- Kreativer Visionär",
+    "result3": "Abenteurer-Zukunft -- Nervenkitzel-Sucher",
+    "result4": "Heiler-Zukunft -- Empathischer Führer",
+    "socialProof": "Heute 2,340+ entdeckt"
+  },
+  "about": {
+    "toggle": "Über diesen Test",
+    "heading1": "Wie es funktioniert",
+    "text1": "Eine immersive Reise durch einen Tag Ihrer Zukunft in 10 Jahren.",
+    "heading2": "Ihren Lebensweg entdecken",
+    "text2": "Jeder Archetyp repräsentiert eine einzigartige Kombination von Werten und Bestrebungen."
   }
 }

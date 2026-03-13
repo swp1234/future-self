@@ -7,15 +7,15 @@
     "skip": "Skip to main content"
   },
   "app": {
-    "title": "A Day in Your Future",
-    "subtitle": "Life Path Story Cards",
+    "title": "Future Self Test",
+    "subtitle": "Who Will You Become in 10 Years?",
     "heroDesc": "Live through 8 moments of a day in your future life. Each choice you make — from sunrise to midnight — reveals the path you're destined for.",
     "badge": "Story Mode",
     "info1": "8 Moments",
     "info2": "~3 Min",
     "info3": "Narrative",
     "disclaimer": "For entertainment only. Not a clinical assessment.",
-    "start": "🚀 Begin Your Future Day",
+    "start": "Meet My Future Self - Free",
     "loading": "Loading..."
   },
   "intro": {
@@ -265,5 +265,19 @@
     "pastLife": "Past Life",
     "mentalAge": "Mental Age",
     "lifeInNumbers": "Life in Numbers"
+  },
+  "engage": {
+    "result1": "CEO Future You -- Ambitious Leader",
+    "result2": "Artist Future You -- Creative Visionary",
+    "result3": "Adventurer Future You -- Thrill-Seeker",
+    "result4": "Healer Future You -- Empathetic Guide",
+    "socialProof": "2,340+ future selves discovered"
+  },
+  "about": {
+    "toggle": "About the Future Self Test",
+    "heading1": "How the Future Self Test Works",
+    "text1": "The Future Self Test takes you on an immersive journey through a single day in your future life, 10 years from now. Starting at dawn and ending at midnight, you face 8 defining moments where your choices shape your destiny.",
+    "heading2": "Discovering Your Life Path",
+    "text2": "Each life path archetype represents a unique combination of values, aspirations, and personality traits. Your result offers meaningful insights into the direction your life could take."
   }
 }

@@ -7,15 +7,15 @@
     "skip": "Ana içeriğe atla"
   },
   "app": {
-    "title": "Gelecekteki Hayatından Bir Gün",
-    "subtitle": "Yaşam Yolu Hikaye Kartları",
+    "title": "Gelecek Ben Testi",
+    "subtitle": "10 Yıl Sonra Kim Olacaksınız?",
     "heroDesc": "Gelecekteki hayatından bir günün 8 anını yaşa. Gün doğumundan gece yarısına kadar yaptığın her seçim — seni bekleyen yolu ortaya çıkarır.",
     "badge": "Hikaye Modu",
     "info1": "8 An",
     "info2": "~3 Dk",
     "info3": "Anlatı",
     "disclaimer": "Sadece eğlence amaçlıdır. Klinik bir değerlendirme değildir.",
-    "start": "🚀 Gelecekteki Gününe Başla",
+    "start": "Gelecekteki Beni Tanı - Ücretsiz",
     "loading": "Yükleniyor..."
   },
   "intro": {
@@ -265,5 +265,19 @@
     "pastLife": "Geçmiş Yaşam",
     "mentalAge": "Zihinsel Yaş",
     "lifeInNumbers": "Sayılarla Hayat"
+  },
+  "engage": {
+    "result1": "CEO Gelecek -- Hirslı Lider",
+    "result2": "Sanatçı Gelecek -- Yaratıcı Vizyoner",
+    "result3": "Maceraperest Gelecek -- Heyecan Arayıcı",
+    "result4": "Sifa Verici Gelecek -- Empatik Rehber",
+    "socialProof": "Bugün 2,340+ keşif"
+  },
+  "about": {
+    "toggle": "Bu Test Hakkında",
+    "heading1": "Nasıl Çalışır",
+    "text1": "10 yıl sonraki geleceğinizde bir günlük sarsıcı yolculuk.",
+    "heading2": "Yaşam Yolunuzu Keşfedin",
+    "text2": "Her arketip benzersiz değerler ve istekler kombinasyonunu temsil eder."
   }
 }

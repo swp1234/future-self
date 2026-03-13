@@ -7,11 +7,11 @@
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://pagead2.googlesyndication.com">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
-    <meta name="description" content="Live a full day as your future self! 8 story moments from dawn to midnight reveal your life path archetype. Discover your destiny. Play free!" data-i18n="meta.description">
+    <meta name="description" content="Who will you become in 10 years? Take the free future self test with 8 story-based choices. Discover your life path archetype - CEO, Artist, or Healer?" data-i18n="meta.description">
     <meta name="keywords" content="future self test, life path, personality test, story cards, future prediction">
     <meta name="theme-color" content="#3498db">
     <link rel="canonical" href="https://dopabrain.com/future-self/">
-    <title>Future Self Test - Free Life Path Story | DopaBrain</title>
+    <title>Future Self Test - Free Online Life Path Quiz | DopaBrain</title>
 
     <!-- Open Graph -->
     <meta property="og:title" content="Future Self Test - Free Life Path Story | DopaBrain" data-i18n="meta.title">
@@ -70,6 +70,53 @@
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "ratingCount": "2340", "bestRating": "5", "worstRating": "1" }
     }
     </script>
+    <!-- BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 3, "name": "Fun Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 4, "name": "Future Self Test", "item": "https://dopabrain.com/future-self/" }
+        ]
+    }
+    </script>
+    <!-- FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a future self test?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A future self test is an interactive story-based quiz that simulates a day in your future life, 10 years from now. Through 8 narrative moments from dawn to midnight, your choices reveal which life path archetype best matches your aspirations and personality." }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the 8 life path archetypes?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The 8 archetypes are: CEO (ambitious leader), Artist (creative visionary), Adventurer (thrill-seeker), Scholar (knowledge pursuer), Healer (empathetic caregiver), Influencer (social connector), Inventor (innovative problem-solver), and Free Spirit (independent wanderer)." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does the future self test take?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The test takes approximately 3 minutes. You experience 8 story moments throughout a simulated future day, making one choice at each moment. The narrative format makes it feel quick and immersive." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the future self test accurate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The test is designed for entertainment and self-reflection. It uses narrative psychology principles to reveal your aspirations and values through story-based choices, offering fun insights into your potential future direction." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I retake the test for different results?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes! Different choices lead to different life path archetypes. Retaking the test can reveal multiple facets of your personality and aspirations that you might not have considered initially." }
+            }
+        ]
+    }
+    </script>
 
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
@@ -118,10 +165,24 @@
         <!-- Intro Screen -->
         <div id="screen-intro" class="screen active">
             <div class="intro-icon">🚀</div>
-            <h1 class="intro-title" data-i18n="app.title">A Day in Your Future</h1>
-            <p class="intro-subtitle" data-i18n="app.subtitle">Life Path Story Cards</p>
+            <h1 class="intro-title" data-i18n="app.title">Future Self Test</h1>
+            <p class="intro-subtitle" data-i18n="app.subtitle">Who Will You Become in 10 Years?</p>
             <div class="hero-badge" data-i18n="app.badge">Story Mode</div>
             <p class="hero-desc" data-i18n="app.heroDesc">Live through 8 moments of a day in your future life. Each choice you make — from sunrise to midnight — reveals the path you're destined for.</p>
+
+            <!-- Result Preview Carousel -->
+            <div class="result-carousel" aria-live="polite">
+                <div class="carousel-track">
+                    <div class="carousel-item" data-i18n="engage.result1">CEO Future You -- Ambitious Leader</div>
+                    <div class="carousel-item" data-i18n="engage.result2">Artist Future You -- Creative Visionary</div>
+                    <div class="carousel-item" data-i18n="engage.result3">Adventurer Future You -- Thrill-Seeker</div>
+                    <div class="carousel-item" data-i18n="engage.result4">Healer Future You -- Empathetic Guide</div>
+                </div>
+            </div>
+
+            <!-- Social Proof Badge -->
+            <div class="social-proof-badge" data-i18n="engage.socialProof">2,340+ future selves discovered</div>
+
             <div class="intro-meta">
                 <span data-i18n="app.info1">8 Moments</span>
                 <span data-i18n="app.info2">~3 Min</span>
@@ -137,7 +198,7 @@
                 <span class="type-chip" data-i18n="intro.inventor">Inventor</span>
                 <span class="type-chip" data-i18n="intro.freelancer">Free Spirit</span>
             </div>
-            <button id="btn-start" class="btn-start btn-pulse" data-i18n="app.start">🚀 Begin Your Future Day</button>
+            <button id="btn-start" class="btn-start btn-pulse" data-i18n="app.start">Meet My Future Self - Free</button>
             <p class="disclaimer" data-i18n="app.disclaimer">For entertainment only. Not a clinical assessment.</p>
         </div>
 
@@ -229,6 +290,19 @@
 
     <script src="js/i18n.js" defer></script>
     <script src="js/app.js" defer></script>
+
+    <!-- About Section -->
+    <section class="about-section collapsible-section" id="about-section">
+      <details>
+        <summary data-i18n="about.toggle">About the Future Self Test</summary>
+        <div class="about-content">
+          <h2 data-i18n="about.heading1">How the Future Self Test Works</h2>
+          <p data-i18n="about.text1">The Future Self Test takes you on an immersive journey through a single day in your future life, 10 years from now. Starting at dawn and ending at midnight, you face 8 defining moments where your choices shape your destiny. Your pattern of decisions across all 8 moments reveals which of 8 life path archetypes you are destined for.</p>
+          <h2 data-i18n="about.heading2">Discovering Your Life Path</h2>
+          <p data-i18n="about.text2">Each life path archetype represents a unique combination of values, aspirations, and personality traits. Whether you discover you are destined to be a CEO leading teams, an Artist creating beauty, or a Healer nurturing others, your result offers meaningful insights into the direction your life could take.</p>
+        </div>
+      </details>
+    </section>
 
     <div style="max-width:420px;margin:20px auto;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1);">
       <h3 data-i18n="related.title" style="font-size:16px;color:#a0a0b8;margin-bottom:12px;text-align:center;">More to Explore</h3>

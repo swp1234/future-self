@@ -7,15 +7,15 @@
     "skip": "Ir para o conteúdo principal"
   },
   "app": {
-    "title": "Um Dia no Seu Futuro",
-    "subtitle": "Cartas de História de Vida",
+    "title": "Teste do Eu Futuro",
+    "subtitle": "Quem você será em 10 anos?",
     "heroDesc": "Viva 8 momentos de um dia na sua vida futura. Cada escolha que você faz — do amanhecer à meia-noite — revela o caminho que te espera.",
     "badge": "Modo História",
     "info1": "8 Momentos",
     "info2": "~3 Min",
     "info3": "Narrativo",
     "disclaimer": "Apenas para entretenimento. Não é uma avaliação clínica.",
-    "start": "🚀 Comece Seu Dia Futuro",
+    "start": "Conhecer Meu Eu Futuro - Grátis",
     "loading": "Carregando..."
   },
   "intro": {
@@ -265,5 +265,19 @@
     "pastLife": "Vida Passada",
     "mentalAge": "Idade Mental",
     "lifeInNumbers": "Vida em Números"
+  },
+  "engage": {
+    "result1": "CEO Futuro -- Líder Ambicioso",
+    "result2": "Artista Futuro -- Visionário Criativo",
+    "result3": "Aventureiro Futuro -- Caçador de Emocões",
+    "result4": "Curador Futuro -- Guia Empático",
+    "socialProof": "2,340+ eus futuros descobertos"
+  },
+  "about": {
+    "toggle": "Sobre Este Teste",
+    "heading1": "Como Funciona",
+    "text1": "Uma jornada imersiva por um dia da sua vida futura, 10 anos à frente.",
+    "heading2": "Descobrindo Seu Caminho",
+    "text2": "Cada arquétipo representa uma combinação única de valores e aspirações."
   }
 }

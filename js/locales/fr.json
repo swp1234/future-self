@@ -7,15 +7,15 @@
     "skip": "Aller au contenu principal"
   },
   "app": {
-    "title": "Une journée dans votre avenir",
-    "subtitle": "Cartes d'histoire de parcours de vie",
+    "title": "Test du Moi Futur",
+    "subtitle": "Qui serez-vous dans 10 ans?",
     "heroDesc": "Vivez 8 moments d'une journée dans votre vie future. Chaque choix que vous faites — du lever au coucher du soleil — révèle le chemin qui vous est destiné.",
     "badge": "Mode histoire",
     "info1": "8 Moments",
     "info2": "~3 Min",
     "info3": "Narratif",
     "disclaimer": "Divertissement uniquement. Ce n'est pas une évaluation clinique.",
-    "start": "🚀 Commencez votre journée future",
+    "start": "Rencontrer Mon Moi Futur - Gratuit",
     "loading": "Chargement..."
   },
   "intro": {
@@ -265,5 +265,19 @@
     "pastLife": "Vie Antérieure",
     "mentalAge": "Âge Mental",
     "lifeInNumbers": "Vie en Chiffres"
+  },
+  "engage": {
+    "result1": "CEO Futur -- Leader Ambitieux",
+    "result2": "Artiste Futur -- Visionnaire Créatif",
+    "result3": "Aventurier Futur -- Chercheur de Frissons",
+    "result4": "Guérisseur Futur -- Guide Empathique",
+    "socialProof": "2,340+ futurs moi découverts aujourd'hui"
+  },
+  "about": {
+    "toggle": "À propos de ce Test",
+    "heading1": "Comment ça fonctionne",
+    "text1": "Un voyage immersif à travers un jour de votre vie future, dans 10 ans.",
+    "heading2": "Découvrir Votre Chemin de Vie",
+    "text2": "Chaque archétype représente une combinaison unique de valeurs et d'aspirations."
   }
 }
