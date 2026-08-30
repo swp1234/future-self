@@ -1,5 +1,9 @@
 // Day in Your Future Life - Story Cards
 
+const ENTRY_QUERY = new URLSearchParams(window.location.search);
+const rawEntrySource = ENTRY_QUERY.get('source') || '';
+const ENTRY_SOURCE = /^[a-z0-9_-]{1,48}$/.test(rawEntrySource) ? rawEntrySource : 'direct';
+
 // i18n init
 (async function initI18n() {
     try {
@@ -25,6 +29,7 @@
     } finally {
         const loader = document.getElementById('app-loader');
         if (loader) { loader.classList.add('hidden'); setTimeout(() => loader.remove(), 300); }
+        if (ENTRY_QUERY.get('start') === '1') startJourney('linked');
     }
 })();
 
@@ -65,6 +70,7 @@ const TYPE_COLORS = {
 let currentMoment = 0;
 let typeScores = {};
 let isAnimating = false;
+let completionSent = false;
 
 // DOM
 const screens = {
@@ -85,16 +91,25 @@ function resetScores() {
     TYPE_KEYS.forEach(k => typeScores[k] = 0);
 }
 
-// Start
-document.getElementById('btn-start').addEventListener('click', () => {
+function startJourney(entryMode) {
+    if (screens.story.classList.contains('active')) return;
     currentMoment = 0;
+    completionSent = false;
     resetScores();
     showScreen('story');
     renderMoment();
     if (typeof gtag === 'function') {
-        gtag('event', 'test_start', { app_name: 'future-self', content_type: 'story_cards' });
+        gtag('event', 'test_start', {
+            app_name: 'future-self',
+            content_type: 'story_cards',
+            entry_mode: entryMode,
+            source_surface: ENTRY_SOURCE
+        });
     }
-});
+}
+
+// Start
+document.getElementById('btn-start').addEventListener('click', () => startJourney('manual'));
 
 function renderMoment() {
     const m = MOMENTS[currentMoment];
@@ -187,7 +202,7 @@ function showResult() {
 
     // Type info
     document.getElementById('result-name').textContent = typeData.name || winner;
-    document.getElementById('result-desc').textContent = typeData.desc || '';
+    document.getElementById('result-desc').textContent = i18n.t('result.boundary') || '';
 
     // Traits
     const traitsList = document.getElementById('result-traits');
@@ -204,12 +219,13 @@ function showResult() {
 
     showScreen('result');
 
-    if (typeof gtag === 'function') {
+    if (!completionSent && typeof gtag === 'function') {
+        completionSent = true;
         gtag('event', 'test_complete', {
             app_name: 'future-self',
             event_category: 'future_self',
-            result_type: winner,
-            result_value: maxScore
+            question_count: MOMENTS.length,
+            scoring_method: 'fixed_dual_path_points'
         });
     }
 }
@@ -225,8 +241,8 @@ document.getElementById('btn-twitter')?.addEventListener('click', () => {
     let text = i18n.t('share.twitterText') || 'My future path: {type}!';
     text = text.replace('{type}', typeName);
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent('https://dopabrain.com/future-self/')}`;
-    window.open(url, '_blank');
-    if (typeof gtag === 'function') gtag('event', 'share', { method: 'twitter', app_name: 'future-self' });
+    const shareWindow = window.open(url, '_blank', 'noopener');
+    if (shareWindow && typeof gtag === 'function') gtag('event', 'share', { method: 'twitter', app_name: 'future-self' });
 });
 
 document.getElementById('btn-copy')?.addEventListener('click', () => {
@@ -235,8 +251,8 @@ document.getElementById('btn-copy')?.addEventListener('click', () => {
         const orig = btn.textContent;
         btn.textContent = i18n.t('share.copied') || 'Copied!';
         setTimeout(() => { btn.textContent = orig; }, 2000);
+        if (typeof gtag === 'function') gtag('event', 'share', { method: 'clipboard', app_name: 'future-self' });
     });
-    if (typeof gtag === 'function') gtag('event', 'share', { method: 'clipboard', app_name: 'future-self' });
 });
 
 // Retake

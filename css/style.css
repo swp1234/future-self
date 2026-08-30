@@ -432,8 +432,8 @@ main { min-height: 100vh; }
     100% { transform: translateY(0); }
 }
 
-/* ===== ENGAGEMENT: Social Proof Badge ===== */
-.social-proof-badge {
+/* ===== Transparent scoring method ===== */
+.method-badge {
     display: inline-flex;
     align-items: center;
     gap: 6px;

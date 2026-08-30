@@ -1,20 +1,21 @@
 {
   "meta": {
-    "title": "Gelecekteki Hayatından Bir Gün | Yaşam Yolu Hikaye Kartları - DopaBrain",
-    "description": "Gelecekteki benin olarak tam bir gün yaşa! Şafaktan gece yarısına kadar 8 hikaye anı, seni bekleyen 8 yaşam yolundan hangisinin senin için olduğunu ortaya çıkarır."
+    "title": "Gelecek Ben Seçimleri | 8 Sahnelik Değer Yansıması - DopaBrain",
+    "description": "Hayali bir gelecek günündeki 8 sahnede seçim yap ve bugünkü yanıtlarının hangi yaşam temasına eğildiğini gör. Şeffaf sabit kurallı yansıma; kehanet değil."
   },
   "a11y": {
     "skip": "Ana içeriğe atla"
   },
   "app": {
     "title": "Gelecek Ben Testi",
-    "subtitle": "10 Yıl Sonra Kim Olacaksınız?",
-    "heroDesc": "Gelecekteki hayatından bir günün 8 anını yaşa. Gün doğumundan gece yarısına kadar yaptığın her seçim — seni bekleyen yolu ortaya çıkarır.",
+    "subtitle": "Bugünkü seçimlerin hangi yolu destekliyor?",
+    "heroDesc": "Hayali bir gelecek günündeki 8 sahnede seçim yap. Her yanıt görünen iki yol temasına birer puan ekler.",
     "badge": "Hikaye Modu",
     "info1": "8 An",
     "info2": "~3 Dk",
     "info3": "Anlatı",
-    "disclaimer": "Sadece eğlence amaçlıdır. Klinik bir değerlendirme değildir.",
+    "method": "Sabit kural: 8 seçim × 2 yol puanı",
+    "disclaimer": "Eğlence için kural tabanlı yansıma; tahmin, kariyer tavsiyesi veya klinik değerlendirme değildir.",
     "start": "Gelecekteki Beni Tanı - Ücretsiz",
     "loading": "Yükleniyor..."
   },
@@ -237,19 +238,20 @@
     }
   },
   "result": {
-    "profileTitle": "Gelecekteki Yaşam Yolun",
+    "profileTitle": "Seçim Desenin",
     "overallType": "Arketipin",
     "traits": "Temel Özellikler",
     "advice": "Yolun İçin Tavsiye",
     "quote": "Yaşam Sözü",
-    "compatible": "Uyumlu Yollar",
+    "compatible": "İlgili Yollar",
+    "boundary": "Bu tema yalnızca bu sekiz yanıtı yansıtır. Kimliğini, kariyerini veya geleceğini tahmin etmez.",
     "retake": "🚀 Başka Bir Gün Yaşa"
   },
   "share": {
     "twitter": "𝕏 Paylaş",
     "copyUrl": "📋 Linki Kopyala",
     "copied": "Kopyalandı!",
-    "twitterText": "Gelecekteki hayatımdan bir gün yaşadım ve kaderim: {type}! 🚀 Senin yolun ne?"
+    "twitterText": "Sekiz hikâye sahnesinde seçimlerim {type} temasına yöneldi. Seninkiler hangi temayı destekleyecek?"
   },
   "error": {
     "storage": "Gizli modda bazı özellikler sınırlı olabilir.",
@@ -270,14 +272,13 @@
     "result1": "CEO Gelecek -- Hirslı Lider",
     "result2": "Sanatçı Gelecek -- Yaratıcı Vizyoner",
     "result3": "Maceraperest Gelecek -- Heyecan Arayıcı",
-    "result4": "Sifa Verici Gelecek -- Empatik Rehber",
-    "socialProof": "Bugün 2,340+ keşif"
+    "result4": "Sifa Verici Gelecek -- Empatik Rehber"
   },
   "about": {
     "toggle": "Bu Test Hakkında",
     "heading1": "Nasıl Çalışır",
-    "text1": "10 yıl sonraki geleceğinizde bir günlük sarsıcı yolculuk.",
+    "text1": "Sekiz hikâye seçimi yaparsın. Her yanıt iki temaya birer puan ekler; en yüksek toplam gösterilir ve eşitlikte sabit sıra kullanılır.",
     "heading2": "Yaşam Yolunuzu Keşfedin",
-    "text2": "Her arketip benzersiz değerler ve istekler kombinasyonunu temsil eder."
+    "text2": "Sonuç, bu yanıtların düşünme amaçlı eğlencelik bir görüntüsüdür. Yapay zekâ, bilimsel test, kariyer tavsiyesi veya tahmin değildir."
   }
 }

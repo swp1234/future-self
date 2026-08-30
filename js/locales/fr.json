@@ -1,20 +1,21 @@
 {
   "meta": {
-    "title": "Une journée dans votre vie future | Cartes d'histoire de parcours de vie - DopaBrain",
-    "description": "Vivez une journée entière en tant que votre futur vous ! 8 moments d'histoire de l'aube à minuit révèlent lequel des 8 parcours de vie vous est destiné."
+    "title": "Choix du Moi Futur | Réflexion en 8 scènes - DopaBrain",
+    "description": "Faites des choix dans 8 scènes d'une journée future imaginée et voyez quel thème de vie vos réponses favorisent aujourd'hui. Règles transparentes, pas une prédiction."
   },
   "a11y": {
     "skip": "Aller au contenu principal"
   },
   "app": {
     "title": "Test du Moi Futur",
-    "subtitle": "Qui serez-vous dans 10 ans?",
-    "heroDesc": "Vivez 8 moments d'une journée dans votre vie future. Chaque choix que vous faites — du lever au coucher du soleil — révèle le chemin qui vous est destiné.",
+    "subtitle": "Quel chemin vos choix favorisent-ils aujourd'hui ?",
+    "heroDesc": "Choisissez dans 8 scènes d'une journée future imaginée. Chaque réponse ajoute un point à deux thèmes de parcours visibles.",
     "badge": "Mode histoire",
     "info1": "8 Moments",
     "info2": "~3 Min",
     "info3": "Narratif",
-    "disclaimer": "Divertissement uniquement. Ce n'est pas une évaluation clinique.",
+    "method": "Règle fixe : 8 choix × 2 points de parcours",
+    "disclaimer": "Réflexion fondée sur des règles pour se divertir ; ni prévision, ni conseil professionnel, ni évaluation clinique.",
     "start": "Rencontrer Mon Moi Futur - Gratuit",
     "loading": "Chargement..."
   },
@@ -237,19 +238,20 @@
     }
   },
   "result": {
-    "profileTitle": "Votre parcours de vie futur",
+    "profileTitle": "Votre Schéma de Choix",
     "overallType": "Votre archétype",
     "traits": "Traits principaux",
     "advice": "Conseil pour votre chemin",
     "quote": "Mots pour vivre",
-    "compatible": "Parcours compatibles",
+    "compatible": "Parcours associés",
+    "boundary": "Ce thème reflète seulement ces huit réponses. Il ne prédit ni votre identité, ni votre carrière, ni votre avenir.",
     "retake": "🚀 Vivre une autre journée"
   },
   "share": {
     "twitter": "𝕏 Partager",
     "copyUrl": "📋 Copier le lien",
     "copied": "Copié !",
-    "twitterText": "J'ai vécu une journée dans ma vie future et ma destinée est : {type} ! 🚀 Quel est ton parcours ?"
+    "twitterText": "Dans huit scènes, mes choix ont penché vers {type}. Quel thème les vôtres favoriseront-ils ?"
   },
   "error": {
     "storage": "Certaines fonctions peuvent être limitées en mode privé.",
@@ -270,14 +272,13 @@
     "result1": "CEO Futur -- Leader Ambitieux",
     "result2": "Artiste Futur -- Visionnaire Créatif",
     "result3": "Aventurier Futur -- Chercheur de Frissons",
-    "result4": "Guérisseur Futur -- Guide Empathique",
-    "socialProof": "2,340+ futurs moi découverts aujourd'hui"
+    "result4": "Guérisseur Futur -- Guide Empathique"
   },
   "about": {
     "toggle": "À propos de ce Test",
     "heading1": "Comment ça fonctionne",
-    "text1": "Un voyage immersif à travers un jour de votre vie future, dans 10 ans.",
+    "text1": "Vous faites huit choix narratifs. Chaque réponse ajoute un point à deux thèmes ; le total le plus élevé apparaît et les égalités suivent un ordre fixe.",
     "heading2": "Découvrir Votre Chemin de Vie",
-    "text2": "Chaque archétype représente une combinaison unique de valeurs et d'aspirations."
+    "text2": "Le résultat est un instantané ludique de ces réponses pour réfléchir. Ce n'est ni une IA, ni un test scientifique, ni un conseil professionnel, ni une prévision."
   }
 }

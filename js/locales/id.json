@@ -1,20 +1,21 @@
 {
   "meta": {
-    "title": "Sehari di Kehidupan Masa Depanmu | Kartu Cerita Jalur Hidup - DopaBrain",
-    "description": "Rasakan satu hari penuh sebagai dirimu di masa depan! 8 momen cerita dari fajar hingga tengah malam mengungkap 8 jalur hidup yang ditakdirkan untukmu."
+    "title": "Pilihan Diri Masa Depan | Refleksi 8 Adegan - DopaBrain",
+    "description": "Buat pilihan dalam 8 adegan hari masa depan yang dibayangkan dan lihat tema hidup yang didukung jawabanmu saat ini. Refleksi aturan transparan, bukan ramalan."
   },
   "a11y": {
     "skip": "Langsung ke konten utama"
   },
   "app": {
     "title": "Tes Diri Masa Depan",
-    "subtitle": "Siapa Anda 10 Tahun Lagi?",
-    "heroDesc": "Jalani 8 momen dalam sehari di kehidupan masa depanmu. Setiap pilihan yang kamu buat — dari terbit matahari hingga tengah malam — mengungkap jalan yang ditakdirkan untukmu.",
+    "subtitle": "Jalur mana yang didukung pilihanmu hari ini?",
+    "heroDesc": "Pilih dalam 8 adegan hari masa depan yang dibayangkan. Setiap jawaban menambah satu poin pada dua tema jalur yang terlihat.",
     "badge": "Mode Cerita",
     "info1": "8 Momen",
     "info2": "~3 Menit",
     "info3": "Naratif",
-    "disclaimer": "Hanya untuk hiburan. Bukan penilaian klinis.",
+    "method": "Aturan tetap: 8 pilihan × 2 poin jalur",
+    "disclaimer": "Refleksi berbasis aturan untuk hiburan; bukan ramalan, saran karier, atau penilaian klinis.",
     "start": "Temui Diri Masa Depan - Gratis",
     "loading": "Memuat..."
   },
@@ -237,19 +238,20 @@
     }
   },
   "result": {
-    "profileTitle": "Jalur Hidup Masa Depanmu",
+    "profileTitle": "Pola Pilihanmu",
     "overallType": "Arketipemu",
     "traits": "Sifat Utama",
     "advice": "Nasihat untuk Perjalananmu",
     "quote": "Kata-Kata untuk Dihayati",
-    "compatible": "Jalur yang Cocok",
+    "compatible": "Jalur Terkait",
+    "boundary": "Tema ini hanya mencerminkan delapan jawaban ini. Tema ini tidak meramalkan identitas, karier, atau masa depanmu.",
     "retake": "🚀 Jalani Hari Lain"
   },
   "share": {
     "twitter": "𝕏 Bagikan",
     "copyUrl": "📋 Salin Tautan",
     "copied": "Tersalin!",
-    "twitterText": "Aku menjalani sehari di kehidupan masa depanku dan ternyata aku ditakdirkan menjadi: {type}! 🚀 Apa jalur hidupmu?"
+    "twitterText": "Dalam delapan adegan, pilihanku condong ke {type}. Tema mana yang akan didukung pilihanmu?"
   },
   "error": {
     "storage": "Beberapa fitur mungkin terbatas dalam mode privat.",
@@ -270,14 +272,13 @@
     "result1": "CEO Masa Depan -- Pemimpin Ambisius",
     "result2": "Seniman Masa Depan -- Visioner Kreatif",
     "result3": "Petualang Masa Depan -- Pencari Sensasi",
-    "result4": "Penyembuh Masa Depan -- Pemandu Empatik",
-    "socialProof": "2,340+ masa depan ditemukan hari ini"
+    "result4": "Penyembuh Masa Depan -- Pemandu Empatik"
   },
   "about": {
     "toggle": "Tentang Tes Ini",
     "heading1": "Cara Kerja",
-    "text1": "Perjalanan imersif melalui satu hari di masa depan Anda, 10 tahun dari sekarang.",
+    "text1": "Kamu membuat delapan pilihan cerita. Setiap jawaban memberi satu poin pada dua tema; total tertinggi ditampilkan dan seri memakai urutan tetap.",
     "heading2": "Menemukan Jalur Hidup Anda",
-    "text2": "Setiap arketipe mewakili kombinasi unik nilai dan aspirasi."
+    "text2": "Hasil adalah potret hiburan dari jawaban ini untuk refleksi. Bukan AI, tes ilmiah, saran karier, atau ramalan."
   }
 }

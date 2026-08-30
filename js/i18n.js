@@ -14,6 +14,11 @@ class I18n {
      * Detect user's preferred language
      */
     detectLanguage() {
+        const queryLang = new URLSearchParams(window.location.search).get('lang');
+        if (queryLang && this.supportedLanguages.includes(queryLang)) {
+            return queryLang;
+        }
+
         // Check localStorage first
         const stored = localStorage.getItem('preferredLanguage');
         if (stored && this.supportedLanguages.includes(stored)) {

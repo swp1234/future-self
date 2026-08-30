@@ -1,20 +1,21 @@
 {
   "meta": {
-    "title": "A Day in Your Future Life | Life Path Story Cards - DopaBrain",
-    "description": "Experience a full day as your future self! 8 story moments from dawn to midnight reveal which of 8 life paths you're destined for."
+    "title": "Future Self Choices | 8-Scene Values Reflection - DopaBrain",
+    "description": "Choose through 8 imagined future-day moments and see which life-path theme your current answers favor. A transparent rule-based reflection, not a prediction."
   },
   "a11y": {
     "skip": "Skip to main content"
   },
   "app": {
     "title": "Future Self Test",
-    "subtitle": "Who Will You Become in 10 Years?",
-    "heroDesc": "Live through 8 moments of a day in your future life. Each choice you make — from sunrise to midnight — reveals the path you're destined for.",
+    "subtitle": "Which path do your choices favor today?",
+    "heroDesc": "Choose through 8 moments of an imagined future day. Each answer adds one point to two visible path themes.",
     "badge": "Story Mode",
     "info1": "8 Moments",
     "info2": "~3 Min",
     "info3": "Narrative",
-    "disclaimer": "For entertainment only. Not a clinical assessment.",
+    "method": "Fixed rule: 8 choices × 2 path points",
+    "disclaimer": "Rule-based reflection for entertainment; not a forecast, career advice, or clinical assessment.",
     "start": "Meet My Future Self - Free",
     "loading": "Loading..."
   },
@@ -237,19 +238,20 @@
     }
   },
   "result": {
-    "profileTitle": "Your Future Life Path",
+    "profileTitle": "Your Choice Pattern",
     "overallType": "Your Archetype",
     "traits": "Core Traits",
     "advice": "Advice for Your Path",
     "quote": "Words to Live By",
-    "compatible": "Compatible Paths",
+    "compatible": "Related Paths",
+    "boundary": "This theme reflects these eight answers. It does not predict your identity, career, or future.",
     "retake": "🚀 Live Another Day"
   },
   "share": {
     "twitter": "𝕏 Share",
     "copyUrl": "📋 Copy Link",
     "copied": "Copied!",
-    "twitterText": "I lived a day in my future life and I'm destined to be: {type}! 🚀 What's your path?"
+    "twitterText": "Across eight story moments, my choices leaned toward {type}. Which theme will yours favor?"
   },
   "error": {
     "storage": "Some features may be limited in private mode. You can continue.",
@@ -270,14 +272,13 @@
     "result1": "CEO Future You -- Ambitious Leader",
     "result2": "Artist Future You -- Creative Visionary",
     "result3": "Adventurer Future You -- Thrill-Seeker",
-    "result4": "Healer Future You -- Empathetic Guide",
-    "socialProof": "2,340+ future selves discovered"
+    "result4": "Healer Future You -- Empathetic Guide"
   },
   "about": {
     "toggle": "About the Future Self Test",
     "heading1": "How the Future Self Test Works",
-    "text1": "The Future Self Test takes you on an immersive journey through a single day in your future life, 10 years from now. Starting at dawn and ending at midnight, you face 8 defining moments where your choices shape your destiny.",
+    "text1": "You make eight story choices. Each answer adds one point to two path themes; the highest total is shown, with a fixed order used for ties.",
     "heading2": "Discovering Your Life Path",
-    "text2": "Each life path archetype represents a unique combination of values, aspirations, and personality traits. Your result offers meaningful insights into the direction your life could take."
+    "text2": "The result is a snapshot of these answers for reflection and entertainment. It is not AI, a scientific assessment, career advice, or a forecast."
   }
 }

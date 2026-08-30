@@ -1,20 +1,21 @@
 {
   "meta": {
-    "title": "Ein Tag in deinem zukünftigen Leben | Lebenspfad-Geschichtskarten - DopaBrain",
-    "description": "Erlebe einen ganzen Tag als dein zukünftiges Ich! 8 Geschichtsmomente von der Morgendämmerung bis Mitternacht enthüllen, welcher von 8 Lebenspfaden dir bestimmt ist."
+    "title": "Entscheidungen des Zukunfts-Ichs | Reflexion in 8 Szenen - DopaBrain",
+    "description": "Triff Entscheidungen in 8 Szenen eines vorgestellten Zukunftstags und sieh, welches Lebensthema deine heutigen Antworten bevorzugen. Transparente feste Regeln, keine Vorhersage."
   },
   "a11y": {
     "skip": "Zum Hauptinhalt springen"
   },
   "app": {
     "title": "Zukunfts-Ich Test",
-    "subtitle": "Wer werden Sie in 10 Jahren?",
-    "heroDesc": "Erlebe 8 Momente eines Tages in deinem zukünftigen Leben. Jede Entscheidung — vom Sonnenaufgang bis Mitternacht — enthüllt den Pfad, der dir bestimmt ist.",
+    "subtitle": "Welchen Weg bevorzugen deine Entscheidungen heute?",
+    "heroDesc": "Wähle in 8 Szenen eines vorgestellten Zukunftstags. Jede Antwort gibt zwei sichtbaren Pfadthemen je einen Punkt.",
     "badge": "Story-Modus",
     "info1": "8 Momente",
     "info2": "~3 Min",
     "info3": "Erzählung",
-    "disclaimer": "Nur zur Unterhaltung. Keine klinische Bewertung.",
+    "method": "Feste Regel: 8 Entscheidungen × 2 Pfadpunkte",
+    "disclaimer": "Regelbasierte Reflexion zur Unterhaltung; keine Prognose, Berufsberatung oder klinische Bewertung.",
     "start": "Mein Zukunfts-Ich treffen - Kostenlos",
     "loading": "Laden..."
   },
@@ -237,19 +238,20 @@
     }
   },
   "result": {
-    "profileTitle": "Dein zukünftiger Lebenspfad",
+    "profileTitle": "Dein Entscheidungsmuster",
     "overallType": "Dein Archetyp",
     "traits": "Kernmerkmale",
     "advice": "Rat für deinen Weg",
     "quote": "Worte fürs Leben",
-    "compatible": "Kompatible Pfade",
+    "compatible": "Verwandte Pfade",
+    "boundary": "Dieses Thema spiegelt nur diese acht Antworten. Es sagt weder Identität noch Beruf oder Zukunft voraus.",
     "retake": "🚀 Noch einen Tag erleben"
   },
   "share": {
     "twitter": "𝕏 Teilen",
     "copyUrl": "📋 Link kopieren",
     "copied": "Kopiert!",
-    "twitterText": "Ich habe einen Tag in meinem zukünftigen Leben erlebt und mein Schicksal ist: {type}! 🚀 Was ist dein Pfad?"
+    "twitterText": "In acht Szenen neigten meine Entscheidungen zu {type}. Welches Thema werden deine bevorzugen?"
   },
   "error": {
     "storage": "Einige Funktionen sind im privaten Modus eingeschränkt.",
@@ -270,14 +272,13 @@
     "result1": "CEO-Zukunft -- Ehrgeiziger Anführer",
     "result2": "Künstler-Zukunft -- Kreativer Visionär",
     "result3": "Abenteurer-Zukunft -- Nervenkitzel-Sucher",
-    "result4": "Heiler-Zukunft -- Empathischer Führer",
-    "socialProof": "Heute 2,340+ entdeckt"
+    "result4": "Heiler-Zukunft -- Empathischer Führer"
   },
   "about": {
     "toggle": "Über diesen Test",
     "heading1": "Wie es funktioniert",
-    "text1": "Eine immersive Reise durch einen Tag Ihrer Zukunft in 10 Jahren.",
+    "text1": "Du triffst acht Story-Entscheidungen. Jede Antwort gibt zwei Themen je einen Punkt; der höchste Wert erscheint, Gleichstände folgen einer festen Reihenfolge.",
     "heading2": "Ihren Lebensweg entdecken",
-    "text2": "Jeder Archetyp repräsentiert eine einzigartige Kombination von Werten und Bestrebungen."
+    "text2": "Das Ergebnis ist eine spielerische Momentaufnahme dieser Antworten zur Reflexion. Es ist keine KI, kein wissenschaftlicher Test, keine Berufsberatung und keine Prognose."
   }
 }

@@ -1,11 +1,22 @@
-const CACHE_NAME = 'future-self-v2';
+const CACHE_NAME = 'future-self-v3';
 const urlsToCache = [
     '/future-self/',
     '/future-self/index.html',
     '/future-self/css/style.css',
     '/future-self/js/i18n.js',
-    '/future-self/js/quiz-data.js',
     '/future-self/js/app.js',
+    '/future-self/js/locales/ko.json',
+    '/future-self/js/locales/en.json',
+    '/future-self/js/locales/zh.json',
+    '/future-self/js/locales/hi.json',
+    '/future-self/js/locales/ru.json',
+    '/future-self/js/locales/ja.json',
+    '/future-self/js/locales/es.json',
+    '/future-self/js/locales/pt.json',
+    '/future-self/js/locales/id.json',
+    '/future-self/js/locales/tr.json',
+    '/future-self/js/locales/de.json',
+    '/future-self/js/locales/fr.json',
     '/future-self/manifest.json',
     '/future-self/icon-192.svg',
     '/future-self/icon-512.svg'

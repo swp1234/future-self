@@ -1,20 +1,21 @@
 {
   "meta": {
-    "title": "Un Día en Tu Vida Futura | Cartas de Historia de Vida - DopaBrain",
-    "description": "¡Vive un día completo como tu yo del futuro! 8 momentos desde el amanecer hasta la medianoche revelan cuál de los 8 caminos de vida te espera."
+    "title": "Elecciones del Yo Futuro | Reflexión de 8 escenas - DopaBrain",
+    "description": "Elige en 8 escenas de un día futuro imaginado y observa qué tema vital favorecen hoy tus respuestas. Reflexión transparente basada en reglas, no predicción."
   },
   "a11y": {
     "skip": "Ir al contenido principal"
   },
   "app": {
     "title": "Test del Yo Futuro",
-    "subtitle": "¿Quién serás en 10 años?",
-    "heroDesc": "Vive 8 momentos de un día en tu vida futura. Cada decisión que tomes — del amanecer a la medianoche — revela el camino que te espera.",
+    "subtitle": "¿Qué camino favorecen hoy tus decisiones?",
+    "heroDesc": "Elige en 8 escenas de un día futuro imaginado. Cada respuesta suma un punto a dos temas de camino visibles.",
     "badge": "Modo Historia",
     "info1": "8 Momentos",
     "info2": "~3 Min",
     "info3": "Narrativo",
-    "disclaimer": "Solo para entretenimiento. No es una evaluación clínica.",
+    "method": "Regla fija: 8 elecciones × 2 puntos de camino",
+    "disclaimer": "Reflexión reglada para entretenimiento; no es pronóstico, consejo profesional ni evaluación clínica.",
     "start": "Conocer Mi Yo Futuro - Gratis",
     "loading": "Cargando..."
   },
@@ -237,19 +238,20 @@
     }
   },
   "result": {
-    "profileTitle": "Tu Camino de Vida Futuro",
+    "profileTitle": "Tu Patrón de Elecciones",
     "overallType": "Tu Arquetipo",
     "traits": "Rasgos Principales",
     "advice": "Consejo para Tu Camino",
     "quote": "Palabras para Vivir",
-    "compatible": "Caminos Compatibles",
+    "compatible": "Caminos Relacionados",
+    "boundary": "Este tema refleja solo estas ocho respuestas. No predice tu identidad, profesión ni futuro.",
     "retake": "🚀 Vivir Otro Día"
   },
   "share": {
     "twitter": "𝕏 Compartir",
     "copyUrl": "📋 Copiar Enlace",
     "copied": "¡Copiado!",
-    "twitterText": "¡Viví un día en mi vida futura y mi destino es ser: {type}! 🚀 ¿Cuál es tu camino?"
+    "twitterText": "En ocho escenas, mis elecciones se inclinaron hacia {type}. ¿Qué tema favorecerán las tuyas?"
   },
   "error": {
     "storage": "Algunas funciones pueden estar limitadas en modo privado.",
@@ -270,14 +272,13 @@
     "result1": "CEO Futuro -- Líder Ambicioso",
     "result2": "Artista Futuro -- Visionario Creativo",
     "result3": "Aventurero Futuro -- Buscador de Emociones",
-    "result4": "Sanador Futuro -- Guía Empático",
-    "socialProof": "2,340+ futuros yo descubiertos"
+    "result4": "Sanador Futuro -- Guía Empático"
   },
   "about": {
     "toggle": "Sobre Este Test",
     "heading1": "Cómo Funciona",
-    "text1": "Un viaje inmersivo por un día de tu vida futura, 10 años adelante.",
+    "text1": "Haces ocho elecciones narrativas. Cada respuesta suma un punto a dos temas; se muestra el total mayor y los empates siguen un orden fijo.",
     "heading2": "Descubriendo Tu Camino",
-    "text2": "Cada arquetipo representa una combinación única de valores y aspiraciones."
+    "text2": "El resultado es una instantánea lúdica de estas respuestas para reflexionar. No es IA, prueba científica, consejo profesional ni pronóstico."
   }
 }
