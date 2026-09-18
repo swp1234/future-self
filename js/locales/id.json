@@ -280,5 +280,15 @@
     "text1": "Kamu membuat delapan pilihan cerita. Setiap jawaban memberi satu poin pada dua tema; total tertinggi ditampilkan dan seri memakai urutan tetap.",
     "heading2": "Menemukan Jalur Hidup Anda",
     "text2": "Hasil adalah potret hiburan dari jawaban ini untuk refleksi. Bukan AI, tes ilmiah, saran karier, atau ramalan."
+  },
+  "next": {
+    "title": "Langkah Eksplorasi Berikutnya",
+    "subtitle": "Bandingkan pola pilihan Anda dengan alat refleksi diri teratas",
+    "brainTitle": "Tes Tipe Otak",
+    "brainDesc": "Jelajahi gaya kognitif dan preferensi keputusan Anda",
+    "stressTitle": "Pemeriksaan Stres 3 Menit",
+    "stressDesc": "Ukur tingkat ketegangan mental dan fisik Anda",
+    "mentalTitle": "Tes Usia Mental",
+    "mentalDesc": "Bandingkan kematangan emosional dengan diri masa depan"
   }
 }

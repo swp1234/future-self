@@ -280,5 +280,15 @@
     "text1": "Vous faites huit choix narratifs. Chaque réponse ajoute un point à deux thèmes ; le total le plus élevé apparaît et les égalités suivent un ordre fixe.",
     "heading2": "Découvrir Votre Chemin de Vie",
     "text2": "Le résultat est un instantané ludique de ces réponses pour réfléchir. Ce n'est ni une IA, ni un test scientifique, ni un conseil professionnel, ni une prévision."
+  },
+  "next": {
+    "title": "Prochaines étapes recommandées",
+    "subtitle": "Comparez vos tendances de choix avec des outils d'autoréflexion",
+    "brainTitle": "Test de Type Cérébral",
+    "brainDesc": "Explorez votre style cognitif et décisionnel",
+    "stressTitle": "Bilan de Stress en 3 Minutes",
+    "stressDesc": "Évaluez votre tension mentale et physique actuelle",
+    "mentalTitle": "Test d'Âge Mental",
+    "mentalDesc": "Comparez votre maturité émotionnelle avec votre futur moi"
   }
 }

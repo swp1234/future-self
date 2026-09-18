@@ -16,9 +16,21 @@ const ENTRY_SOURCE = /^[a-z0-9_-]{1,48}$/.test(rawEntrySource) ? rawEntrySource 
         document.addEventListener('click', (e) => {
             if (!e.target.closest('.language-selector')) langMenu?.classList.add('hidden');
         });
+        function updateNextAppLinks(lang) {
+            const current = lang || (typeof i18n !== 'undefined' ? i18n.getCurrentLanguage() : 'ko');
+            document.querySelectorAll('.next-app-link').forEach(link => {
+                const base = link.getAttribute('data-base-href');
+                if (!base) return;
+                const hasStart = link.getAttribute('data-start') === '1';
+                link.href = `${base}?lang=${encodeURIComponent(current)}${hasStart ? '&start=1' : ''}&source=future_self_result`;
+            });
+        }
+        updateNextAppLinks(i18n.getCurrentLanguage());
         langOptions.forEach(opt => {
             opt.addEventListener('click', async () => {
-                await i18n.setLanguage(opt.getAttribute('data-lang'));
+                const selected = opt.getAttribute('data-lang');
+                await i18n.setLanguage(selected);
+                updateNextAppLinks(selected);
                 langOptions.forEach(o => o.classList.remove('active'));
                 opt.classList.add('active');
                 langMenu.classList.add('hidden');

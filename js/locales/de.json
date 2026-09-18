@@ -280,5 +280,15 @@
     "text1": "Du triffst acht Story-Entscheidungen. Jede Antwort gibt zwei Themen je einen Punkt; der höchste Wert erscheint, Gleichstände folgen einer festen Reihenfolge.",
     "heading2": "Ihren Lebensweg entdecken",
     "text2": "Das Ergebnis ist eine spielerische Momentaufnahme dieser Antworten zur Reflexion. Es ist keine KI, kein wissenschaftlicher Test, keine Berufsberatung und keine Prognose."
+  },
+  "next": {
+    "title": "Nächste Entdeckungswege",
+    "subtitle": "Vergleichen Sie Ihre Wahlmuster mit Tools zur Selbstreflexion",
+    "brainTitle": "Gehirntyp-Test",
+    "brainDesc": "Erkunden Sie Ihren Denk- und Entscheidungsstil",
+    "stressTitle": "3-Minuten-Stresstest",
+    "stressDesc": "Erfassen Sie Ihre mentale und körperliche Belastung",
+    "mentalTitle": "Test des geistigen Alters",
+    "mentalDesc": "Vergleichen Sie emotionale Reife mit Ihrem Zukunfts-Ich"
   }
 }

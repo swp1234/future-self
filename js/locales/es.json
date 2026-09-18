@@ -280,5 +280,15 @@
     "text1": "Haces ocho elecciones narrativas. Cada respuesta suma un punto a dos temas; se muestra el total mayor y los empates siguen un orden fijo.",
     "heading2": "Descubriendo Tu Camino",
     "text2": "El resultado es una instantánea lúdica de estas respuestas para reflexionar. No es IA, prueba científica, consejo profesional ni pronóstico."
+  },
+  "next": {
+    "title": "Próximos pasos recomendados",
+    "subtitle": "Compara tus patrones de elección con herramientas de autorreflexión",
+    "brainTitle": "Test de Tipo Cerebral",
+    "brainDesc": "Explora tu estilo cognitivo y toma de decisiones",
+    "stressTitle": "Chequeo de Estrés en 3 Minutos",
+    "stressDesc": "Evalúa la sobrecarga mental y física actual",
+    "mentalTitle": "Test de Edad Mental",
+    "mentalDesc": "Compara tu madurez emocional con tu yo futuro"
   }
 }

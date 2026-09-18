@@ -280,5 +280,15 @@
     "text1": "You make eight story choices. Each answer adds one point to two path themes; the highest total is shown, with a fixed order used for ties.",
     "heading2": "Discovering Your Life Path",
     "text2": "The result is a snapshot of these answers for reflection and entertainment. It is not AI, a scientific assessment, career advice, or a forecast."
+  },
+  "next": {
+    "title": "Next Discovery Paths",
+    "subtitle": "Compare your choice patterns with top-dwell reflection tools",
+    "brainTitle": "Brain Type Test",
+    "brainDesc": "Explore cognitive style and decision preferences",
+    "stressTitle": "3-Minute Stress Check",
+    "stressDesc": "Assess mental and physical stress strain",
+    "mentalTitle": "Mental Age Test",
+    "mentalDesc": "Compare inner emotional maturity with future self"
   }
 }

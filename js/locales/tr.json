@@ -280,5 +280,15 @@
     "text1": "Sekiz hikâye seçimi yaparsın. Her yanıt iki temaya birer puan ekler; en yüksek toplam gösterilir ve eşitlikte sabit sıra kullanılır.",
     "heading2": "Yaşam Yolunuzu Keşfedin",
     "text2": "Sonuç, bu yanıtların düşünme amaçlı eğlencelik bir görüntüsüdür. Yapay zekâ, bilimsel test, kariyer tavsiyesi veya tahmin değildir."
+  },
+  "next": {
+    "title": "Sonraki Keşif Yolları",
+    "subtitle": "Seçim kalıplarınızı derinlemesine öz-düşünüm araçlarıyla karşılaştırın",
+    "brainTitle": "Beyin Tipi Testi",
+    "brainDesc": "Bilişsel tarzınızı ve karar alışkanlıklarınızı keşfedin",
+    "stressTitle": "3 Dakikalık Stres Testi",
+    "stressDesc": "Mevcut zihinsel ve fiziksel stres yükünüzü ölçün",
+    "mentalTitle": "Zihinsel Yaş Testi",
+    "mentalDesc": "İçsel duygusal olgunluğunuzu gelecekteki benliğinizle karşılaştırın"
   }
 }
