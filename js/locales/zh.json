@@ -289,6 +289,8 @@
     "stressTitle": "3分钟压力自测 (Stress Check)",
     "stressDesc": "评估可能影响未来目标的身心压力负荷",
     "mentalTitle": "心理年龄测试 (Mental Age)",
-    "mentalDesc": "对比内在情感成熟度与未来自我"
+    "mentalDesc": "对比内在情感成熟度与未来自我",
+    "hspTitle": "HSP 高敏感测试",
+    "hspDesc": "探索感官处理敏感度与情绪深度"
   }
 }

@@ -289,6 +289,8 @@
     "stressTitle": "3분 스트레스 진단 (Stress Check)",
     "stressDesc": "미래 목표를 가로막는 현재 신체·정서 스트레스 지수",
     "mentalTitle": "정신 연령 테스트 (Mental Age)",
-    "mentalDesc": "내면의 감정 성숙도와 미래 자아 비교"
+    "mentalDesc": "내면의 감정 성숙도와 미래 자아 비교",
+    "hspTitle": "HSP 민감도 테스트",
+    "hspDesc": "감각 처리 민감도와 정서적 깊이 확인하기"
   }
 }

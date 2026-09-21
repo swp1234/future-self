@@ -289,6 +289,8 @@
     "stressTitle": "3-Minute Stress Check",
     "stressDesc": "Assess mental and physical stress strain",
     "mentalTitle": "Mental Age Test",
-    "mentalDesc": "Compare inner emotional maturity with future self"
+    "mentalDesc": "Compare inner emotional maturity with future self",
+    "hspTitle": "HSP Sensitivity Test",
+    "hspDesc": "Discover sensory processing & emotional depth"
   }
 }

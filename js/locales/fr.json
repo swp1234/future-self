@@ -289,6 +289,8 @@
     "stressTitle": "Bilan de Stress en 3 Minutes",
     "stressDesc": "Évaluez votre tension mentale et physique actuelle",
     "mentalTitle": "Test d'Âge Mental",
-    "mentalDesc": "Comparez votre maturité émotionnelle avec votre futur moi"
+    "mentalDesc": "Comparez votre maturité émotionnelle avec votre futur moi",
+    "hspTitle": "Test de Haute Sensibilité (HSP)",
+    "hspDesc": "Découvrez votre traitement sensoriel et émotionnel"
   }
 }

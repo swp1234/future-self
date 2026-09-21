@@ -289,6 +289,8 @@
     "stressTitle": "3分ストレスチェック (Stress Check)",
     "stressDesc": "将来の目標を阻む現在のストレス度を測定",
     "mentalTitle": "精神年齢テスト (Mental Age)",
-    "mentalDesc": "内面の感情成熟度と未来の自分を比較"
+    "mentalDesc": "内面の感情成熟度と未来の自分を比較",
+    "hspTitle": "HSP繊細さテスト",
+    "hspDesc": "感覚処理の感受性と感情の深さを探る"
   }
 }
