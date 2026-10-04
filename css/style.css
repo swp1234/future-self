@@ -493,3 +493,61 @@ main { min-height: 100vh; }
     color: var(--text-dim);
     line-height: 1.7;
 }
+.about-faq-item {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+}
+[data-theme="light"] .about-faq-item {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+.about-faq-q {
+    display: block;
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.about-faq-a {
+    color: var(--text-dim);
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 0 !important;
+}
+.about-guide-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+}
+.about-guide-list li {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin-bottom: 8px;
+    padding-left: 12px;
+    position: relative;
+}
+.about-guide-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+}
+.about-guide-list li strong {
+    color: var(--text);
+}
+.about-review-meta {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    font-size: 11px;
+    color: var(--text-dim);
+    text-align: center;
+    opacity: 0.8;
+}
+[data-theme="light"] .about-review-meta {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}

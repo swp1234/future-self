@@ -275,11 +275,23 @@
     "result4": "हीलर भविष्य -- सहानुभूति मार्गदर्शक"
   },
   "about": {
-    "toggle": "इस परीक्षा के बारे में",
+    "toggle": "About the Future Self Test",
     "heading1": "कैसे काम करता है",
     "text1": "आप आठ कहानी चुनाव करते हैं। हर उत्तर दो पथ-विषयों में एक-एक अंक जोड़ता है; सबसे अधिक अंक दिखते हैं और बराबरी पर तय क्रम लागू होता है।",
     "heading2": "अपना जीवन पथ खोजें",
-    "text2": "परिणाम इन उत्तरों का मनोरंजन और चिंतन वाला स्नैपशॉट है। यह AI, वैज्ञानिक जांच, करियर सलाह या भविष्यवाणी नहीं है।"
+    "text2": "परिणाम इन उत्तरों का मनोरंजन और चिंतन वाला स्नैपशॉट है। यह AI, वैज्ञानिक जांच, करियर सलाह या भविष्यवाणी नहीं है।",
+    "heading3": "Psychological Framework: Future Self Continuity",
+    "text3": "Psychological research on 'Future Self Continuity' demonstrates that people who feel vividly connected to their future self make healthier financial, educational, and lifestyle decisions today. Rather than predicting a rigid destiny, this 8-scenario narrative helps you explore which values—ambition, creativity, curiosity, empathy, or freedom—guide your present decision-making instincts.",
+    "heading4": "Frequently Asked Questions",
+    "faq1Q": "Q: Can my life path archetype change?",
+    "faq1A": "A: Yes. Your priorities naturally shift as your life circumstances, goals, and values evolve. Repeating the reflection during major life transitions reveals how your decision compass develops.",
+    "faq2Q": "Q: How can I strengthen connection with my future self?",
+    "faq2A": "A: Research suggests simple habits: writing a short letter to your self 5 years ahead, setting small reversible milestones, and asking 'Will my future self thank me for this choice?' before major decisions.",
+    "faq3Q": "Q: Are my story choices private?",
+    "faq3A": "A: Completely private. Calculations are performed locally in your browser. No answers, scores, or path outcomes are logged or transmitted.",
+    "heading5": "References & Behavioral Science",
+    "reviewDate": "Editorial Review: October 2026",
+    "reviewTeam": "DopaBrain Behavioral Science & Health Team"
   },
   "next": {
     "title": "अगली खोज के रास्ते",
