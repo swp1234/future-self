@@ -266,7 +266,9 @@
     "soulAge": "Usia Jiwa",
     "pastLife": "Kehidupan Sebelumnya",
     "mentalAge": "Usia Mental",
-    "lifeInNumbers": "Hidup dalam Angka"
+    "lifeInNumbers": "Hidup dalam Angka",
+    "animalPersonality": "Kepribadian Hewan",
+    "shadowWork": "Tes Shadow Work"
   },
   "engage": {
     "result1": "CEO Masa Depan -- Pemimpin Ambisius",
@@ -303,6 +305,8 @@
     "mentalTitle": "Tes Usia Mental",
     "mentalDesc": "Bandingkan kematangan emosional dengan diri masa depan",
     "hspTitle": "Tes Sensitivitas HSP",
-    "hspDesc": "Ketahui kedalaman pemrosesan sensorik dan emosi"
+    "hspDesc": "Ketahui kedalaman pemrosesan sensorik dan emosi",
+    "attachmentTitle": "Gaya Kelekatan",
+    "attachmentDesc": "Jelajahi pola ikatan & kepercayaan hubungan"
   }
 }

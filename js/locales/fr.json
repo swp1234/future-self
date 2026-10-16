@@ -266,7 +266,9 @@
     "soulAge": "Âge de l'Âme",
     "pastLife": "Vie Antérieure",
     "mentalAge": "Âge Mental",
-    "lifeInNumbers": "Vie en Chiffres"
+    "lifeInNumbers": "Vie en Chiffres",
+    "animalPersonality": "Animal Totem",
+    "shadowWork": "Travail de l’Ombre"
   },
   "engage": {
     "result1": "CEO Futur -- Leader Ambitieux",
@@ -303,6 +305,8 @@
     "mentalTitle": "Test d'Âge Mental",
     "mentalDesc": "Comparez votre maturité émotionnelle avec votre futur moi",
     "hspTitle": "Test de Haute Sensibilité (HSP)",
-    "hspDesc": "Découvrez votre traitement sensoriel et émotionnel"
+    "hspDesc": "Découvrez votre traitement sensoriel et émotionnel",
+    "attachmentTitle": "Style d’Attachement",
+    "attachmentDesc": "Explorez vos liens et schémas de confiance"
   }
 }

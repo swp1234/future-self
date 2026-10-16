@@ -266,7 +266,9 @@
     "soulAge": "영혼 나이",
     "pastLife": "전생 테스트",
     "mentalAge": "정신 나이",
-    "lifeInNumbers": "숫자로 보는 인생"
+    "lifeInNumbers": "숫자로 보는 인생",
+    "animalPersonality": "동물 성격 테스트",
+    "shadowWork": "섀도우 워크 테스트"
   },
   "engage": {
     "result1": "CEO 미래의 나 -- 야망적 리더",
@@ -303,6 +305,8 @@
     "mentalTitle": "정신 연령 테스트 (Mental Age)",
     "mentalDesc": "내면의 감정 성숙도와 미래 자아 비교",
     "hspTitle": "HSP 민감도 테스트",
-    "hspDesc": "감각 처리 민감도와 정서적 깊이 확인하기"
+    "hspDesc": "감각 처리 민감도와 정서적 깊이 확인하기",
+    "attachmentTitle": "애착유형 테스트",
+    "attachmentDesc": "관계 속 유대와 신뢰 패턴 탐색"
   }
 }

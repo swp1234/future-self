@@ -266,7 +266,9 @@
     "soulAge": "Soul Age",
     "pastLife": "Past Life",
     "mentalAge": "Mental Age",
-    "lifeInNumbers": "Life in Numbers"
+    "lifeInNumbers": "Life in Numbers",
+    "animalPersonality": "Animal Personality",
+    "shadowWork": "Shadow Work"
   },
   "engage": {
     "result1": "CEO Future You -- Ambitious Leader",
@@ -303,6 +305,8 @@
     "mentalTitle": "Mental Age Test",
     "mentalDesc": "Compare inner emotional maturity with future self",
     "hspTitle": "HSP Sensitivity Test",
-    "hspDesc": "Discover sensory processing & emotional depth"
+    "hspDesc": "Discover sensory processing & emotional depth",
+    "attachmentTitle": "Attachment Style",
+    "attachmentDesc": "Explore relationship bonds & trust patterns"
   }
 }

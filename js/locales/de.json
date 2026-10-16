@@ -266,7 +266,9 @@
     "soulAge": "Seelenalter",
     "pastLife": "Früheres Leben",
     "mentalAge": "Mentales Alter",
-    "lifeInNumbers": "Leben in Zahlen"
+    "lifeInNumbers": "Leben in Zahlen",
+    "animalPersonality": "Krafttier-Test",
+    "shadowWork": "Schattenarbeit-Test"
   },
   "engage": {
     "result1": "CEO-Zukunft -- Ehrgeiziger Anführer",
@@ -303,6 +305,8 @@
     "mentalTitle": "Test des geistigen Alters",
     "mentalDesc": "Vergleichen Sie emotionale Reife mit Ihrem Zukunfts-Ich",
     "hspTitle": "HSP Hochsensibilitäts-Test",
-    "hspDesc": "Sensorische Verarbeitung und emotionale Tiefe erkennen"
+    "hspDesc": "Sensorische Verarbeitung und emotionale Tiefe erkennen",
+    "attachmentTitle": "Bindungsstil-Test",
+    "attachmentDesc": "Beziehungsbindung und Vertrauensmuster entdecken"
   }
 }

@@ -266,7 +266,9 @@
     "soulAge": "魂の年齢",
     "pastLife": "前世テスト",
     "mentalAge": "精神年齢",
-    "lifeInNumbers": "数字で見る人生"
+    "lifeInNumbers": "数字で見る人生",
+    "animalPersonality": "動物性格診断",
+    "shadowWork": "シャドウワーク診断"
   },
   "engage": {
     "result1": "CEOの未来 -- 野心的リーダー",
@@ -303,6 +305,8 @@
     "mentalTitle": "精神年齢テスト (Mental Age)",
     "mentalDesc": "内面の感情成熟度と未来の自分を比較",
     "hspTitle": "HSP繊細さテスト",
-    "hspDesc": "感覚処理の感受性と感情の深さを探る"
+    "hspDesc": "感覚処理の感受性と感情の深さを探る",
+    "attachmentTitle": "愛着スタイル診断",
+    "attachmentDesc": "人間関係の絆と信頼パターンを探る"
   }
 }

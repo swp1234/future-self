@@ -266,7 +266,9 @@
     "soulAge": "Ruh Yaşı",
     "pastLife": "Geçmiş Yaşam",
     "mentalAge": "Zihinsel Yaş",
-    "lifeInNumbers": "Sayılarla Hayat"
+    "lifeInNumbers": "Sayılarla Hayat",
+    "animalPersonality": "Ruh Hayvanı Testi",
+    "shadowWork": "Gölge Çalışması"
   },
   "engage": {
     "result1": "CEO Gelecek -- Hirslı Lider",
@@ -303,6 +305,8 @@
     "mentalTitle": "Zihinsel Yaş Testi",
     "mentalDesc": "İçsel duygusal olgunluğunuzu gelecekteki benliğinizle karşılaştırın",
     "hspTitle": "HSP Hassasiyet Testi",
-    "hspDesc": "Duyusal işleme hassasiyetinizi ve derinliği keşfedin"
+    "hspDesc": "Duyusal işleme hassasiyetinizi ve derinliği keşfedin",
+    "attachmentTitle": "Bağlanma Stili",
+    "attachmentDesc": "İlişki bağlarını ve güven kalıplarını keşfedin"
   }
 }

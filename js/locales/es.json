@@ -266,7 +266,9 @@
     "soulAge": "Edad del Alma",
     "pastLife": "Vida Pasada",
     "mentalAge": "Edad Mental",
-    "lifeInNumbers": "Tu Vida en Números"
+    "lifeInNumbers": "Tu Vida en Números",
+    "animalPersonality": "Animal Interior",
+    "shadowWork": "Trabajo de Sombra"
   },
   "engage": {
     "result1": "CEO Futuro -- Líder Ambicioso",
@@ -303,6 +305,8 @@
     "mentalTitle": "Test de Edad Mental",
     "mentalDesc": "Compara tu madurez emocional con tu yo futuro",
     "hspTitle": "Test de Alta Sensibilidad (HSP)",
-    "hspDesc": "Descubre tu procesamiento sensorial y profundidad"
+    "hspDesc": "Descubre tu procesamiento sensorial y profundidad",
+    "attachmentTitle": "Estilo de Apego",
+    "attachmentDesc": "Explora tus vínculos y patrones de confianza"
   }
 }
