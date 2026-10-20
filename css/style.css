@@ -38,6 +38,7 @@ body {
     background: var(--primary); color: #fff;
     padding: 8px 16px; border-radius: 0 0 8px 8px;
     z-index: 9999; text-decoration: none; font-weight: 600;
+    min-height: 44px; display: inline-flex; align-items: center;
 }
 .skip-link:focus { top: 0; }
 button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
@@ -93,7 +94,7 @@ button:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 }
 .lang-menu.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
 .lang-option {
-    display: block; width: 100%; padding: 0.6rem 0.8rem;
+    display: flex; align-items: center; width: 100%; min-height: 44px; padding: 0.6rem 0.8rem;
     background: transparent; border: none; border-radius: 8px;
     color: var(--text); text-align: left; font-size: 0.9rem;
     cursor: pointer; transition: all 0.2s;
