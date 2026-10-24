@@ -268,7 +268,11 @@
     "mentalAge": "Idade Mental",
     "lifeInNumbers": "Vida em Números",
     "animalPersonality": "Animal Interior",
-    "shadowWork": "Trabalho de Sombra"
+    "shadowWork": "Trabalho de Sombra",
+    "stressCheck": "Teste de Estresse",
+    "hspTest": "Teste PAS (HSP)",
+    "brainType": "Tipo Cerebral",
+    "attachmentStyle": "Estilo de Apego"
   },
   "engage": {
     "result1": "CEO Futuro -- Líder Ambicioso",

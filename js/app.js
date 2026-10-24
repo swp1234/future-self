@@ -18,11 +18,12 @@ const ENTRY_SOURCE = /^[a-z0-9_-]{1,48}$/.test(rawEntrySource) ? rawEntrySource 
         });
         function updateNextAppLinks(lang) {
             const current = lang || (typeof i18n !== 'undefined' ? i18n.getCurrentLanguage() : 'ko');
-            document.querySelectorAll('.next-app-link').forEach(link => {
+            document.querySelectorAll('.next-app-link, .related-link').forEach(link => {
                 const base = link.getAttribute('data-base-href');
                 if (!base) return;
                 const hasStart = link.getAttribute('data-start') === '1';
-                link.href = `${base}?lang=${encodeURIComponent(current)}${hasStart ? '&start=1' : ''}&source=future_self_result`;
+                const source = link.classList.contains('related-link') ? 'future_self_footer' : 'future_self_result';
+                link.href = `${base}?lang=${encodeURIComponent(current)}${hasStart ? '&start=1' : ''}&source=${source}`;
             });
         }
         updateNextAppLinks(i18n.getCurrentLanguage());

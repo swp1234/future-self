@@ -268,7 +268,11 @@
     "mentalAge": "Zihinsel Yaş",
     "lifeInNumbers": "Sayılarla Hayat",
     "animalPersonality": "Ruh Hayvanı Testi",
-    "shadowWork": "Gölge Çalışması"
+    "shadowWork": "Gölge Çalışması",
+    "stressCheck": "Stres Testi",
+    "hspTest": "HSP Hassasiyet Testi",
+    "brainType": "Beyin Tipi Testi",
+    "attachmentStyle": "Bağlanma Stili"
   },
   "engage": {
     "result1": "CEO Gelecek -- Hirslı Lider",

@@ -268,7 +268,11 @@
     "mentalAge": "心理年龄",
     "lifeInNumbers": "数字人生",
     "animalPersonality": "动物性格测试",
-    "shadowWork": "阴影工作测试"
+    "shadowWork": "阴影工作测试",
+    "stressCheck": "压力自测",
+    "hspTest": "高敏感测试",
+    "brainType": "大脑类型测试",
+    "attachmentStyle": "依恋风格测试"
   },
   "engage": {
     "result1": "CEO未来 -- 雄心勃勃的领导者",

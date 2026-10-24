@@ -268,7 +268,11 @@
     "mentalAge": "Usia Mental",
     "lifeInNumbers": "Hidup dalam Angka",
     "animalPersonality": "Kepribadian Hewan",
-    "shadowWork": "Tes Shadow Work"
+    "shadowWork": "Tes Shadow Work",
+    "stressCheck": "Tes Stres",
+    "hspTest": "Tes HSP",
+    "brainType": "Tipe Otak",
+    "attachmentStyle": "Gaya Kelekatan"
   },
   "engage": {
     "result1": "CEO Masa Depan -- Pemimpin Ambisius",

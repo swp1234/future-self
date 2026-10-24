@@ -268,7 +268,11 @@
     "mentalAge": "Mental Age",
     "lifeInNumbers": "Life in Numbers",
     "animalPersonality": "Animal Personality",
-    "shadowWork": "Shadow Work"
+    "shadowWork": "Shadow Work",
+    "stressCheck": "Stress Check",
+    "hspTest": "HSP Test",
+    "brainType": "Brain Type",
+    "attachmentStyle": "Attachment Style"
   },
   "engage": {
     "result1": "CEO Future You -- Ambitious Leader",

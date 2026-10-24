@@ -268,7 +268,11 @@
     "mentalAge": "Mentales Alter",
     "lifeInNumbers": "Leben in Zahlen",
     "animalPersonality": "Krafttier-Test",
-    "shadowWork": "Schattenarbeit-Test"
+    "shadowWork": "Schattenarbeit-Test",
+    "stressCheck": "Stresstest",
+    "hspTest": "HSP-Test",
+    "brainType": "Gehirntyp-Test",
+    "attachmentStyle": "Bindungsstil-Test"
   },
   "engage": {
     "result1": "CEO-Zukunft -- Ehrgeiziger Anführer",

@@ -268,7 +268,11 @@
     "mentalAge": "精神年齢",
     "lifeInNumbers": "数字で見る人生",
     "animalPersonality": "動物性格診断",
-    "shadowWork": "シャドウワーク診断"
+    "shadowWork": "シャドウワーク診断",
+    "stressCheck": "ストレス診断",
+    "hspTest": "HSP診断",
+    "brainType": "脳タイプ診断",
+    "attachmentStyle": "愛着スタイル診断"
   },
   "engage": {
     "result1": "CEOの未来 -- 野心的リーダー",

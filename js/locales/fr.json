@@ -268,7 +268,11 @@
     "mentalAge": "Âge Mental",
     "lifeInNumbers": "Vie en Chiffres",
     "animalPersonality": "Animal Totem",
-    "shadowWork": "Travail de l’Ombre"
+    "shadowWork": "Travail de l’Ombre",
+    "stressCheck": "Test de Stress",
+    "hspTest": "Test HSP",
+    "brainType": "Type de Cerveau",
+    "attachmentStyle": "Style d’attachement"
   },
   "engage": {
     "result1": "CEO Futur -- Leader Ambitieux",

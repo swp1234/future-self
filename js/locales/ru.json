@@ -268,7 +268,11 @@
     "mentalAge": "Ментальный возраст",
     "lifeInNumbers": "Жизнь в цифрах",
     "animalPersonality": "Тотемное животное",
-    "shadowWork": "Работа с тенью"
+    "shadowWork": "Работа с тенью",
+    "stressCheck": "Тест на стресс",
+    "hspTest": "Тест на HSP",
+    "brainType": "Тип мозга",
+    "attachmentStyle": "Стиль привязанности"
   },
   "engage": {
     "result1": "CEO будущего -- Амбициозный лидер",
