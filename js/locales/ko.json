@@ -272,7 +272,10 @@
     "stressCheck": "스트레스 진단",
     "hspTest": "HSP 민감성 테스트",
     "brainType": "두뇌 유형 테스트",
-    "attachmentStyle": "애착유형 테스트"
+    "attachmentStyle": "애착유형 테스트",
+    "dopamineReset": "도파민 리셋 프로토콜",
+    "decisionMatrix": "딜레마 결정 매트릭스",
+    "cognitiveLoad": "인지 부하 계산기"
   },
   "engage": {
     "result1": "CEO 미래의 나 -- 야망적 리더",

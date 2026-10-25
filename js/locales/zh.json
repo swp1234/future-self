@@ -272,7 +272,10 @@
     "stressCheck": "压力自测",
     "hspTest": "高敏感测试",
     "brainType": "大脑类型测试",
-    "attachmentStyle": "依恋风格测试"
+    "attachmentStyle": "依恋风格测试",
+    "dopamineReset": "多巴胺重置协议",
+    "decisionMatrix": "困境决策矩阵",
+    "cognitiveLoad": "认知负荷计算器"
   },
   "engage": {
     "result1": "CEO未来 -- 雄心勃勃的领导者",

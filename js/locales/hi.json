@@ -272,7 +272,10 @@
     "stressCheck": "तनाव परीक्षण",
     "hspTest": "HSP संवेदनशीलता परीक्षण",
     "brainType": "मस्तिष्क प्रकार",
-    "attachmentStyle": "लगाव शैली"
+    "attachmentStyle": "लगाव शैली",
+    "dopamineReset": "डोपामाइन रीसेट",
+    "decisionMatrix": "निर्णय मैट्रिक्स",
+    "cognitiveLoad": "संज्ञानात्मक भार"
   },
   "engage": {
     "result1": "CEO भविष्य -- महत्वाकांक्षी नेता",

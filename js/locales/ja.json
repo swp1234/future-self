@@ -272,7 +272,10 @@
     "stressCheck": "ストレス診断",
     "hspTest": "HSP診断",
     "brainType": "脳タイプ診断",
-    "attachmentStyle": "愛着スタイル診断"
+    "attachmentStyle": "愛着スタイル診断",
+    "dopamineReset": "ドーパミンリセット",
+    "decisionMatrix": "意思決定マトリクス",
+    "cognitiveLoad": "認知負荷計算機"
   },
   "engage": {
     "result1": "CEOの未来 -- 野心的リーダー",

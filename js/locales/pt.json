@@ -272,7 +272,10 @@
     "stressCheck": "Teste de Estresse",
     "hspTest": "Teste PAS (HSP)",
     "brainType": "Tipo Cerebral",
-    "attachmentStyle": "Estilo de Apego"
+    "attachmentStyle": "Estilo de Apego",
+    "dopamineReset": "Reset de Dopamina",
+    "decisionMatrix": "Matriz de Decisão",
+    "cognitiveLoad": "Carga Cognitiva"
   },
   "engage": {
     "result1": "CEO Futuro -- Líder Ambicioso",

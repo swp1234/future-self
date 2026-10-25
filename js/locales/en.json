@@ -272,7 +272,10 @@
     "stressCheck": "Stress Check",
     "hspTest": "HSP Test",
     "brainType": "Brain Type",
-    "attachmentStyle": "Attachment Style"
+    "attachmentStyle": "Attachment Style",
+    "dopamineReset": "Dopamine Reset",
+    "decisionMatrix": "Decision Matrix",
+    "cognitiveLoad": "Cognitive Load Calc"
   },
   "engage": {
     "result1": "CEO Future You -- Ambitious Leader",

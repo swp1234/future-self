@@ -272,7 +272,10 @@
     "stressCheck": "Test de Stress",
     "hspTest": "Test HSP",
     "brainType": "Type de Cerveau",
-    "attachmentStyle": "Style d’attachement"
+    "attachmentStyle": "Style d’attachement",
+    "dopamineReset": "Détox Dopamine",
+    "decisionMatrix": "Matrice de Décision",
+    "cognitiveLoad": "Charge Cognitive"
   },
   "engage": {
     "result1": "CEO Futur -- Leader Ambitieux",

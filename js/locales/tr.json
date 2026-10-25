@@ -272,7 +272,10 @@
     "stressCheck": "Stres Testi",
     "hspTest": "HSP Hassasiyet Testi",
     "brainType": "Beyin Tipi Testi",
-    "attachmentStyle": "Bağlanma Stili"
+    "attachmentStyle": "Bağlanma Stili",
+    "dopamineReset": "Dopamin Sıfırlama",
+    "decisionMatrix": "Karar Matrisi",
+    "cognitiveLoad": "Bilişsel Yük"
   },
   "engage": {
     "result1": "CEO Gelecek -- Hirslı Lider",

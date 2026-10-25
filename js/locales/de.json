@@ -272,7 +272,10 @@
     "stressCheck": "Stresstest",
     "hspTest": "HSP-Test",
     "brainType": "Gehirntyp-Test",
-    "attachmentStyle": "Bindungsstil-Test"
+    "attachmentStyle": "Bindungsstil-Test",
+    "dopamineReset": "Dopamin-Reset-Plan",
+    "decisionMatrix": "Entscheidungsmatrix",
+    "cognitiveLoad": "Kognitive Last Rechner"
   },
   "engage": {
     "result1": "CEO-Zukunft -- Ehrgeiziger Anführer",

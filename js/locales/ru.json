@@ -272,7 +272,10 @@
     "stressCheck": "Тест на стресс",
     "hspTest": "Тест на HSP",
     "brainType": "Тип мозга",
-    "attachmentStyle": "Стиль привязанности"
+    "attachmentStyle": "Стиль привязанности",
+    "dopamineReset": "Дофаминовый сброс",
+    "decisionMatrix": "Матрица решений",
+    "cognitiveLoad": "Когнитивная нагрузка"
   },
   "engage": {
     "result1": "CEO будущего -- Амбициозный лидер",

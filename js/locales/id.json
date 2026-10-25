@@ -272,7 +272,10 @@
     "stressCheck": "Tes Stres",
     "hspTest": "Tes HSP",
     "brainType": "Tipe Otak",
-    "attachmentStyle": "Gaya Kelekatan"
+    "attachmentStyle": "Gaya Kelekatan",
+    "dopamineReset": "Reset Dopamin",
+    "decisionMatrix": "Matriks Keputusan",
+    "cognitiveLoad": "Beban Kognitif"
   },
   "engage": {
     "result1": "CEO Masa Depan -- Pemimpin Ambisius",
