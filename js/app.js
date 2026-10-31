@@ -272,3 +272,18 @@ document.getElementById('btn-copy')?.addEventListener('click', () => {
 document.getElementById('btn-retake')?.addEventListener('click', () => {
     showScreen('intro');
 });
+
+// CTA Conversion tracking
+document.querySelectorAll('.next-app-link, .related-link').forEach(link => {
+    link.addEventListener('click', () => {
+        if (typeof gtag === 'function') {
+            gtag('event', 'content_cta_click', {
+                event_category: 'engagement',
+                page_path: location.pathname,
+                target_url: link.href,
+                link_id: link.classList.contains('next-app-link') ? 'future_self_next_app' : 'future_self_related'
+            });
+        }
+    });
+});
+
