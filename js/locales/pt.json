@@ -275,7 +275,9 @@
     "attachmentStyle": "Estilo de Apego",
     "dopamineReset": "Reset de Dopamina",
     "decisionMatrix": "Matriz de Decisão",
-    "cognitiveLoad": "Carga Cognitiva"
+    "cognitiveLoad": "Carga Cognitiva",
+    "stressType": "Tipo de Estresse",
+    "iqTest": "Desafio de QI"
   },
   "engage": {
     "result1": "CEO Futuro -- Líder Ambicioso",

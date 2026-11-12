@@ -275,7 +275,9 @@
     "attachmentStyle": "Gaya Kelekatan",
     "dopamineReset": "Reset Dopamin",
     "decisionMatrix": "Matriks Keputusan",
-    "cognitiveLoad": "Beban Kognitif"
+    "cognitiveLoad": "Beban Kognitif",
+    "stressType": "Tipe Stres",
+    "iqTest": "Tantangan IQ"
   },
   "engage": {
     "result1": "CEO Masa Depan -- Pemimpin Ambisius",

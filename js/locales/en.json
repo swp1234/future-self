@@ -275,7 +275,9 @@
     "attachmentStyle": "Attachment Style",
     "dopamineReset": "Dopamine Reset",
     "decisionMatrix": "Decision Matrix",
-    "cognitiveLoad": "Cognitive Load Calc"
+    "cognitiveLoad": "Cognitive Load Calc",
+    "stressType": "Stress Type",
+    "iqTest": "IQ Challenge"
   },
   "engage": {
     "result1": "CEO Future You -- Ambitious Leader",

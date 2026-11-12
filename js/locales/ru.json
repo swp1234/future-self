@@ -275,7 +275,9 @@
     "attachmentStyle": "Стиль привязанности",
     "dopamineReset": "Дофаминовый сброс",
     "decisionMatrix": "Матрица решений",
-    "cognitiveLoad": "Когнитивная нагрузка"
+    "cognitiveLoad": "Когнитивная нагрузка",
+    "stressType": "Тип стресса",
+    "iqTest": "IQ-челлендж"
   },
   "engage": {
     "result1": "CEO будущего -- Амбициозный лидер",

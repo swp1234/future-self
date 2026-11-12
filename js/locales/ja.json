@@ -275,7 +275,9 @@
     "attachmentStyle": "愛着スタイル診断",
     "dopamineReset": "ドーパミンリセット",
     "decisionMatrix": "意思決定マトリクス",
-    "cognitiveLoad": "認知負荷計算機"
+    "cognitiveLoad": "認知負荷計算機",
+    "stressType": "ストレスタイプ",
+    "iqTest": "IQ頭脳チャレンジ"
   },
   "engage": {
     "result1": "CEOの未来 -- 野心的リーダー",

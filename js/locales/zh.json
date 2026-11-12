@@ -275,7 +275,9 @@
     "attachmentStyle": "依恋风格测试",
     "dopamineReset": "多巴胺重置协议",
     "decisionMatrix": "困境决策矩阵",
-    "cognitiveLoad": "认知负荷计算器"
+    "cognitiveLoad": "认知负荷计算器",
+    "stressType": "压力类型",
+    "iqTest": "IQ思维挑战"
   },
   "engage": {
     "result1": "CEO未来 -- 雄心勃勃的领导者",

@@ -275,7 +275,9 @@
     "attachmentStyle": "लगाव शैली",
     "dopamineReset": "डोपामाइन रीसेट",
     "decisionMatrix": "निर्णय मैट्रिक्स",
-    "cognitiveLoad": "संज्ञानात्मक भार"
+    "cognitiveLoad": "संज्ञानात्मक भार",
+    "stressType": "तनाव प्रकार",
+    "iqTest": "आईक्यू चैलेंज"
   },
   "engage": {
     "result1": "CEO भविष्य -- महत्वाकांक्षी नेता",

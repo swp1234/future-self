@@ -275,7 +275,9 @@
     "attachmentStyle": "애착유형 테스트",
     "dopamineReset": "도파민 리셋 프로토콜",
     "decisionMatrix": "딜레마 결정 매트릭스",
-    "cognitiveLoad": "인지 부하 계산기"
+    "cognitiveLoad": "인지 부하 계산기",
+    "stressType": "스트레스 유형",
+    "iqTest": "IQ 두뇌 챌린지"
   },
   "engage": {
     "result1": "CEO 미래의 나 -- 야망적 리더",

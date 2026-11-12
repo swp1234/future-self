@@ -275,7 +275,9 @@
     "attachmentStyle": "Bindungsstil-Test",
     "dopamineReset": "Dopamin-Reset-Plan",
     "decisionMatrix": "Entscheidungsmatrix",
-    "cognitiveLoad": "Kognitive Last Rechner"
+    "cognitiveLoad": "Kognitive Last Rechner",
+    "stressType": "Stress-Typ",
+    "iqTest": "IQ-Challenge"
   },
   "engage": {
     "result1": "CEO-Zukunft -- Ehrgeiziger Anführer",

@@ -275,7 +275,9 @@
     "attachmentStyle": "Style d’attachement",
     "dopamineReset": "Détox Dopamine",
     "decisionMatrix": "Matrice de Décision",
-    "cognitiveLoad": "Charge Cognitive"
+    "cognitiveLoad": "Charge Cognitive",
+    "stressType": "Type de Stress",
+    "iqTest": "Défi QI"
   },
   "engage": {
     "result1": "CEO Futur -- Leader Ambitieux",

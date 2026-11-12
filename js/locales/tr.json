@@ -275,7 +275,9 @@
     "attachmentStyle": "Bağlanma Stili",
     "dopamineReset": "Dopamin Sıfırlama",
     "decisionMatrix": "Karar Matrisi",
-    "cognitiveLoad": "Bilişsel Yük"
+    "cognitiveLoad": "Bilişsel Yük",
+    "stressType": "Stres Tipi",
+    "iqTest": "IQ Mücadelesi"
   },
   "engage": {
     "result1": "CEO Gelecek -- Hirslı Lider",
