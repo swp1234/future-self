@@ -251,7 +251,8 @@
     "twitter": "𝕏 Compartilhar",
     "copyUrl": "📋 Copiar Link",
     "copied": "Copiado!",
-    "twitterText": "Em oito cenas, minhas escolhas se inclinaram para {type}. Qual tema as suas favorecerão?"
+    "twitterText": "Em oito cenas, minhas escolhas se inclinaram para {type}. Qual tema as suas favorecerão?",
+    "storyCard": "✨ Salvar cartão de story"
   },
   "error": {
     "storage": "Algumas funções podem ser limitadas no modo privado.",

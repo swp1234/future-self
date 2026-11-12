@@ -251,7 +251,8 @@
     "twitter": "𝕏 Share",
     "copyUrl": "📋 Copy Link",
     "copied": "Copied!",
-    "twitterText": "Across eight story moments, my choices leaned toward {type}. Which theme will yours favor?"
+    "twitterText": "Across eight story moments, my choices leaned toward {type}. Which theme will yours favor?",
+    "storyCard": "✨ Save Story Card"
   },
   "error": {
     "storage": "Some features may be limited in private mode. You can continue.",

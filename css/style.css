@@ -345,14 +345,31 @@ main { min-height: 100vh; }
 .share-buttons {
     display: flex; gap: 0.75rem; margin: 1rem 0;
     width: 100%; max-width: 520px;
+    flex-wrap: wrap;
 }
 .share-btn {
-    flex: 1; padding: 0.75rem 1rem; border-radius: 12px;
+    flex: 1 1 calc(50% - 0.5rem); min-height: 44px; padding: 0.75rem 1rem; border-radius: 12px;
     border: 1px solid var(--border); background: var(--surface);
     color: var(--text); font-size: 0.9rem; font-weight: 600;
     cursor: pointer; transition: all 0.3s;
+    display: inline-flex; align-items: center; justify-content: center;
 }
 .share-btn:hover { border-color: var(--primary); color: var(--primary); }
+
+.story-card-btn {
+    flex: 1 1 100%; min-height: 48px;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    color: #ffffff;
+    border: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    box-shadow: 0 4px 14px rgba(139, 92, 246, 0.35);
+}
+.story-card-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(236, 72, 153, 0.45);
+    color: #ffffff;
+}
 
 .btn-retake {
     padding: 0.9rem 2rem; border: none; border-radius: 12px;

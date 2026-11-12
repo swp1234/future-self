@@ -251,7 +251,8 @@
     "twitter": "𝕏 Bagikan",
     "copyUrl": "📋 Salin Tautan",
     "copied": "Tersalin!",
-    "twitterText": "Dalam delapan adegan, pilihanku condong ke {type}. Tema mana yang akan didukung pilihanmu?"
+    "twitterText": "Dalam delapan adegan, pilihanku condong ke {type}. Tema mana yang akan didukung pilihanmu?",
+    "storyCard": "✨ Simpan Kartu Cerita"
   },
   "error": {
     "storage": "Beberapa fitur mungkin terbatas dalam mode privat.",

@@ -243,6 +243,204 @@ function showResult() {
     }
 }
 
+function drawRoundRect(ctx, x, y, width, height, radius) {
+    ctx.beginPath();
+    ctx.moveTo(x + radius, y);
+    ctx.lineTo(x + width - radius, y);
+    ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+    ctx.lineTo(x + width, y + height - radius);
+    ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+    ctx.lineTo(x + radius, y + height);
+    ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+    ctx.lineTo(x, y + radius);
+    ctx.quadraticCurveTo(x, y, x + radius, y);
+    ctx.closePath();
+}
+
+function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight) {
+    const words = String(text || '').split(' ');
+    let line = '';
+    let currentY = y;
+    for (let n = 0; n < words.length; n++) {
+        const testLine = line + words[n] + ' ';
+        const metrics = ctx.measureText(testLine);
+        if (metrics.width > maxWidth && n > 0) {
+            ctx.fillText(line.trim(), x, currentY);
+            line = words[n] + ' ';
+            currentY += lineHeight;
+        } else {
+            line = testLine;
+        }
+    }
+    ctx.fillText(line.trim(), x, currentY);
+}
+
+function generateStoryCardCanvas() {
+    let maxScore = 0;
+    let winner = 'freelancer';
+    for (const [type, score] of Object.entries(typeScores)) {
+        if (score > maxScore) { maxScore = score; winner = type; }
+    }
+    const typeData = i18n.t(`types.${winner}`) || {};
+    const typeName = typeData.name || winner;
+    const emojiMap = { ceo: '\u{1F454}', artist: '\u{1F3A8}', adventurer: '\u{1F9D7}', scholar: '\u{1F4DA}', healer: '\u{1F49A}', influencer: '\u2B50', inventor: '\u{1F52C}', freelancer: '\u{1F30A}' };
+    const emoji = emojiMap[winner] || '\u{1F680}';
+    const traits = (typeData.traits || []).slice(0, 3);
+    const quote = typeData.quote || '';
+
+    const canvas = document.createElement('canvas');
+    canvas.width = 1080;
+    canvas.height = 1920;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return null;
+
+    const bgGrad = ctx.createLinearGradient(0, 0, 1080, 1920);
+    bgGrad.addColorStop(0, '#0a0d18');
+    bgGrad.addColorStop(0.4, '#13122c');
+    bgGrad.addColorStop(1, '#070a12');
+    ctx.fillStyle = bgGrad;
+    ctx.fillRect(0, 0, 1080, 1920);
+
+    const themeColor = TYPE_COLORS[winner] || '#8b5cf6';
+    const glow = ctx.createRadialGradient(540, 620, 60, 540, 620, 480);
+    glow.addColorStop(0, themeColor + '55');
+    glow.addColorStop(0.6, themeColor + '18');
+    glow.addColorStop(1, 'transparent');
+    ctx.fillStyle = glow;
+    ctx.fillRect(60, 140, 960, 960);
+
+    ctx.save();
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.12)';
+    ctx.lineWidth = 3;
+    drawRoundRect(ctx, 50, 50, 980, 1820, 36);
+    ctx.stroke();
+    ctx.restore();
+
+    ctx.textAlign = 'center';
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.55)';
+    ctx.font = '600 28px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+    ctx.fillText('DOPABRAIN  \u2022  2035 ARCHETYPE', 540, 160);
+
+    ctx.fillStyle = '#ffffff';
+    ctx.font = '800 44px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+    ctx.fillText('MY FUTURE SELF JOURNEY', 540, 230);
+
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(540, 500, 140, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.06)';
+    ctx.fill();
+    ctx.lineWidth = 4;
+    ctx.strokeStyle = themeColor;
+    ctx.stroke();
+
+    ctx.font = '130px -apple-system, BlinkMacSystemFont, sans-serif';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(emoji, 540, 505);
+    ctx.restore();
+
+    ctx.fillStyle = themeColor;
+    ctx.font = '800 64px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+    ctx.fillText(typeName, 540, 740);
+
+    const startY = 840;
+    traits.forEach((t, i) => {
+        const y = startY + (i * 96);
+        ctx.save();
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.16)';
+        ctx.lineWidth = 2;
+        drawRoundRect(ctx, 150, y, 780, 72, 20);
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.fillStyle = '#f8fafc';
+        ctx.font = '600 32px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+        ctx.fillText('\u2728 ' + t, 540, y + 46);
+        ctx.restore();
+    });
+
+    if (quote) {
+        ctx.save();
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.04)';
+        ctx.strokeStyle = themeColor + '66';
+        ctx.lineWidth = 2;
+        drawRoundRect(ctx, 130, 1180, 820, 250, 24);
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+        ctx.font = 'italic 500 32px -apple-system, BlinkMacSystemFont, serif';
+        wrapCanvasText(ctx, '\u201C' + quote + '\u201D', 540, 1270, 740, 48);
+        ctx.restore();
+    }
+
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+    ctx.font = '500 28px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+    ctx.fillText('Discover your future persona at', 540, 1680);
+
+    ctx.fillStyle = '#ffffff';
+    ctx.font = '700 38px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+    ctx.fillText('dopabrain.com/future-self', 540, 1740);
+
+    return canvas;
+}
+
+// Story Card Share
+document.getElementById('btn-story-card')?.addEventListener('click', () => {
+    const btn = document.getElementById('btn-story-card');
+    const orig = btn.textContent;
+    btn.textContent = '\u23F3 Rendering...';
+    btn.disabled = true;
+
+    try {
+        const canvas = generateStoryCardCanvas();
+        if (!canvas) throw new Error('Canvas rendering failed');
+
+        canvas.toBlob(async (blob) => {
+            if (!blob) throw new Error('Blob conversion failed');
+            const file = new File([blob], 'future-self-2035.png', { type: 'image/png' });
+
+            if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                try {
+                    await navigator.share({
+                        files: [file],
+                        title: 'My 2035 Future Self',
+                        text: 'Discover your 2035 archetype on DopaBrain: https://dopabrain.com/future-self/'
+                    });
+                    if (typeof gtag === 'function') gtag('event', 'share', { method: 'story_card_native', app_name: 'future-self' });
+                    btn.textContent = '\u2713 Shared!';
+                    setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2500);
+                    return;
+                } catch (shareErr) {
+                    if (shareErr.name === 'AbortError') {
+                        btn.textContent = orig;
+                        btn.disabled = false;
+                        return;
+                    }
+                }
+            }
+
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'future-self-2035.png';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(() => URL.revokeObjectURL(url), 10000);
+
+            if (typeof gtag === 'function') gtag('event', 'share', { method: 'story_card_download', app_name: 'future-self' });
+            btn.textContent = '\u2713 Saved to Photos!';
+            setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2500);
+        }, 'image/png');
+    } catch (err) {
+        console.warn('Story card error:', err);
+        btn.textContent = orig;
+        btn.disabled = false;
+    }
+});
+
 // Share
 document.getElementById('btn-twitter')?.addEventListener('click', () => {
     let maxScore = 0;

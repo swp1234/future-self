@@ -251,7 +251,8 @@
     "twitter": "𝕏 分享",
     "copyUrl": "📋 复制链接",
     "copied": "已复制！",
-    "twitterText": "在8个故事场景中，我的选择偏向 {type}。你的选择会偏向哪种主题？"
+    "twitterText": "在8个故事场景中，我的选择偏向 {type}。你的选择会偏向哪种主题？",
+    "storyCard": "✨ 保存故事卡片"
   },
   "error": {
     "storage": "隐私模式下部分功能可能受限。",

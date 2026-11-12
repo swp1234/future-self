@@ -251,7 +251,8 @@
     "twitter": "𝕏 Teilen",
     "copyUrl": "📋 Link kopieren",
     "copied": "Kopiert!",
-    "twitterText": "In acht Szenen neigten meine Entscheidungen zu {type}. Welches Thema werden deine bevorzugen?"
+    "twitterText": "In acht Szenen neigten meine Entscheidungen zu {type}. Welches Thema werden deine bevorzugen?",
+    "storyCard": "✨ Story-Karte speichern"
   },
   "error": {
     "storage": "Einige Funktionen sind im privaten Modus eingeschränkt.",

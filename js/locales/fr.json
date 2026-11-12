@@ -251,7 +251,8 @@
     "twitter": "𝕏 Partager",
     "copyUrl": "📋 Copier le lien",
     "copied": "Copié !",
-    "twitterText": "Dans huit scènes, mes choix ont penché vers {type}. Quel thème les vôtres favoriseront-ils ?"
+    "twitterText": "Dans huit scènes, mes choix ont penché vers {type}. Quel thème les vôtres favoriseront-ils ?",
+    "storyCard": "✨ Enregistrer la carte story"
   },
   "error": {
     "storage": "Certaines fonctions peuvent être limitées en mode privé.",
