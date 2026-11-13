@@ -121,6 +121,23 @@ class I18n {
             const key = element.getAttribute('data-i18n-placeholder');
             element.placeholder = this.t(key);
         });
+
+        this.syncSeoState();
+    }
+
+    syncSeoState() {
+        const currentUrl = new URL(window.location.href);
+        const lang = currentUrl.searchParams.has('lang') ? this.currentLang : 'x-default';
+        const link = document.querySelector('link[rel="alternate"][hreflang="' + lang + '"]')
+            || document.querySelector('link[rel="alternate"][hreflang="x-default"]');
+        const targetHref = link ? link.href : '';
+        if (!targetHref) return;
+
+        const canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical) canonical.href = targetHref;
+
+        const ogUrl = document.querySelector('meta[property="og:url"]');
+        if (ogUrl) ogUrl.content = targetHref;
     }
 
     /**
