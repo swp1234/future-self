@@ -190,3 +190,4 @@ class I18n {
 
 // Create global i18n instance
 const i18n = new I18n();
+window.i18n = i18n;
