@@ -318,5 +318,16 @@
     "hspDesc": "探索感官处理敏感度与情绪深度",
     "attachmentTitle": "依恋类型测试",
     "attachmentDesc": "探索关系联结与信任模式"
+  },
+  "curated": {
+    "kicker": "精选延伸阅读",
+    "title": "主动设计你的下一阶段",
+    "subtitle": "结合未来自我连续性与人生设计方法的深度推荐书单。",
+    "book1Title": "Your Future Self（遇见未来的自己）",
+    "book1Author": "Hal Hershfield · 行为科学",
+    "book2Title": "Designing Your Life（设计你的人生）",
+    "book2Author": "Bill Burnett & Dave Evans · 人生设计",
+    "cta": "查看书籍",
+    "disclosure": "部分外部书店链接可能包含联盟佣金，不会为您带来额外费用。"
   }
 }

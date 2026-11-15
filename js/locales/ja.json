@@ -318,5 +318,16 @@
     "hspDesc": "感覚処理の感受性と感情の深さを探る",
     "attachmentTitle": "愛着スタイル診断",
     "attachmentDesc": "人間関係の絆と信頼パターンを探る"
+  },
+  "curated": {
+    "kicker": "厳選リーディング",
+    "title": "次のステージを設計する一冊",
+    "subtitle": "未来の自分とのつながりと人生設計に関する実践的な名著。",
+    "book1Title": "Your Future Self: How to Make Tomorrow Better Today",
+    "book1Author": "ハル・ハーシュフィールド · 行動科学",
+    "book2Title": "Designing Your Life（ライフ・デザイン）",
+    "book2Author": "ビル・バーネット & デイヴ・エヴァンス · 人生設計",
+    "cta": "書籍を見る",
+    "disclosure": "一部の外部書店リンクには追加費用なしのアフィリエイトが含まれる場合があります。"
   }
 }

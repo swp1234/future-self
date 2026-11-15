@@ -318,5 +318,16 @@
     "hspDesc": "Descubre tu procesamiento sensorial y profundidad",
     "attachmentTitle": "Estilo de Apego",
     "attachmentDesc": "Explora tus vínculos y patrones de confianza"
+  },
+  "curated": {
+    "kicker": "LECTURA RECOMENDADA",
+    "title": "Diseña tu próximo capítulo",
+    "subtitle": "Libros basados en investigación sobre el yo futuro y decisiones vitales conscientes.",
+    "book1Title": "Your Future Self: How to Make Tomorrow Better Today",
+    "book1Author": "Hal Hershfield · Ciencia del comportamiento",
+    "book2Title": "Designing Your Life (Diseña tu vida)",
+    "book2Author": "Bill Burnett & Dave Evans · Diseño vital",
+    "cta": "Ver libro",
+    "disclosure": "Algunos enlaces externos pueden generar una pequeña comisión de afiliado sin coste adicional para ti."
   }
 }

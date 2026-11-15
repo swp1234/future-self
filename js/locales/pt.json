@@ -318,5 +318,16 @@
     "hspDesc": "Descubra sua profundidade sensorial e emocional",
     "attachmentTitle": "Estilo de Apego",
     "attachmentDesc": "Explore seus vínculos e padrões de confiança"
+  },
+  "curated": {
+    "kicker": "LEITURA RECOMENDADA",
+    "title": "Projete seu próximo capítulo",
+    "subtitle": "Livros baseados em pesquisa sobre continuidade do eu futuro e design de vida.",
+    "book1Title": "Your Future Self: How to Make Tomorrow Better Today",
+    "book1Author": "Hal Hershfield · Ciência comportamental",
+    "book2Title": "Designing Your Life (Design da sua vida)",
+    "book2Author": "Bill Burnett & Dave Evans · Projeto de vida",
+    "cta": "Ver livro",
+    "disclosure": "Alguns links externos de livrarias podem gerar pequena comissão de afiliado sem custo extra."
   }
 }

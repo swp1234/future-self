@@ -318,5 +318,16 @@
     "hspDesc": "Découvrez votre traitement sensoriel et émotionnel",
     "attachmentTitle": "Style d’Attachement",
     "attachmentDesc": "Explorez vos liens et schémas de confiance"
+  },
+  "curated": {
+    "kicker": "LECTURES CHOISIES",
+    "title": "Concevez votre prochain chapitre",
+    "subtitle": "Ouvrages de référence sur la continuité du soi futur et la conception de carrière.",
+    "book1Title": "Your Future Self: How to Make Tomorrow Better Today",
+    "book1Author": "Hal Hershfield · Sciences comportementales",
+    "book2Title": "Designing Your Life",
+    "book2Author": "Bill Burnett & Dave Evans · Design de vie",
+    "cta": "Voir le livre",
+    "disclosure": "Certains liens externes vers des librairies peuvent générer une petite commission sans surcoût."
   }
 }

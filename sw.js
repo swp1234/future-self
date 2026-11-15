@@ -1,4 +1,4 @@
-const CACHE_NAME = 'future-self-v3';
+const CACHE_NAME = 'future-self-v4';
 const urlsToCache = [
     '/future-self/',
     '/future-self/index.html',

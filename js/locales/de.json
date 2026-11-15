@@ -318,5 +318,16 @@
     "hspDesc": "Sensorische Verarbeitung und emotionale Tiefe erkennen",
     "attachmentTitle": "Bindungsstil-Test",
     "attachmentDesc": "Beziehungsbindung und Vertrauensmuster entdecken"
+  },
+  "curated": {
+    "kicker": "KURATIERTE LEKTÜRE",
+    "title": "Gestalte dein nächstes Kapitel",
+    "subtitle": "Forschungsbasierte Bücher über Zukunfts-Ich-Kontinuität und bewusste Lebensplanung.",
+    "book1Title": "Your Future Self: How to Make Tomorrow Better Today",
+    "book1Author": "Hal Hershfield · Verhaltenswissenschaft",
+    "book2Title": "Designing Your Life",
+    "book2Author": "Bill Burnett & Dave Evans · Lebensgestaltung",
+    "cta": "Buch ansehen",
+    "disclosure": "Einige externe Buch-Links enthalten möglicherweise Affiliate-Links ohne Mehrkosten für dich."
   }
 }

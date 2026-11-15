@@ -318,5 +318,16 @@
     "hspDesc": "Узнайте уровень сенсорной восприимчивости",
     "attachmentTitle": "Тип привязанности",
     "attachmentDesc": "Изучите паттерны близости и доверия"
+  },
+  "curated": {
+    "kicker": "РЕКОМЕНДУЕМЫЕ КНИГИ",
+    "title": "Спроектируйте следующий этап",
+    "subtitle": "Проверенные временем книги о связи с будущим собой и осознанном выборе пути.",
+    "book1Title": "Your Future Self: How to Make Tomorrow Better Today",
+    "book1Author": "Hal Hershfield · Поведенческая психология",
+    "book2Title": "Designing Your Life (Дизайн вашей жизни)",
+    "book2Author": "Bill Burnett & Dave Evans · Жизненный дизайн",
+    "cta": "Книга",
+    "disclosure": "Некоторые внешние ссылки на книжные магазины могут приносить партнёрскую комиссию без доплат для вас."
   }
 }

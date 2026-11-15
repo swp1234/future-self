@@ -318,5 +318,16 @@
     "hspDesc": "Discover sensory processing & emotional depth",
     "attachmentTitle": "Attachment Style",
     "attachmentDesc": "Explore relationship bonds & trust patterns"
+  },
+  "curated": {
+    "kicker": "CURATED READING",
+    "title": "Design Your Next Chapter",
+    "subtitle": "Research-backed books on future-self psychology and intentional life design.",
+    "book1Title": "Your Future Self: How to Make Tomorrow Better Today",
+    "book1Author": "Hal Hershfield · Behavioral Science",
+    "book2Title": "Designing Your Life: How to Build a Well-Lived, Joyful Life",
+    "book2Author": "Bill Burnett & Dave Evans · Life Design",
+    "cta": "View Book",
+    "disclosure": "Some outbound bookstore links may earn a small affiliate commission at no extra cost to you."
   }
 }

@@ -16,6 +16,28 @@ const ENTRY_SOURCE = /^[a-z0-9_-]{1,48}$/.test(rawEntrySource) ? rawEntrySource 
         document.addEventListener('click', (e) => {
             if (!e.target.closest('.language-selector')) langMenu?.classList.add('hidden');
         });
+        function syncCuratedResourceLinks(lang) {
+            const current = lang || (typeof i18n !== 'undefined' ? i18n.getCurrentLanguage() : 'en');
+            const amzDomains = {
+                en: 'www.amazon.com',
+                ja: 'www.amazon.co.jp',
+                es: 'www.amazon.es',
+                fr: 'www.amazon.fr',
+                de: 'www.amazon.de',
+                pt: 'www.amazon.com.br'
+            };
+            const tag = 'dopabrain-' + '20';
+            document.querySelectorAll('.curated-resource-item').forEach(link => {
+                const asin = link.getAttribute('data-asin');
+                const koQuery = link.getAttribute('data-ko-query');
+                if (current === 'ko' && koQuery) {
+                    link.href = 'https://search.kyobobook.co.kr/search?keyword=' + encodeURIComponent(koQuery);
+                } else if (asin) {
+                    const domain = amzDomains[current] || 'www.amazon.com';
+                    link.href = 'https://' + domain + '/dp/' + asin + '?tag=' + tag;
+                }
+            });
+        }
         function updateNextAppLinks(lang) {
             const current = lang || (typeof i18n !== 'undefined' ? i18n.getCurrentLanguage() : 'ko');
             document.querySelectorAll('.next-app-link, .related-link').forEach(link => {
@@ -25,6 +47,7 @@ const ENTRY_SOURCE = /^[a-z0-9_-]{1,48}$/.test(rawEntrySource) ? rawEntrySource 
                 const source = link.classList.contains('related-link') ? 'future_self_footer' : 'future_self_result';
                 link.href = `${base}?lang=${encodeURIComponent(current)}${hasStart ? '&start=1' : ''}&source=${source}`;
             });
+            syncCuratedResourceLinks(current);
         }
         updateNextAppLinks(i18n.getCurrentLanguage());
         langOptions.forEach(opt => {
@@ -472,16 +495,33 @@ document.getElementById('btn-retake')?.addEventListener('click', () => {
 });
 
 // CTA Conversion tracking
-document.querySelectorAll('.next-app-link, .related-link').forEach(link => {
+document.querySelectorAll('.next-app-link, .related-link, .curated-resource-item').forEach(link => {
     link.addEventListener('click', () => {
-        if (typeof gtag === 'function') {
+        if (typeof gtag !== 'function') return;
+        const lang = (typeof i18n !== 'undefined' ? i18n.getCurrentLanguage() : 'en');
+        if (link.classList.contains('curated-resource-item')) {
+            const resourceId = link.getAttribute('data-resource-id') || 'unknown';
+            gtag('event', 'curated_resource_click', {
+                event_category: 'monetization',
+                app_name: 'future-self',
+                resource_id: resourceId,
+                content_locale: lang,
+                target_url: link.href
+            });
             gtag('event', 'content_cta_click', {
                 event_category: 'engagement',
                 page_path: location.pathname,
                 target_url: link.href,
-                link_id: link.classList.contains('next-app-link') ? 'future_self_next_app' : 'future_self_related'
+                link_id: 'future_self_curated_' + resourceId
             });
+            return;
         }
+        gtag('event', 'content_cta_click', {
+            event_category: 'engagement',
+            page_path: location.pathname,
+            target_url: link.href,
+            link_id: link.classList.contains('next-app-link') ? 'future_self_next_app' : 'future_self_related'
+        });
     });
 });
 

@@ -318,5 +318,16 @@
     "hspDesc": "Duyusal işleme hassasiyetinizi ve derinliği keşfedin",
     "attachmentTitle": "Bağlanma Stili",
     "attachmentDesc": "İlişki bağlarını ve güven kalıplarını keşfedin"
+  },
+  "curated": {
+    "kicker": "ÖNERİLEN OKUMALAR",
+    "title": "Bir Sonraki Bölümünü Tasarla",
+    "subtitle": "Gelecekteki benlik psikolojisi ve bilinçli yaşam tasarımı üzerine araştırmaya dayalı kitaplar.",
+    "book1Title": "Your Future Self: How to Make Tomorrow Better Today",
+    "book1Author": "Hal Hershfield · Davranış Bilimi",
+    "book2Title": "Designing Your Life (Hayatını Tasarla)",
+    "book2Author": "Bill Burnett & Dave Evans · Yaşam Tasarımı",
+    "cta": "Kitabı Gör",
+    "disclosure": "Bazı harici kitap bağlantıları size ek maliyet çıkarmadan küçük bir satış ortaklığı komisyonu kazandırabilir."
   }
 }
